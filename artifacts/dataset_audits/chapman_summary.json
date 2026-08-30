@@ -1,0 +1,776 @@
+{
+  "dataset": "Chapman-Shaoxing-Ningbo 12-lead ECG",
+  "dataset_root": "C:\\Projetos\\PFE 5A\\Software\\database\\a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0",
+  "header_file_count": 45152,
+  "total_records": 45151,
+  "parse_error_count": 1,
+  "parse_errors": [
+    {
+      "path": "database\\a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0\\WFDBRecords\\01\\019\\JS01052.hea",
+      "error": "invalid literal for int() with base 10: '500000/mV'"
+    }
+  ],
+  "structural_anomaly_count": 1,
+  "structural_anomalies": [
+    {
+      "path": "database\\a-large-scale-12-lead-electrocardiogram-database-for-arrhythmia-study-1.0.0\\WFDBRecords\\23\\236\\JS23074.hea",
+      "record_name": "S23074",
+      "signal_count": 12,
+      "sampling_frequency_hz": 500.0,
+      "sample_count": 5000,
+      "leads": [
+        "II",
+        "III",
+        "aVR",
+        "aVL",
+        "aVF",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "84"
+      ]
+    }
+  ],
+  "signal_count_distribution": {
+    "12": 45151
+  },
+  "sampling_frequency_hz_distribution": {
+    "500.0": 45151
+  },
+  "sample_count_distribution": {
+    "5000": 45151
+  },
+  "expected_lead_order_records": 45150,
+  "lead_order_distribution": {
+    "I|II|III|aVR|aVL|aVF|V1|V2|V3|V4|V5|V6": 45150,
+    "II|III|aVR|aVL|aVF|V1|V2|V3|V4|V5|V6|84": 1
+  },
+  "diagnoses_per_record_distribution": {
+    "3": 5913,
+    "2": 11871,
+    "1": 22177,
+    "4": 2902,
+    "5": 1423,
+    "6": 588,
+    "7": 188,
+    "8": 65,
+    "10": 7,
+    "9": 15,
+    "12": 1,
+    "11": 1
+  },
+  "sex_distribution": {
+    "Male": 25453,
+    "Female": 19676,
+    "Unknown": 22
+  },
+  "unique_diagnosis_codes": 94,
+  "unmapped_diagnosis_codes": {
+    "55827005": 5401,
+    "67751000119106": 36,
+    "251166008": 16,
+    "17366009": 7,
+    "713427006": 1096,
+    "713426002": 246,
+    "55930002": 4232,
+    "29320008": 139,
+    "10370003": 1182,
+    "365413008": 638,
+    "251223006": 215,
+    "6374002": 385,
+    "81898007": 96,
+    "427172004": 1091,
+    "445118002": 380,
+    "425856008": 109,
+    "733534002": 213,
+    "106068003": 215,
+    "50799005": 59,
+    "61721007": 653,
+    "57054005": 49,
+    "426627000": 7,
+    "54329005": 57,
+    "251205003": 106,
+    "61277005": 14,
+    "164896001": 59,
+    "111288001": 7,
+    "426183003": 7,
+    "77867006": 2,
+    "65778007": 5,
+    "251187003": 17,
+    "251170000": 62,
+    "5609005": 33,
+    "63593006": 9,
+    "251120003": 6,
+    "233892002": 16,
+    "445211001": 5,
+    "426648003": 24,
+    "418818005": 5,
+    "426664006": 12,
+    "49578007": 23,
+    "446813000": 8,
+    "67741000119109": 1
+  },
+  "labels": [
+    {
+      "snomed_ct": "426177001",
+      "acronym": "SB",
+      "name": "Sinus Bradycardia",
+      "record_count": 16559,
+      "record_prevalence": 0.36674713738344666
+    },
+    {
+      "snomed_ct": "426783006",
+      "acronym": "SR",
+      "name": "Sinus Rhythm",
+      "record_count": 8125,
+      "record_prevalence": 0.179951717569932
+    },
+    {
+      "snomed_ct": "164890007",
+      "acronym": "AF",
+      "name": "Atrial Flutter",
+      "record_count": 8060,
+      "record_prevalence": 0.17851210382937255
+    },
+    {
+      "snomed_ct": "427084000",
+      "acronym": "ST",
+      "name": "Sinus Tachycardia",
+      "record_count": 7254,
+      "record_prevalence": 0.1606608934464353
+    },
+    {
+      "snomed_ct": "164934002",
+      "acronym": "TWC",
+      "name": "T wave Change",
+      "record_count": 7043,
+      "record_prevalence": 0.15598768576554228
+    },
+    {
+      "snomed_ct": "55827005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 5401,
+      "record_prevalence": 0.11962082788864034
+    },
+    {
+      "snomed_ct": "55930002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 4232,
+      "record_prevalence": 0.09372992846227104
+    },
+    {
+      "snomed_ct": "59931005",
+      "acronym": "TWO",
+      "name": "T wave opposite",
+      "record_count": 2877,
+      "record_prevalence": 0.06371951894753161
+    },
+    {
+      "snomed_ct": "427393009",
+      "acronym": "SA",
+      "name": "Sinus Irregularity",
+      "record_count": 2550,
+      "record_prevalence": 0.056477154437332505
+    },
+    {
+      "snomed_ct": "164889003",
+      "acronym": "AFIB",
+      "name": "Atrial Fibrillation",
+      "record_count": 1780,
+      "record_prevalence": 0.03942326858762818
+    },
+    {
+      "snomed_ct": "429622005",
+      "acronym": "STDD",
+      "name": "ST drop down",
+      "record_count": 1668,
+      "record_prevalence": 0.03694270337312573
+    },
+    {
+      "snomed_ct": "39732003",
+      "acronym": "ALS",
+      "name": "Axis left shift",
+      "record_count": 1545,
+      "record_prevalence": 0.03421851121791322
+    },
+    {
+      "snomed_ct": "284470004",
+      "acronym": "APB",
+      "name": "atrial premature beats",
+      "record_count": 1312,
+      "record_prevalence": 0.029058049655600098
+    },
+    {
+      "snomed_ct": "10370003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 1182,
+      "record_prevalence": 0.026178822174481184
+    },
+    {
+      "snomed_ct": "428750005",
+      "acronym": "STTC",
+      "name": "ST-T Change",
+      "record_count": 1158,
+      "record_prevalence": 0.025647272485659234
+    },
+    {
+      "snomed_ct": "270492004",
+      "acronym": "1AVB",
+      "name": "1 degree atrioventricular block",
+      "record_count": 1140,
+      "record_prevalence": 0.025248610219042768
+    },
+    {
+      "snomed_ct": "713427006",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 1096,
+      "record_prevalence": 0.02427410245620252
+    },
+    {
+      "snomed_ct": "427172004",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 1091,
+      "record_prevalence": 0.024163362937697948
+    },
+    {
+      "snomed_ct": "164917005",
+      "acronym": "AQW",
+      "name": "abnormal Q wave",
+      "record_count": 1063,
+      "record_prevalence": 0.023543221634072336
+    },
+    {
+      "snomed_ct": "251146004",
+      "acronym": "LVQRSAL",
+      "name": "lower voltage QRS in all lead",
+      "record_count": 1043,
+      "record_prevalence": 0.02310026356005404
+    },
+    {
+      "snomed_ct": "47665007",
+      "acronym": "ARS",
+      "name": "Axis right shift",
+      "record_count": 853,
+      "record_prevalence": 0.018892161856880245
+    },
+    {
+      "snomed_ct": "164930006",
+      "acronym": "STE",
+      "name": "ST extension",
+      "record_count": 801,
+      "record_prevalence": 0.017740470864432683
+    },
+    {
+      "snomed_ct": "698252002",
+      "acronym": "IVB",
+      "name": "Intraventricular block",
+      "record_count": 771,
+      "record_prevalence": 0.017076033753405242
+    },
+    {
+      "snomed_ct": "426761007",
+      "acronym": "SVT",
+      "name": "Supraventricular Tachycardia",
+      "record_count": 724,
+      "record_prevalence": 0.016035082279462248
+    },
+    {
+      "snomed_ct": "61721007",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 653,
+      "record_prevalence": 0.014462581116697305
+    },
+    {
+      "snomed_ct": "59118001",
+      "acronym": "RBBB",
+      "name": "right bundle branch block",
+      "record_count": 649,
+      "record_prevalence": 0.014373989501893645
+    },
+    {
+      "snomed_ct": "164873001",
+      "acronym": "LVH",
+      "name": "left ventricle hypertrophy",
+      "record_count": 647,
+      "record_prevalence": 0.014329693694491816
+    },
+    {
+      "snomed_ct": "365413008",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 638,
+      "record_prevalence": 0.014130362561183584
+    },
+    {
+      "snomed_ct": "111975006",
+      "acronym": "QTIE",
+      "name": "QT interval extension",
+      "record_count": 394,
+      "record_prevalence": 0.008726274058160396
+    },
+    {
+      "snomed_ct": "6374002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 385,
+      "record_prevalence": 0.008526942924852163
+    },
+    {
+      "snomed_ct": "445118002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 380,
+      "record_prevalence": 0.00841620340634759
+    },
+    {
+      "snomed_ct": "428417006",
+      "acronym": "ERV",
+      "name": "Early repolarization of the ventricles",
+      "record_count": 366,
+      "record_prevalence": 0.008106132754534784
+    },
+    {
+      "snomed_ct": "713422000",
+      "acronym": "AT",
+      "name": "Atrial Tachycardia",
+      "record_count": 297,
+      "record_prevalence": 0.006577927399171669
+    },
+    {
+      "snomed_ct": "17338001",
+      "acronym": "VPB",
+      "name": "ventricular premature beat",
+      "record_count": 294,
+      "record_prevalence": 0.006511483688068924
+    },
+    {
+      "snomed_ct": "713426002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 246,
+      "record_prevalence": 0.005448384310425018
+    },
+    {
+      "snomed_ct": "233917008",
+      "acronym": "AVB",
+      "name": "atrioventricular block",
+      "record_count": 244,
+      "record_prevalence": 0.005404088503023189
+    },
+    {
+      "snomed_ct": "164909002",
+      "acronym": "LFBBB",
+      "name": "left front bundle branch block",
+      "record_count": 240,
+      "record_prevalence": 0.00531549688821953
+    },
+    {
+      "snomed_ct": "251223006",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 215,
+      "record_prevalence": 0.004761799295696662
+    },
+    {
+      "snomed_ct": "106068003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 215,
+      "record_prevalence": 0.004761799295696662
+    },
+    {
+      "snomed_ct": "733534002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 213,
+      "record_prevalence": 0.004717503488294833
+    },
+    {
+      "snomed_ct": "164931005",
+      "acronym": "STTU",
+      "name": "ST tilt up",
+      "record_count": 176,
+      "record_prevalence": 0.0038980310513609885
+    },
+    {
+      "snomed_ct": "251199005",
+      "acronym": "CCR",
+      "name": "countercolockwise rotation",
+      "record_count": 162,
+      "record_prevalence": 0.0035879603995481826
+    },
+    {
+      "snomed_ct": "164912004",
+      "acronym": "PWC",
+      "name": "P wave Change",
+      "record_count": 142,
+      "record_prevalence": 0.0031450023255298887
+    },
+    {
+      "snomed_ct": "29320008",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 139,
+      "record_prevalence": 0.0030785586144271445
+    },
+    {
+      "snomed_ct": "164937009",
+      "acronym": "UW",
+      "name": "U wave",
+      "record_count": 136,
+      "record_prevalence": 0.0030121149033244003
+    },
+    {
+      "snomed_ct": "164865005",
+      "acronym": "MISW",
+      "name": "Myocardial infraction in the side wall",
+      "record_count": 123,
+      "record_prevalence": 0.002724192155212509
+    },
+    {
+      "snomed_ct": "13640000",
+      "acronym": "VFW",
+      "name": "ventricular fusion wave",
+      "record_count": 116,
+      "record_prevalence": 0.0025691568293061064
+    },
+    {
+      "snomed_ct": "89792004",
+      "acronym": "RVH",
+      "name": "right ventricle hypertrophy",
+      "record_count": 110,
+      "record_prevalence": 0.002436269407100618
+    },
+    {
+      "snomed_ct": "425856008",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 109,
+      "record_prevalence": 0.0024141215033997034
+    },
+    {
+      "snomed_ct": "251205003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 106,
+      "record_prevalence": 0.002347677792296959
+    },
+    {
+      "snomed_ct": "81898007",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 96,
+      "record_prevalence": 0.002126198755287812
+    },
+    {
+      "snomed_ct": "251198002",
+      "acronym": "CR",
+      "name": "colockwise rotation",
+      "record_count": 76,
+      "record_prevalence": 0.001683240681269518
+    },
+    {
+      "snomed_ct": "27885002",
+      "acronym": "3AVB",
+      "name": "3 degree atrioventricular block",
+      "record_count": 76,
+      "record_prevalence": 0.001683240681269518
+    },
+    {
+      "snomed_ct": "426995002",
+      "acronym": "JEB",
+      "name": "junctional escape beat",
+      "record_count": 75,
+      "record_prevalence": 0.0016610927775686031
+    },
+    {
+      "snomed_ct": "74390002",
+      "acronym": "WPW",
+      "name": "WPW",
+      "record_count": 72,
+      "record_prevalence": 0.001594649066465859
+    },
+    {
+      "snomed_ct": "195042002",
+      "acronym": "2AVB",
+      "name": "2 degree atrioventricular block",
+      "record_count": 66,
+      "record_prevalence": 0.0014617616442603708
+    },
+    {
+      "snomed_ct": "251170000",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 62,
+      "record_prevalence": 0.001373170029456712
+    },
+    {
+      "snomed_ct": "50799005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 59,
+      "record_prevalence": 0.0013067263183539678
+    },
+    {
+      "snomed_ct": "164896001",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 59,
+      "record_prevalence": 0.0013067263183539678
+    },
+    {
+      "snomed_ct": "54329005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 57,
+      "record_prevalence": 0.0012624305109521384
+    },
+    {
+      "snomed_ct": "75532003",
+      "acronym": "VEB",
+      "name": "ventricular escape beat",
+      "record_count": 56,
+      "record_prevalence": 0.0012402826072512236
+    },
+    {
+      "snomed_ct": "164947007",
+      "acronym": "PRIE",
+      "name": "PR interval extension",
+      "record_count": 52,
+      "record_prevalence": 0.0011516909924475648
+    },
+    {
+      "snomed_ct": "57054005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 49,
+      "record_prevalence": 0.0010852472813448206
+    },
+    {
+      "snomed_ct": "446358003",
+      "acronym": "RAH",
+      "name": "right atrial hypertrophy",
+      "record_count": 36,
+      "record_prevalence": 0.0007973245332329295
+    },
+    {
+      "snomed_ct": "67751000119106",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 36,
+      "record_prevalence": 0.0007973245332329295
+    },
+    {
+      "snomed_ct": "5609005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 33,
+      "record_prevalence": 0.0007308808221301854
+    },
+    {
+      "snomed_ct": "54016002",
+      "acronym": "2AVB1",
+      "name": "2 degree atrioventricular block(Type one)",
+      "record_count": 31,
+      "record_prevalence": 0.000686585014728356
+    },
+    {
+      "snomed_ct": "233897008",
+      "acronym": "AVRT",
+      "name": "Atrioventricular Reentrant Tachycardia",
+      "record_count": 26,
+      "record_prevalence": 0.0005758454962237824
+    },
+    {
+      "snomed_ct": "426648003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 24,
+      "record_prevalence": 0.000531549688821953
+    },
+    {
+      "snomed_ct": "49578007",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 23,
+      "record_prevalence": 0.0005094017851210383
+    },
+    {
+      "snomed_ct": "251187003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 17,
+      "record_prevalence": 0.00037651436291555004
+    },
+    {
+      "snomed_ct": "251166008",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 16,
+      "record_prevalence": 0.00035436645921463534
+    },
+    {
+      "snomed_ct": "233892002",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 16,
+      "record_prevalence": 0.00035436645921463534
+    },
+    {
+      "snomed_ct": "61277005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 14,
+      "record_prevalence": 0.0003100706518128059
+    },
+    {
+      "snomed_ct": "195060002",
+      "acronym": "VPE",
+      "name": "ventricular preexcitation",
+      "record_count": 12,
+      "record_prevalence": 0.0002657748444109765
+    },
+    {
+      "snomed_ct": "426664006",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 12,
+      "record_prevalence": 0.0002657748444109765
+    },
+    {
+      "snomed_ct": "251164006",
+      "acronym": "JPT",
+      "name": "junctional premature beat",
+      "record_count": 11,
+      "record_prevalence": 0.00024362694071006178
+    },
+    {
+      "snomed_ct": "63593006",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 9,
+      "record_prevalence": 0.00019933113330823237
+    },
+    {
+      "snomed_ct": "251180001",
+      "acronym": "VET",
+      "name": "ventricular escape trigeminy",
+      "record_count": 8,
+      "record_prevalence": 0.00017718322960731767
+    },
+    {
+      "snomed_ct": "446813000",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 8,
+      "record_prevalence": 0.00017718322960731767
+    },
+    {
+      "snomed_ct": "17366009",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 7,
+      "record_prevalence": 0.00015503532590640295
+    },
+    {
+      "snomed_ct": "426627000",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 7,
+      "record_prevalence": 0.00015503532590640295
+    },
+    {
+      "snomed_ct": "111288001",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 7,
+      "record_prevalence": 0.00015503532590640295
+    },
+    {
+      "snomed_ct": "426183003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 7,
+      "record_prevalence": 0.00015503532590640295
+    },
+    {
+      "snomed_ct": "251120003",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 6,
+      "record_prevalence": 0.00013288742220548825
+    },
+    {
+      "snomed_ct": "65778007",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 5,
+      "record_prevalence": 0.00011073951850457354
+    },
+    {
+      "snomed_ct": "445211001",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 5,
+      "record_prevalence": 0.00011073951850457354
+    },
+    {
+      "snomed_ct": "418818005",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 5,
+      "record_prevalence": 0.00011073951850457354
+    },
+    {
+      "snomed_ct": "251173003",
+      "acronym": "ABI",
+      "name": "atrial bigeminy",
+      "record_count": 3,
+      "record_prevalence": 6.644371110274413e-05
+    },
+    {
+      "snomed_ct": "164942001",
+      "acronym": "FQRS",
+      "name": "fQRS Wave",
+      "record_count": 3,
+      "record_prevalence": 6.644371110274413e-05
+    },
+    {
+      "snomed_ct": "11157007",
+      "acronym": "VB",
+      "name": "ventricular bigeminy",
+      "record_count": 3,
+      "record_prevalence": 6.644371110274413e-05
+    },
+    {
+      "snomed_ct": "195101003",
+      "acronym": "SAAWR",
+      "name": "Sinus Atrium to Atrial Wandering Rhythm",
+      "record_count": 2,
+      "record_prevalence": 4.429580740182942e-05
+    },
+    {
+      "snomed_ct": "77867006",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 2,
+      "record_prevalence": 4.429580740182942e-05
+    },
+    {
+      "snomed_ct": "67741000119109",
+      "acronym": "UNMAPPED",
+      "name": "Not listed in local condition map",
+      "record_count": 1,
+      "record_prevalence": 2.214790370091471e-05
+    }
+  ]
+}
