@@ -16,11 +16,13 @@ decisions and the pending items that must not be resolved by assumption.
   transport.
 - reproducible structural and label audits for Chapman-Shaoxing-Ningbo and
   PTB-XL, with machine-readable reports under `artifacts/dataset_audits/`.
+- an experimental PTB-XL normal-versus-abnormal baseline with official,
+  patient-separated folds and reproducible evaluation artifacts.
 
 ## Repository structure
 
 ```text
-Docs/                   documentation and references
+docs/                   documentation and references
 firmware/               future STM32 Nucleo application
 host/ecg_v2/            host-side processing library
 host/tests/             unit tests
@@ -56,11 +58,32 @@ python host/ai/plot_random_ecg.py --dataset ptbxl --seed 42 --show
 The lead-reconstruction demonstration has no external dependencies. Dataset tools
 and model training use the machine-learning environment below.
 
+## Train the experimental anomaly baseline
+
+This first binary benchmark distinguishes NORM-only PTB-XL exams from exams with
+at least one abnormal diagnostic superclass. It is not the final arrhythmia
+taxonomy and is not a clinical diagnostic model.
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/train_anomaly_baseline.py
+```
+
+The script uses PTB-XL folds 1-8 for training, fold 9 for validation and threshold
+selection, and fold 10 exactly once for testing. See
+[`docs/AI_ANOMALY_BASELINE.md`](docs/AI_ANOMALY_BASELINE.md) for the precise label
+and evaluation protocol.
+
+Run experimental inference on one compatible PTB-XL record:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/predict_anomaly.py database/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/records100/00000/00001_lr
+```
+
 ## Machine-learning environment
 
 The training environment uses Python 3.11 x64 and a project-local `.venv`.
 Setup and verification instructions are documented in
-[`Docs/ENVIRONMENT.md`](Docs/ENVIRONMENT.md).
+[`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md).
 
 ## Intended-use limitation
 

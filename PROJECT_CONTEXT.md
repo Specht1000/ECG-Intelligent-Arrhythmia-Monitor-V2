@@ -1,7 +1,7 @@
 # Project Context — ECG V2
 
 This file is the current source of truth for the project. The documents under
-`Docs/` mainly describe V1 and are historical references. If they conflict with
+`docs/` mainly describe V1 and are historical references. If they conflict with
 this file, this file takes precedence.
 
 ## Objective
@@ -108,10 +108,10 @@ None of the following items may be finalized without consultation:
 
 ## Legacy references (V1)
 
-- `Docs/Report_ECG.pdf`: V1 report using an ESP32-S3, AD8232, ADS1115,
+- `docs/Report_ECG.pdf`: V1 report using an ESP32-S3, AD8232, ADS1115,
   three electrodes, approximately 250 Hz acquisition, and a CNN on the computer.
-- `Docs/DescECG1.pdf`: V1 progress summary.
-- `Docs/PresentationECG.pptx`: V1 presentation.
+- `docs/DescECG1.pdf`: V1 progress summary.
+- `docs/PresentationECG.pptx`: V1 presentation.
 
 V1 results, including the reported overall accuracy of 90.63%, must not be used
 as evidence of V2 performance because the architecture, lead count, and future

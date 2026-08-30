@@ -1,0 +1,137 @@
+{
+  "experiment": "PTB-XL normal-versus-abnormal experimental baseline",
+  "intended_use": "Research benchmark only; not a diagnostic or clinical-use model.",
+  "created_at_utc": "2026-08-30T15:04:39.920197+00:00",
+  "label_definition": {
+    "normal": "The only diagnostic superclass is NORM.",
+    "abnormal": "At least one diagnostic superclass is MI, STTC, CD, or HYP.",
+    "excluded": "No binary target can be derived from diagnostic SCP-ECG statements."
+  },
+  "split_policy": "PTB-XL strat_fold 1-8 train, 9 validation, 10 test.",
+  "threshold_policy": "Maximum balanced accuracy on validation; fixed before test evaluation.",
+  "dataset_counts": {
+    "metadata_records": 21799,
+    "labeled_records": 21388,
+    "excluded_without_binary_diagnostic_target": 411,
+    "normal_records": 9069,
+    "abnormal_records": 12319
+  },
+  "split_counts": {
+    "training": 17084,
+    "validation": 2146,
+    "test": 2158
+  },
+  "configuration": {
+    "seed": 20260830,
+    "epochs": 4,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "patience": 4,
+    "num_workers": 0,
+    "sampling_frequency_hz": 100,
+    "sample_count": 1000
+  },
+  "device": "cpu",
+  "trainable_parameters": 354001,
+  "normalization": {
+    "lead_order": [
+      "I",
+      "II",
+      "III",
+      "AVR",
+      "AVL",
+      "AVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "means_mv": [
+      -0.0017467011930420995,
+      -0.001521246274933219,
+      0.00022543493832927197,
+      0.0016164503758773208,
+      -0.0009318771190010011,
+      -0.0006254705949686468,
+      0.00017760322953108698,
+      -0.0009518787846900523,
+      -0.0015651548746973276,
+      -0.0013563017128035426,
+      -0.0007997320499271154,
+      -0.002423869911581278
+    ],
+    "standard_deviations_mv": [
+      0.16000984609127045,
+      0.15922950208187103,
+      0.15997213125228882,
+      0.13814756274223328,
+      0.13876701891422272,
+      0.13797743618488312,
+      0.23434923589229584,
+      0.3342159688472748,
+      0.3284686505794525,
+      0.2927635908126831,
+      0.27206921577453613,
+      0.2809426784515381
+    ]
+  },
+  "best_validation_roc_auc_during_training": 0.9368836852425475,
+  "validation_metrics": {
+    "threshold": 0.41967713832855225,
+    "roc_auc": 0.9368836852425475,
+    "average_precision": 0.957503191385439,
+    "accuracy": 0.8574091332712023,
+    "balanced_accuracy": 0.8629623248742504,
+    "f1": 0.8692307692307693,
+    "precision": 0.9178700361010831,
+    "sensitivity": 0.825487012987013,
+    "specificity": 0.9004376367614879,
+    "brier_score": 0.10854662592872637,
+    "expected_calibration_error_10_bins": 0.0675070472894877,
+    "confusion_matrix": [
+      [
+        823,
+        91
+      ],
+      [
+        215,
+        1017
+      ]
+    ],
+    "loss": 0.2750220980915308
+  },
+  "test_metrics": {
+    "threshold": 0.41967713832855225,
+    "roc_auc": 0.9270358128467235,
+    "average_precision": 0.9528455838742935,
+    "accuracy": 0.8429101019462465,
+    "balanced_accuracy": 0.8514729590831009,
+    "f1": 0.8540680154972019,
+    "precision": 0.9210770659238626,
+    "sensitivity": 0.7961476725521669,
+    "specificity": 0.9067982456140351,
+    "brier_score": 0.11755105799845682,
+    "expected_calibration_error_10_bins": 0.07976916896402005,
+    "confusion_matrix": [
+      [
+        827,
+        85
+      ],
+      [
+        254,
+        992
+      ]
+    ],
+    "loss": 0.2957373294181797
+  },
+  "software_versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.13.0+cpu"
+  }
+}
