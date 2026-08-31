@@ -1,0 +1,69 @@
+{
+  "record": "C:\\Projetos\\PFE 5A\\Software\\database\\ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3\\records100\\00000\\00001_lr",
+  "explained_class": "sinus_rhythm",
+  "display_name": "Sinus rhythm",
+  "probability": 0.995468258857727,
+  "decision_threshold": 0.7859958410263062,
+  "positive": true,
+  "integration_steps": 32,
+  "relative_absolute_attribution_by_lead": {
+    "I": 0.16708019375801086,
+    "II": 0.12062827497720718,
+    "III": 0.07816219329833984,
+    "aVR": 0.1612914800643921,
+    "aVL": 0.08613017201423645,
+    "aVF": 0.07824305444955826,
+    "V1": 0.1334943324327469,
+    "V2": 0.06298564374446869,
+    "V3": 0.035391952842473984,
+    "V4": 0.02682458609342575,
+    "V5": 0.02353072352707386,
+    "V6": 0.02623738907277584
+  },
+  "all_predictions": [
+    {
+      "class": "sinus_rhythm",
+      "display_name": "Sinus rhythm",
+      "probability": 0.995468258857727,
+      "decision_threshold": 0.7859958410263062,
+      "positive": true
+    },
+    {
+      "class": "sinus_bradycardia",
+      "display_name": "Sinus bradycardia",
+      "probability": 0.0006314056226983666,
+      "decision_threshold": 0.3377516567707062,
+      "positive": false
+    },
+    {
+      "class": "sinus_tachycardia",
+      "display_name": "Sinus tachycardia",
+      "probability": 0.003336689667776227,
+      "decision_threshold": 0.3506096601486206,
+      "positive": false
+    },
+    {
+      "class": "sinus_arrhythmia",
+      "display_name": "Sinus arrhythmia",
+      "probability": 0.8186553120613098,
+      "decision_threshold": 0.8895966410636902,
+      "positive": false
+    },
+    {
+      "class": "atrial_fibrillation",
+      "display_name": "Atrial fibrillation",
+      "probability": 0.009644887410104275,
+      "decision_threshold": 0.8429837226867676,
+      "positive": false
+    },
+    {
+      "class": "atrial_flutter",
+      "display_name": "Atrial flutter",
+      "probability": 0.018158329650759697,
+      "decision_threshold": 0.8377659916877747,
+      "positive": false
+    }
+  ],
+  "plot": "C:\\Projetos\\PFE 5A\\Software\\artifacts\\rhythm_explanations\\00001_lr_sinus_rhythm_integrated_gradients.png",
+  "interpretation_limit": "Integrated gradients measures model sensitivity relative to the training-mean baseline; it does not prove medical causality or clinical correctness."
+}

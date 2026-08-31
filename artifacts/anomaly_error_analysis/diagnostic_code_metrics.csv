@@ -1,0 +1,31 @@
+scp_code,description,diagnostic_class,count,detection_sensitivity,mean_abnormal_probability,false_negative_count
+IVCD,non-specific intraventricular conduction disturbance (block),CD,79,0.5822784810126582,0.620952849392405,33
+AMI,anterior myocardial infarction,MI,35,0.6571428571428571,0.6442751719428571,12
+IRBBB,incomplete right bundle branch block,CD,112,0.7232142857142857,0.6676840167946428,31
+NDT,non-diagnostic T abnormalities,STTC,182,0.7417582417582418,0.6884014723846155,47
+IMI,inferior myocardial infarction,MI,267,0.7677902621722846,0.7484247916067415,62
+LPFB,left posterior fascicular block,CD,18,0.7777777777777778,0.727267937111111,4
+RAO/RAE,right atrial overload/enlargement,HYP,10,0.8,0.765417444,2
+LAO/LAE,left atrial overload/enlargement,HYP,42,0.8333333333333334,0.7981453675,7
+LMI,lateral myocardial infarction,MI,20,0.85,0.7893836055,3
+LVH,left ventricular hypertrophy,HYP,214,0.8738317757009346,0.8413740418785048,27
+1AVB,first degree AV block,CD,79,0.8860759493670886,0.8446781687341772,9
+NST_,non-specific ST changes,STTC,77,0.8961038961038961,0.8115143674805194,8
+LNGQT,long QT-interval,STTC,11,0.9090909090909091,0.840984311090909,1
+RVH,right ventricular hypertrophy,HYP,12,0.9166666666666666,0.9034134458333333,1
+ALMI,anterolateral myocardial infarction,MI,27,0.9259259259259259,0.8528461987037036,2
+ASMI,anteroseptal myocardial infarction,MI,234,0.9358974358974359,0.8973483748418803,15
+ISCIL,ischemic in inferolateral leads,STTC,18,0.9444444444444444,0.9060402177777777,1
+ISCIN,ischemic in inferior leads,STTC,22,0.9545454545454546,0.803349054090909,1
+LAFB,left anterior fascicular block,CD,162,0.9567901234567902,0.9060899158641975,7
+ILMI,inferolateral myocardial infarction,MI,48,0.9583333333333334,0.9413161716666667,2
+ISCAL,ischemic in anterolateral leads,STTC,66,0.9848484848484849,0.9666026724242424,1
+ISC_,non-specific ischemic,STTC,128,0.9921875,0.9768899589843749,1
+CRBBB,complete right bundle branch block,CD,54,1.0,0.9972870777777776,0
+CLBBB,complete left bundle branch block,CD,54,1.0,0.9979361129629629,0
+INJAS,subendocardial injury in anteroseptal leads,MI,22,1.0,0.9465694372727274,0
+DIG,digitalis-effect,STTC,18,1.0,0.9728372816666666,0
+ISCAS,ischemic in anteroseptal leads,STTC,17,1.0,0.9362777252941177,0
+INJAL,subendocardial injury in anterolateral leads,MI,14,1.0,0.9738549914285716,0
+ISCLA,ischemic in lateral leads,STTC,13,1.0,0.9257308315384614,0
+ANEUR,ST-T changes compatible with ventricular aneurysm,STTC,10,1.0,0.983938775,0

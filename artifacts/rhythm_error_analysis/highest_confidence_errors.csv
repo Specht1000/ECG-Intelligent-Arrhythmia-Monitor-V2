@@ -1,0 +1,512 @@
+dataset,identifier,class_name,display_name,age,age_group,sex_group,signal_quality_group,reference,probability,threshold,prediction,error_type,distance_from_threshold,error_confidence
+ptbxl_external,3281,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,No annotated issue,0,0.9999968,0.3377516567707062,1,false_positive,0.6622451432292938,0.9999968
+ptbxl_external,3904,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Male,Annotated signal issue,0,0.99999595,0.3377516567707062,1,false_positive,0.6622442932292938,0.99999595
+ptbxl_external,13337,sinus_bradycardia,Sinus bradycardia,88.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.99999475,0.3377516567707062,1,false_positive,0.6622430932292939,0.99999475
+ptbxl_external,9740,sinus_bradycardia,Sinus bradycardia,59.0,40-59,Male,No annotated issue,0,0.99999297,0.3377516567707062,1,false_positive,0.6622413132292938,0.99999297
+ptbxl_external,1522,sinus_bradycardia,Sinus bradycardia,73.0,60-79,Male,No annotated issue,0,0.99998915,0.3377516567707062,1,false_positive,0.6622374932292938,0.99998915
+ptbxl_external,8555,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,No annotated issue,0,0.99998486,0.3377516567707062,1,false_positive,0.6622332032292938,0.99998486
+ptbxl_external,5725,sinus_bradycardia,Sinus bradycardia,59.0,40-59,Male,No annotated issue,0,0.9999833,0.3377516567707062,1,false_positive,0.6622316432292938,0.9999833
+ptbxl_external,21555,sinus_bradycardia,Sinus bradycardia,81.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.99997985,0.3377516567707062,1,false_positive,0.6622281932292938,0.99997985
+ptbxl_external,16534,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Female,No annotated issue,0,0.99997926,0.3377516567707062,1,false_positive,0.6622276032292939,0.99997926
+ptbxl_external,3908,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Male,No annotated issue,0,0.9999783,0.3377516567707062,1,false_positive,0.6622266432292938,0.9999783
+ptbxl_external,14392,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Male,No annotated issue,0,0.99997616,0.3377516567707062,1,false_positive,0.6622245032292938,0.99997616
+ptbxl_external,9108,sinus_bradycardia,Sinus bradycardia,83.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.99997556,0.3377516567707062,1,false_positive,0.6622239032292938,0.99997556
+ptbxl_external,430,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,No annotated issue,0,0.9999752,0.3377516567707062,1,false_positive,0.6622235432292938,0.9999752
+ptbxl_external,20887,sinus_bradycardia,Sinus bradycardia,46.0,40-59,Male,No annotated issue,0,0.99997234,0.3377516567707062,1,false_positive,0.6622206832292938,0.99997234
+ptbxl_external,10860,sinus_bradycardia,Sinus bradycardia,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.999964,0.3377516567707062,1,false_positive,0.6622123432292938,0.999964
+ptbxl_external,15901,sinus_bradycardia,Sinus bradycardia,63.0,60-79,Male,No annotated issue,0,0.99996126,0.3377516567707062,1,false_positive,0.6622096032292938,0.99996126
+ptbxl_external,11832,sinus_bradycardia,Sinus bradycardia,72.0,60-79,Male,No annotated issue,0,0.99995816,0.3377516567707062,1,false_positive,0.6622065032292939,0.99995816
+ptbxl_external,1351,sinus_bradycardia,Sinus bradycardia,76.0,60-79,Male,No annotated issue,0,0.9999548,0.3377516567707062,1,false_positive,0.6622031432292939,0.9999548
+ptbxl_external,5810,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,No annotated issue,0,0.99995255,0.3377516567707062,1,false_positive,0.6622008932292939,0.99995255
+ptbxl_external,18802,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Female,No annotated issue,0,0.99994504,0.3377516567707062,1,false_positive,0.6621933832292938,0.99994504
+ptbxl_external,14217,sinus_bradycardia,Sinus bradycardia,57.0,40-59,Female,No annotated issue,0,0.99994326,0.3377516567707062,1,false_positive,0.6621916032292938,0.99994326
+ptbxl_external,3299,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,No annotated issue,0,0.9999386,0.3377516567707062,1,false_positive,0.6621869432292938,0.9999386
+ptbxl_external,19187,sinus_bradycardia,Sinus bradycardia,64.0,60-79,Male,No annotated issue,0,0.9999379,0.3377516567707062,1,false_positive,0.6621862432292939,0.9999379
+ptbxl_external,3281,sinus_rhythm,Sinus rhythm,62.0,60-79,Male,No annotated issue,1,6.245983e-05,0.7859958410263062,0,false_negative,0.7859333811963062,0.99993754017
+ptbxl_external,10272,sinus_bradycardia,Sinus bradycardia,69.0,60-79,Male,No annotated issue,0,0.9999329,0.3377516567707062,1,false_positive,0.6621812432292938,0.9999329
+ptbxl_external,3060,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Female,No annotated issue,0,0.9999231,0.3377516567707062,1,false_positive,0.6621714432292938,0.9999231
+ptbxl_external,13337,sinus_rhythm,Sinus rhythm,88.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,1,8.9577545e-05,0.7859958410263062,0,false_negative,0.7859062634813061,0.999910422455
+ptbxl_external,3904,sinus_rhythm,Sinus rhythm,55.0,40-59,Male,Annotated signal issue,1,9.6569354e-05,0.7859958410263062,0,false_negative,0.7858992716723061,0.999903430646
+ptbxl_external,5841,sinus_tachycardia,Sinus tachycardia,73.0,60-79,Female,No annotated issue,0,0.999876,0.3506096601486206,1,false_positive,0.6492663398513794,0.999876
+ptbxl_external,13899,sinus_tachycardia,Sinus tachycardia,71.0,60-79,Male,Annotated signal issue,0,0.99985456,0.3506096601486206,1,false_positive,0.6492448998513793,0.99985456
+ptbxl_external,8555,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,No annotated issue,1,0.00014649455,0.7859958410263062,0,false_negative,0.7858493464763061,0.99985350545
+ptbxl_external,1522,sinus_rhythm,Sinus rhythm,73.0,60-79,Male,No annotated issue,1,0.00015778372,0.7859958410263062,0,false_negative,0.7858380573063062,0.99984221628
+ptbxl_external,5911,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,0,0.9998337,0.3506096601486206,1,false_positive,0.6492240398513794,0.9998337
+ptbxl_external,5725,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,1,0.00020899704,0.7859958410263062,0,false_negative,0.7857868439863062,0.99979100296
+ptbxl_external,21555,sinus_rhythm,Sinus rhythm,81.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.00024321639,0.7859958410263062,0,false_negative,0.7857526246363061,0.99975678361
+ptbxl_external,3908,sinus_rhythm,Sinus rhythm,55.0,40-59,Male,No annotated issue,1,0.00030033648,0.7859958410263062,0,false_negative,0.7856955045463061,0.99969966352
+ptbxl_external,430,sinus_rhythm,Sinus rhythm,62.0,60-79,Male,No annotated issue,1,0.00030493815,0.7859958410263062,0,false_negative,0.7856909028763062,0.99969506185
+ptbxl_external,20887,sinus_rhythm,Sinus rhythm,46.0,40-59,Male,No annotated issue,1,0.00032001472,0.7859958410263062,0,false_negative,0.7856758263063062,0.99967998528
+ptbxl_external,14392,sinus_rhythm,Sinus rhythm,66.0,60-79,Male,No annotated issue,1,0.00033614683,0.7859958410263062,0,false_negative,0.7856596941963061,0.99966385317
+ptbxl_external,10860,sinus_rhythm,Sinus rhythm,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,1,0.00037547617,0.7859958410263062,0,false_negative,0.7856203648563062,0.99962452383
+ptbxl_external,5810,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,No annotated issue,1,0.00038716506,0.7859958410263062,0,false_negative,0.7856086759663061,0.99961283494
+ptbxl_external,9108,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Male,No annotated issue,1,0.00040672158,0.7859958410263062,0,false_negative,0.7855891194463062,0.99959327842
+ptbxl_external,1351,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,No annotated issue,1,0.0004573759,0.7859958410263062,0,false_negative,0.7855384651263062,0.9995426241
+ptbxl_external,19884,sinus_rhythm,Sinus rhythm,63.0,60-79,Male,No annotated issue,1,0.00048461554,0.7859958410263062,0,false_negative,0.7855112254863061,0.99951538446
+ptbxl_external,8482,sinus_tachycardia,Sinus tachycardia,56.0,40-59,Female,Annotated signal issue,0,0.99951386,0.3506096601486206,1,false_positive,0.6489041998513794,0.99951386
+ptbxl_external,19187,sinus_rhythm,Sinus rhythm,64.0,60-79,Male,No annotated issue,1,0.0005210874,0.7859958410263062,0,false_negative,0.7854747536263061,0.9994789126
+ptbxl_external,3060,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,No annotated issue,1,0.000536005,0.7859958410263062,0,false_negative,0.7854598360263062,0.999463995
+ptbxl_external,17298,sinus_bradycardia,Sinus bradycardia,78.0,60-79,Female,Annotated signal issue,1,0.00053935393,0.3377516567707062,0,false_negative,0.3372123028407062,0.99946064607
+ptbxl_external,18802,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,No annotated issue,1,0.00060974126,0.7859958410263062,0,false_negative,0.7853860997663061,0.99939025874
+ptbxl_external,19353,sinus_rhythm,Sinus rhythm,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,1,0.000636874,0.7859958410263062,0,false_negative,0.7853589670263061,0.999363126
+ptbxl_external,10272,sinus_rhythm,Sinus rhythm,69.0,60-79,Male,No annotated issue,1,0.00065462175,0.7859958410263062,0,false_negative,0.7853412192763062,0.99934537825
+ptbxl_external,11832,sinus_rhythm,Sinus rhythm,72.0,60-79,Male,No annotated issue,1,0.0006558638,0.7859958410263062,0,false_negative,0.7853399772263061,0.9993441362
+ptbxl_external,5252,sinus_rhythm,Sinus rhythm,84.0,80+ (includes privacy-coded 90+),Male,No annotated issue,1,0.0006637454,0.7859958410263062,0,false_negative,0.7853320956263061,0.9993362546
+ptbxl_external,3299,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,No annotated issue,1,0.00067253446,0.7859958410263062,0,false_negative,0.7853233065663061,0.99932746554
+ptbxl_external,12400,sinus_rhythm,Sinus rhythm,62.0,60-79,Male,No annotated issue,1,0.00071565446,0.7859958410263062,0,false_negative,0.7852801865663062,0.99928434554
+ptbxl_external,15180,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,Annotated signal issue,0,0.999134,0.3506096601486206,1,false_positive,0.6485243398513794,0.999134
+ptbxl_external,7876,sinus_tachycardia,Sinus tachycardia,66.0,60-79,Female,No annotated issue,0,0.99906033,0.3506096601486206,1,false_positive,0.6484506698513794,0.99906033
+ptbxl_external,19345,sinus_tachycardia,Sinus tachycardia,80.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.9989794,0.3506096601486206,1,false_positive,0.6483697398513794,0.9989794
+chapman_test,JS22299,sinus_rhythm,Sinus rhythm,34.0,0-39,Male,Not annotated,0,0.9985802,0.7859958410263062,1,false_positive,0.21258435897369388,0.9985802
+ptbxl_external,13238,sinus_tachycardia,Sinus tachycardia,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.9985475,0.3506096601486206,1,false_positive,0.6479378398513794,0.9985475
+chapman_test,JS36297,sinus_arrhythmia,Sinus arrhythmia,10.0,0-39,Female,Not annotated,0,0.9985336,0.8895966410636902,1,false_positive,0.10893695893630984,0.9985336
+chapman_test,JS38977,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Female,Not annotated,0,0.99852234,0.3506096601486206,1,false_positive,0.6479126798513793,0.99852234
+chapman_test,JS35604,sinus_rhythm,Sinus rhythm,58.0,40-59,Male,Not annotated,0,0.99831367,0.7859958410263062,1,false_positive,0.2123178289736939,0.99831367
+ptbxl_external,12074,sinus_rhythm,Sinus rhythm,47.0,40-59,Male,No annotated issue,0,0.9982712,0.7859958410263062,1,false_positive,0.21227535897369387,0.9982712
+chapman_test,JS34865,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9981129,0.7859958410263062,1,false_positive,0.21211705897369382,0.9981129
+ptbxl_external,8140,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,0,0.9980171,0.7859958410263062,1,false_positive,0.21202125897369384,0.9980171
+chapman_test,JS11046,sinus_arrhythmia,Sinus arrhythmia,7.0,0-39,Female,Not annotated,0,0.9979589,0.8895966410636902,1,false_positive,0.1083622589363098,0.9979589
+chapman_test,JS38873,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.99787986,0.3506096601486206,1,false_positive,0.6472701998513793,0.99787986
+ptbxl_external,15796,atrial_fibrillation,Atrial fibrillation,45.0,40-59,Female,Annotated signal issue,1,0.0023391987,0.8429837226867676,0,false_negative,0.8406445239867676,0.9976608013
+ptbxl_external,7946,sinus_tachycardia,Sinus tachycardia,68.0,60-79,Female,No annotated issue,0,0.9976369,0.3506096601486206,1,false_positive,0.6470272398513794,0.9976369
+chapman_test,JS35274,sinus_rhythm,Sinus rhythm,58.0,40-59,Male,Not annotated,0,0.99750346,0.7859958410263062,1,false_positive,0.21150761897369386,0.99750346
+ptbxl_external,2492,sinus_rhythm,Sinus rhythm,80.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.99723744,0.7859958410263062,1,false_positive,0.21124159897369388,0.99723744
+ptbxl_external,9338,sinus_rhythm,Sinus rhythm,44.0,40-59,Female,No annotated issue,0,0.9971834,0.7859958410263062,1,false_positive,0.2111875589736939,0.9971834
+chapman_test,JS34826,sinus_rhythm,Sinus rhythm,49.0,40-59,Male,Not annotated,0,0.9971674,0.7859958410263062,1,false_positive,0.21117155897369388,0.9971674
+chapman_test,JS11823,sinus_arrhythmia,Sinus arrhythmia,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.0028384768,0.8895966410636902,0,false_negative,0.8867581642636901,0.9971615232
+ptbxl_external,1747,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,No annotated issue,0,0.99712247,0.7859958410263062,1,false_positive,0.21112662897369383,0.99712247
+ptbxl_external,2549,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Male,No annotated issue,1,0.0028840112,0.8429837226867676,0,false_negative,0.8400997114867675,0.9971159888
+ptbxl_external,12711,sinus_rhythm,Sinus rhythm,64.0,60-79,Male,No annotated issue,0,0.9970932,0.7859958410263062,1,false_positive,0.21109735897369386,0.9970932
+ptbxl_external,14375,sinus_rhythm,Sinus rhythm,39.0,0-39,Male,No annotated issue,0,0.99693525,0.7859958410263062,1,false_positive,0.2109394089736939,0.99693525
+chapman_test,JS38917,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.99686134,0.3506096601486206,1,false_positive,0.6462516798513794,0.99686134
+chapman_test,JS38903,sinus_tachycardia,Sinus tachycardia,5.0,0-39,Male,Not annotated,0,0.99682176,0.3506096601486206,1,false_positive,0.6462120998513794,0.99682176
+ptbxl_external,14937,sinus_rhythm,Sinus rhythm,78.0,60-79,Female,No annotated issue,0,0.9967624,0.7859958410263062,1,false_positive,0.2107665589736939,0.9967624
+chapman_test,JS35028,sinus_rhythm,Sinus rhythm,75.0,60-79,Female,Not annotated,0,0.99666166,0.7859958410263062,1,false_positive,0.21066581897369385,0.99666166
+ptbxl_external,440,sinus_rhythm,Sinus rhythm,58.0,40-59,Female,No annotated issue,0,0.99612767,0.7859958410263062,1,false_positive,0.21013182897369387,0.99612767
+ptbxl_external,19268,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.99612,0.7859958410263062,1,false_positive,0.21012415897369385,0.99612
+chapman_test,JS36151,sinus_rhythm,Sinus rhythm,0.0,0-39,Male,Not annotated,1,0.0039497116,0.7859958410263062,0,false_negative,0.7820461294263061,0.9960502884
+ptbxl_external,2293,sinus_rhythm,Sinus rhythm,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.9959714,0.7859958410263062,1,false_positive,0.2099755589736938,0.9959714
+ptbxl_external,4747,sinus_rhythm,Sinus rhythm,36.0,0-39,Male,No annotated issue,0,0.9959,0.7859958410263062,1,false_positive,0.20990415897369386,0.9959
+ptbxl_external,9110,sinus_rhythm,Sinus rhythm,78.0,60-79,Male,No annotated issue,0,0.99579525,0.7859958410263062,1,false_positive,0.20979940897369387,0.99579525
+chapman_test,JS35891,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Not annotated,0,0.9957535,0.7859958410263062,1,false_positive,0.2097576589736938,0.9957535
+ptbxl_external,16468,sinus_rhythm,Sinus rhythm,75.0,60-79,Female,No annotated issue,0,0.99575055,0.7859958410263062,1,false_positive,0.20975470897369386,0.99575055
+ptbxl_external,15796,sinus_rhythm,Sinus rhythm,45.0,40-59,Female,Annotated signal issue,0,0.99573404,0.7859958410263062,1,false_positive,0.20973819897369383,0.99573404
+chapman_test,JS12874,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,Not annotated,1,0.004352671,0.7859958410263062,0,false_negative,0.7816431700263061,0.995647329
+chapman_test,JS34918,sinus_rhythm,Sinus rhythm,87.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.99544865,0.7859958410263062,1,false_positive,0.2094528089736939,0.99544865
+chapman_test,JS34897,sinus_rhythm,Sinus rhythm,38.0,0-39,Male,Not annotated,0,0.99529994,0.7859958410263062,1,false_positive,0.20930409897369384,0.99529994
+chapman_test,JS35062,sinus_rhythm,Sinus rhythm,26.0,0-39,Female,Not annotated,0,0.99511456,0.7859958410263062,1,false_positive,0.20911871897369383,0.99511456
+ptbxl_external,21826,sinus_rhythm,Sinus rhythm,82.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.99511355,0.7859958410263062,1,false_positive,0.20911770897369386,0.99511355
+ptbxl_external,9338,sinus_tachycardia,Sinus tachycardia,44.0,40-59,Female,No annotated issue,1,0.004947087,0.3506096601486206,0,false_negative,0.3456625731486206,0.995052913
+ptbxl_external,20242,sinus_rhythm,Sinus rhythm,78.0,60-79,Male,No annotated issue,0,0.99503577,0.7859958410263062,1,false_positive,0.20903992897369383,0.99503577
+ptbxl_external,1147,sinus_rhythm,Sinus rhythm,43.0,40-59,Male,No annotated issue,0,0.9948901,0.7859958410263062,1,false_positive,0.20889425897369385,0.9948901
+chapman_test,JS35605,sinus_rhythm,Sinus rhythm,61.0,60-79,Male,Not annotated,0,0.9948521,0.7859958410263062,1,false_positive,0.20885625897369386,0.9948521
+chapman_test,JS34924,sinus_rhythm,Sinus rhythm,59.0,40-59,Female,Not annotated,0,0.99478877,0.7859958410263062,1,false_positive,0.20879292897369384,0.99478877
+ptbxl_external,12607,sinus_rhythm,Sinus rhythm,70.0,60-79,Female,No annotated issue,0,0.9946631,0.7859958410263062,1,false_positive,0.20866725897369387,0.9946631
+ptbxl_external,15507,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Annotated signal issue,0,0.99440306,0.7859958410263062,1,false_positive,0.20840721897369385,0.99440306
+ptbxl_external,11664,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,No annotated issue,0,0.9943897,0.7859958410263062,1,false_positive,0.2083938589736939,0.9943897
+chapman_test,JS34809,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.99427766,0.7859958410263062,1,false_positive,0.2082818189736938,0.99427766
+ptbxl_external,13404,sinus_rhythm,Sinus rhythm,56.0,40-59,Male,Annotated signal issue,0,0.99426526,0.7859958410263062,1,false_positive,0.2082694189736939,0.99426526
+chapman_test,JS34984,sinus_rhythm,Sinus rhythm,44.0,40-59,Female,Not annotated,0,0.99425346,0.7859958410263062,1,false_positive,0.20825761897369388,0.99425346
+ptbxl_external,6552,sinus_rhythm,Sinus rhythm,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.9942011,0.7859958410263062,1,false_positive,0.2082052589736938,0.9942011
+chapman_test,JS35752,sinus_rhythm,Sinus rhythm,49.0,40-59,Male,Not annotated,0,0.9941859,0.7859958410263062,1,false_positive,0.2081900589736938,0.9941859
+ptbxl_external,17298,sinus_rhythm,Sinus rhythm,78.0,60-79,Female,Annotated signal issue,0,0.99410146,0.7859958410263062,1,false_positive,0.20810561897369384,0.99410146
+chapman_test,JS11106,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Female,Not annotated,0,0.9940181,0.3506096601486206,1,false_positive,0.6434084398513794,0.9940181
+chapman_test,JS35696,sinus_rhythm,Sinus rhythm,25.0,0-39,Female,Not annotated,0,0.9940037,0.7859958410263062,1,false_positive,0.2080078589736939,0.9940037
+ptbxl_external,6670,sinus_rhythm,Sinus rhythm,56.0,40-59,Female,No annotated issue,0,0.993972,0.7859958410263062,1,false_positive,0.20797615897369381,0.993972
+ptbxl_external,347,atrial_flutter,Atrial flutter,75.0,60-79,Male,No annotated issue,1,0.006296668,0.8377659916877747,0,false_negative,0.8314693236877747,0.993703332
+chapman_test,JS23097,sinus_bradycardia,Sinus bradycardia,75.0,60-79,Male,Not annotated,1,0.006669831,0.3377516567707062,0,false_negative,0.33108182577070616,0.993330169
+ptbxl_external,10356,sinus_tachycardia,Sinus tachycardia,41.0,40-59,Female,Annotated signal issue,0,0.9933296,0.3506096601486206,1,false_positive,0.6427199398513794,0.9933296
+chapman_test,JS35759,sinus_rhythm,Sinus rhythm,29.0,0-39,Female,Not annotated,0,0.9930524,0.7859958410263062,1,false_positive,0.2070565589736938,0.9930524
+chapman_test,JS35827,sinus_rhythm,Sinus rhythm,84.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9927942,0.7859958410263062,1,false_positive,0.2067983589736938,0.9927942
+chapman_test,JS23592,sinus_rhythm,Sinus rhythm,72.0,60-79,Female,Not annotated,0,0.99276954,0.7859958410263062,1,false_positive,0.2067736989736938,0.99276954
+chapman_test,JS11060,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.9921672,0.3506096601486206,1,false_positive,0.6415575398513794,0.9921672
+ptbxl_external,20674,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Male,No annotated issue,1,0.007999743,0.8429837226867676,0,false_negative,0.8349839796867676,0.992000257
+chapman_test,JS34831,sinus_rhythm,Sinus rhythm,66.0,60-79,Male,Not annotated,0,0.9918778,0.7859958410263062,1,false_positive,0.20588195897369388,0.9918778
+chapman_test,JS23591,sinus_rhythm,Sinus rhythm,44.0,40-59,Female,Not annotated,0,0.99163955,0.7859958410263062,1,false_positive,0.20564370897369388,0.99163955
+ptbxl_external,18916,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,No annotated issue,0,0.9915251,0.3506096601486206,1,false_positive,0.6409154398513794,0.9915251
+chapman_test,JS34836,sinus_rhythm,Sinus rhythm,44.0,40-59,Male,Not annotated,0,0.99140596,0.7859958410263062,1,false_positive,0.20541011897369388,0.99140596
+chapman_test,JS24873,sinus_bradycardia,Sinus bradycardia,39.0,0-39,Male,Not annotated,1,0.008890259,0.3377516567707062,0,false_negative,0.32886139777070617,0.991109741
+chapman_test,JS35840,sinus_rhythm,Sinus rhythm,30.0,0-39,Male,Not annotated,0,0.99107295,0.7859958410263062,1,false_positive,0.2050771089736938,0.99107295
+chapman_test,JS34953,sinus_rhythm,Sinus rhythm,51.0,40-59,Male,Not annotated,0,0.990934,0.7859958410263062,1,false_positive,0.20493815897369383,0.990934
+chapman_test,JS35853,sinus_rhythm,Sinus rhythm,42.0,40-59,Female,Not annotated,0,0.9908631,0.7859958410263062,1,false_positive,0.20486725897369384,0.9908631
+chapman_test,JS11798,sinus_bradycardia,Sinus bradycardia,79.0,60-79,Male,Not annotated,1,0.009566738,0.3377516567707062,0,false_negative,0.32818491877070616,0.990433262
+chapman_test,JS19499,sinus_tachycardia,Sinus tachycardia,78.0,60-79,Male,Not annotated,0,0.9903171,0.3506096601486206,1,false_positive,0.6397074398513793,0.9903171
+ptbxl_external,3990,atrial_flutter,Atrial flutter,76.0,60-79,Male,No annotated issue,0,0.98998183,0.8377659916877747,1,false_positive,0.1522158383122253,0.98998183
+chapman_test,JS22031,sinus_arrhythmia,Sinus arrhythmia,0.0,0-39,Female,Not annotated,0,0.98965746,0.8895966410636902,1,false_positive,0.1000608189363098,0.98965746
+ptbxl_external,16605,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.98951286,0.8377659916877747,1,false_positive,0.1517468683122254,0.98951286
+ptbxl_external,12532,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.9886755,0.8377659916877747,1,false_positive,0.15090950831222538,0.9886755
+chapman_test,JS12519,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.011819808,0.7859958410263062,0,false_negative,0.7741760330263061,0.988180192
+ptbxl_external,5951,sinus_tachycardia,Sinus tachycardia,72.0,60-79,Male,No annotated issue,0,0.9881146,0.3506096601486206,1,false_positive,0.6375049398513793,0.9881146
+chapman_test,JS23097,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Male,Not annotated,1,0.012323464,0.8895966410636902,0,false_negative,0.8772731770636902,0.987676536
+ptbxl_external,17661,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Male,No annotated issue,0,0.987599,0.8895966410636902,1,false_positive,0.09800235893630982,0.987599
+chapman_test,JS04287,sinus_tachycardia,Sinus tachycardia,54.0,40-59,Male,Not annotated,0,0.9870064,0.3506096601486206,1,false_positive,0.6363967398513793,0.9870064
+ptbxl_external,15841,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.98642236,0.8377659916877747,1,false_positive,0.1486563683122254,0.98642236
+chapman_test,JS39050,sinus_arrhythmia,Sinus arrhythmia,12.0,0-39,Male,Not annotated,0,0.9862823,0.8895966410636902,1,false_positive,0.09668565893630976,0.9862823
+chapman_test,JS37785,sinus_arrhythmia,Sinus arrhythmia,15.0,0-39,Female,Not annotated,0,0.9862801,0.8895966410636902,1,false_positive,0.09668345893630981,0.9862801
+chapman_test,JS11798,atrial_flutter,Atrial flutter,79.0,60-79,Male,Not annotated,0,0.9860218,0.8377659916877747,1,false_positive,0.1482558083122253,0.9860218
+chapman_test,JS20130,sinus_bradycardia,Sinus bradycardia,78.0,60-79,Male,Not annotated,1,0.014319669,0.3377516567707062,0,false_negative,0.3234319877707062,0.985680331
+chapman_test,JS07665,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Male,Not annotated,0,0.9856376,0.8895966410636902,1,false_positive,0.09604095893630982,0.9856376
+chapman_test,JS38367,sinus_arrhythmia,Sinus arrhythmia,23.0,0-39,Male,Not annotated,0,0.9853865,0.8895966410636902,1,false_positive,0.09578985893630987,0.9853865
+chapman_test,JS23097,atrial_flutter,Atrial flutter,75.0,60-79,Male,Not annotated,0,0.98526627,0.8377659916877747,1,false_positive,0.14750027831222534,0.98526627
+ptbxl_external,11982,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.9852647,0.8377659916877747,1,false_positive,0.14749870831222534,0.9852647
+ptbxl_external,5316,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,Annotated signal issue,0,0.9850873,0.8895966410636902,1,false_positive,0.09549065893630981,0.9850873
+ptbxl_external,7445,atrial_flutter,Atrial flutter,65.0,60-79,Male,No annotated issue,0,0.9850055,0.8377659916877747,1,false_positive,0.14723950831222532,0.9850055
+ptbxl_external,2019,atrial_flutter,Atrial flutter,300.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.98479885,0.8377659916877747,1,false_positive,0.14703285831222535,0.98479885
+ptbxl_external,15798,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.9847115,0.3506096601486206,1,false_positive,0.6341018398513794,0.9847115
+ptbxl_external,958,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Male,Annotated signal issue,0,0.9841761,0.8895966410636902,1,false_positive,0.09457945893630981,0.9841761
+chapman_test,JS35049,sinus_bradycardia,Sinus bradycardia,71.0,60-79,Female,Not annotated,0,0.98372746,0.3377516567707062,1,false_positive,0.6459758032292938,0.98372746
+ptbxl_external,11739,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Female,No annotated issue,0,0.9832913,0.8895966410636902,1,false_positive,0.0936946589363098,0.9832913
+chapman_test,JS38420,sinus_arrhythmia,Sinus arrhythmia,31.0,0-39,Male,Not annotated,0,0.9829769,0.8895966410636902,1,false_positive,0.09338025893630986,0.9829769
+ptbxl_external,8263,sinus_tachycardia,Sinus tachycardia,63.0,60-79,Male,No annotated issue,0,0.98273426,0.3506096601486206,1,false_positive,0.6321245998513794,0.98273426
+ptbxl_external,7865,sinus_tachycardia,Sinus tachycardia,79.0,60-79,Male,Annotated signal issue,0,0.9824562,0.3506096601486206,1,false_positive,0.6318465398513794,0.9824562
+chapman_test,JS38464,sinus_arrhythmia,Sinus arrhythmia,13.0,0-39,Male,Not annotated,0,0.9824478,0.8895966410636902,1,false_positive,0.0928511589363098,0.9824478
+ptbxl_external,11532,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Female,Annotated signal issue,0,0.98214275,0.8895966410636902,1,false_positive,0.09254610893630977,0.98214275
+ptbxl_external,13712,sinus_arrhythmia,Sinus arrhythmia,22.0,0-39,Male,No annotated issue,0,0.9820539,0.8895966410636902,1,false_positive,0.09245725893630985,0.9820539
+chapman_test,JS37529,sinus_arrhythmia,Sinus arrhythmia,39.0,0-39,Female,Not annotated,0,0.98156345,0.8895966410636902,1,false_positive,0.09196680893630982,0.98156345
+ptbxl_external,5544,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.9799135,0.8377659916877747,1,false_positive,0.14214750831222533,0.9799135
+ptbxl_external,2375,sinus_arrhythmia,Sinus arrhythmia,20.0,0-39,Male,Annotated signal issue,0,0.97987056,0.8895966410636902,1,false_positive,0.09027391893630976,0.97987056
+ptbxl_external,9183,sinus_arrhythmia,Sinus arrhythmia,26.0,0-39,Male,No annotated issue,0,0.97962934,0.8895966410636902,1,false_positive,0.09003269893630983,0.97962934
+ptbxl_external,2638,sinus_arrhythmia,Sinus arrhythmia,29.0,0-39,Male,Annotated signal issue,0,0.9796122,0.8895966410636902,1,false_positive,0.09001555893630986,0.9796122
+ptbxl_external,15235,sinus_tachycardia,Sinus tachycardia,56.0,40-59,Male,No annotated issue,0,0.97914726,0.3506096601486206,1,false_positive,0.6285375998513794,0.97914726
+chapman_test,JS36504,sinus_arrhythmia,Sinus arrhythmia,13.0,0-39,Female,Not annotated,0,0.9785744,0.8895966410636902,1,false_positive,0.08897775893630977,0.9785744
+chapman_test,JS36216,sinus_arrhythmia,Sinus arrhythmia,47.0,40-59,Female,Not annotated,0,0.97838897,0.8895966410636902,1,false_positive,0.08879232893630984,0.97838897
+ptbxl_external,3740,sinus_arrhythmia,Sinus arrhythmia,23.0,0-39,Male,No annotated issue,0,0.9780692,0.8895966410636902,1,false_positive,0.08847255893630979,0.9780692
+chapman_test,JS34476,sinus_rhythm,Sinus rhythm,63.0,60-79,Female,Not annotated,1,0.021949109,0.7859958410263062,0,false_negative,0.7640467320263061,0.978050891
+ptbxl_external,13959,sinus_arrhythmia,Sinus arrhythmia,24.0,0-39,Male,No annotated issue,0,0.97778165,0.8895966410636902,1,false_positive,0.08818500893630976,0.97778165
+chapman_test,JS21341,sinus_tachycardia,Sinus tachycardia,70.0,60-79,Male,Not annotated,1,0.023593351,0.3506096601486206,0,false_negative,0.3270163091486206,0.976406649
+ptbxl_external,15001,sinus_arrhythmia,Sinus arrhythmia,16.0,0-39,Female,No annotated issue,0,0.97583973,0.8895966410636902,1,false_positive,0.08624308893630983,0.97583973
+chapman_test,JS11043,sinus_arrhythmia,Sinus arrhythmia,5.0,0-39,Male,Not annotated,0,0.9757975,0.8895966410636902,1,false_positive,0.0862008589363098,0.9757975
+ptbxl_external,11468,atrial_flutter,Atrial flutter,80.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.9755012,0.8377659916877747,1,false_positive,0.1377352083122253,0.9755012
+ptbxl_external,13131,atrial_flutter,Atrial flutter,84.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.974906,0.8377659916877747,1,false_positive,0.1371400083122254,0.974906
+chapman_test,JS19391,sinus_tachycardia,Sinus tachycardia,68.0,60-79,Male,Not annotated,0,0.97404534,0.3506096601486206,1,false_positive,0.6234356798513794,0.97404534
+chapman_test,JS20130,sinus_arrhythmia,Sinus arrhythmia,78.0,60-79,Male,Not annotated,1,0.026912704,0.8895966410636902,0,false_negative,0.8626839370636902,0.973087296
+chapman_test,JS30331,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Male,Not annotated,1,0.027384944,0.3377516567707062,0,false_negative,0.31036671277070615,0.972615056
+ptbxl_external,18592,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.97204125,0.8377659916877747,1,false_positive,0.1342752583122253,0.97204125
+chapman_test,JS23105,atrial_flutter,Atrial flutter,77.0,60-79,Male,Not annotated,0,0.9718907,0.8377659916877747,1,false_positive,0.13412470831222534,0.9718907
+chapman_test,JS25726,sinus_arrhythmia,Sinus arrhythmia,27.0,0-39,Male,Not annotated,0,0.97170264,0.8895966410636902,1,false_positive,0.08210599893630977,0.97170264
+chapman_test,JS11565,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9716277,0.8377659916877747,1,false_positive,0.13386170831222532,0.9716277
+ptbxl_external,1113,sinus_arrhythmia,Sinus arrhythmia,48.0,40-59,Male,No annotated issue,0,0.9711246,0.8895966410636902,1,false_positive,0.08152795893630982,0.9711246
+ptbxl_external,12082,sinus_arrhythmia,Sinus arrhythmia,33.0,0-39,Female,Annotated signal issue,0,0.9710178,0.8895966410636902,1,false_positive,0.08142115893630986,0.9710178
+ptbxl_external,1311,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Female,Annotated signal issue,0,0.9706895,0.8895966410636902,1,false_positive,0.0810928589363098,0.9706895
+ptbxl_external,1487,sinus_arrhythmia,Sinus arrhythmia,34.0,0-39,Female,No annotated issue,0,0.97023004,0.8895966410636902,1,false_positive,0.08063339893630983,0.97023004
+chapman_test,JS38977,sinus_rhythm,Sinus rhythm,22.0,0-39,Female,Not annotated,1,0.029931484,0.7859958410263062,0,false_negative,0.7560643570263061,0.970068516
+chapman_test,JS39958,sinus_arrhythmia,Sinus arrhythmia,38.0,0-39,Female,Not annotated,0,0.9694623,0.8895966410636902,1,false_positive,0.07986565893630981,0.9694623
+ptbxl_external,15834,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.030672394,0.8429837226867676,0,false_negative,0.8123113286867676,0.969327606
+chapman_test,JS05552,sinus_tachycardia,Sinus tachycardia,72.0,60-79,Male,Not annotated,1,0.031467896,0.3506096601486206,0,false_negative,0.3191417641486206,0.968532104
+ptbxl_external,9396,sinus_arrhythmia,Sinus arrhythmia,36.0,0-39,Female,No annotated issue,0,0.96852255,0.8895966410636902,1,false_positive,0.0789259089363098,0.96852255
+chapman_test,JS28654,sinus_arrhythmia,Sinus arrhythmia,17.0,0-39,Male,Not annotated,0,0.9677691,0.8895966410636902,1,false_positive,0.07817245893630986,0.9677691
+chapman_test,JS38059,sinus_arrhythmia,Sinus arrhythmia,31.0,0-39,Male,Not annotated,0,0.96771306,0.8895966410636902,1,false_positive,0.07811641893630983,0.96771306
+ptbxl_external,1458,sinus_arrhythmia,Sinus arrhythmia,20.0,0-39,Female,Annotated signal issue,0,0.9668919,0.8895966410636902,1,false_positive,0.07729525893630984,0.9668919
+chapman_test,JS18740,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Female,Not annotated,0,0.966795,0.3506096601486206,1,false_positive,0.6161853398513794,0.966795
+ptbxl_external,15800,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.9666322,0.8377659916877747,1,false_positive,0.1288662083122254,0.9666322
+ptbxl_external,19723,sinus_arrhythmia,Sinus arrhythmia,28.0,0-39,Male,No annotated issue,0,0.96654683,0.8895966410636902,1,false_positive,0.07695018893630978,0.96654683
+ptbxl_external,16700,atrial_flutter,Atrial flutter,72.0,60-79,Male,No annotated issue,0,0.96646035,0.8377659916877747,1,false_positive,0.1286943583122253,0.96646035
+ptbxl_external,8496,sinus_arrhythmia,Sinus arrhythmia,21.0,0-39,Female,No annotated issue,0,0.96604574,0.8895966410636902,1,false_positive,0.0764490989363098,0.96604574
+chapman_test,JS38471,sinus_arrhythmia,Sinus arrhythmia,20.0,0-39,Male,Not annotated,0,0.96601015,0.8895966410636902,1,false_positive,0.07641350893630983,0.96601015
+ptbxl_external,1946,sinus_arrhythmia,Sinus arrhythmia,21.0,0-39,Male,No annotated issue,0,0.9654469,0.8895966410636902,1,false_positive,0.07585025893630981,0.9654469
+chapman_test,JS24711,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Male,Not annotated,0,0.96520674,0.8895966410636902,1,false_positive,0.07561009893630977,0.96520674
+chapman_test,JS02963,sinus_arrhythmia,Sinus arrhythmia,37.0,0-39,Female,Not annotated,0,0.9649948,0.8895966410636902,1,false_positive,0.07539815893630986,0.9649948
+ptbxl_external,18671,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.9649436,0.8377659916877747,1,false_positive,0.12717760831222535,0.9649436
+chapman_test,JS03398,sinus_arrhythmia,Sinus arrhythmia,17.0,0-39,Male,Not annotated,0,0.964899,0.8895966410636902,1,false_positive,0.07530235893630977,0.964899
+ptbxl_external,15526,atrial_flutter,Atrial flutter,77.0,60-79,Female,No annotated issue,0,0.9647737,0.8377659916877747,1,false_positive,0.1270077083122253,0.9647737
+ptbxl_external,5519,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,No annotated issue,0,0.964573,0.8895966410636902,1,false_positive,0.07497635893630983,0.964573
+ptbxl_external,19305,atrial_flutter,Atrial flutter,73.0,60-79,Male,Annotated signal issue,0,0.9643163,0.8377659916877747,1,false_positive,0.12655030831222536,0.9643163
+ptbxl_external,19370,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.9641533,0.8377659916877747,1,false_positive,0.12638730831222533,0.9641533
+ptbxl_external,17007,atrial_flutter,Atrial flutter,55.0,40-59,Male,Annotated signal issue,0,0.96396327,0.8377659916877747,1,false_positive,0.12619727831222538,0.96396327
+ptbxl_external,1157,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.963951,0.8377659916877747,1,false_positive,0.12618500831222534,0.963951
+chapman_test,JS36151,atrial_flutter,Atrial flutter,0.0,0-39,Male,Not annotated,0,0.9639,0.8377659916877747,1,false_positive,0.12613400831222532,0.9639
+chapman_test,JS00698,atrial_flutter,Atrial flutter,73.0,60-79,Male,Not annotated,0,0.9633326,0.8377659916877747,1,false_positive,0.12556660831222533,0.9633326
+ptbxl_external,2813,sinus_arrhythmia,Sinus arrhythmia,23.0,0-39,Female,No annotated issue,0,0.9633322,0.8895966410636902,1,false_positive,0.07373555893630979,0.9633322
+ptbxl_external,598,atrial_flutter,Atrial flutter,73.0,60-79,Female,No annotated issue,0,0.96329015,0.8377659916877747,1,false_positive,0.1255241583122253,0.96329015
+chapman_test,JS35577,sinus_tachycardia,Sinus tachycardia,4.0,0-39,Female,Not annotated,0,0.9630368,0.3506096601486206,1,false_positive,0.6124271398513794,0.9630368
+ptbxl_external,18758,sinus_arrhythmia,Sinus arrhythmia,61.0,60-79,Male,Annotated signal issue,0,0.9627588,0.8895966410636902,1,false_positive,0.07316215893630984,0.9627588
+chapman_test,JS05934,sinus_arrhythmia,Sinus arrhythmia,10.0,0-39,Male,Not annotated,0,0.96223587,0.8895966410636902,1,false_positive,0.07263922893630981,0.96223587
+chapman_test,JS02020,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9622086,0.8377659916877747,1,false_positive,0.12444260831222531,0.9622086
+chapman_test,JS37916,sinus_arrhythmia,Sinus arrhythmia,27.0,0-39,Male,Not annotated,0,0.9620843,0.8895966410636902,1,false_positive,0.07248765893630982,0.9620843
+chapman_test,JS07412,atrial_flutter,Atrial flutter,61.0,60-79,Male,Not annotated,0,0.9620457,0.8377659916877747,1,false_positive,0.12427970831222535,0.9620457
+ptbxl_external,12620,sinus_tachycardia,Sinus tachycardia,81.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.961856,0.3506096601486206,1,false_positive,0.6112463398513794,0.961856
+ptbxl_external,9753,sinus_arrhythmia,Sinus arrhythmia,37.0,0-39,Male,No annotated issue,0,0.96108836,0.8895966410636902,1,false_positive,0.07149171893630979,0.96108836
+chapman_test,JS06886,atrial_flutter,Atrial flutter,54.0,40-59,Female,Not annotated,0,0.9610638,0.8377659916877747,1,false_positive,0.12329780831222537,0.9610638
+chapman_test,JS41167,sinus_arrhythmia,Sinus arrhythmia,60.0,60-79,Male,Not annotated,0,0.9604386,0.8895966410636902,1,false_positive,0.07084195893630985,0.9604386
+chapman_test,JS09464,atrial_flutter,Atrial flutter,76.0,60-79,Male,Not annotated,0,0.9601733,0.8377659916877747,1,false_positive,0.12240730831222535,0.9601733
+ptbxl_external,7075,atrial_flutter,Atrial flutter,84.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.960013,0.8377659916877747,1,false_positive,0.12224700831222535,0.960013
+ptbxl_external,16748,atrial_flutter,Atrial flutter,72.0,60-79,Male,No annotated issue,0,0.9598214,0.8377659916877747,1,false_positive,0.12205540831222539,0.9598214
+chapman_test,JS06232,atrial_flutter,Atrial flutter,85.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.959496,0.8377659916877747,1,false_positive,0.12173000831222536,0.959496
+chapman_test,JS37208,sinus_arrhythmia,Sinus arrhythmia,30.0,0-39,Male,Not annotated,0,0.95923734,0.8895966410636902,1,false_positive,0.06964069893630986,0.95923734
+chapman_test,JS09171,atrial_flutter,Atrial flutter,51.0,40-59,Male,Not annotated,0,0.95893574,0.8377659916877747,1,false_positive,0.12116974831222538,0.95893574
+chapman_test,JS02614,atrial_flutter,Atrial flutter,77.0,60-79,Female,Not annotated,0,0.9585964,0.8377659916877747,1,false_positive,0.12083040831222536,0.9585964
+ptbxl_external,7889,atrial_flutter,Atrial flutter,74.0,60-79,Female,No annotated issue,0,0.9579808,0.8377659916877747,1,false_positive,0.12021480831222531,0.9579808
+ptbxl_external,2153,atrial_flutter,Atrial flutter,88.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.9579198,0.8377659916877747,1,false_positive,0.12015380831222533,0.9579198
+chapman_test,JS19176,sinus_tachycardia,Sinus tachycardia,75.0,60-79,Male,Not annotated,1,0.042081483,0.3506096601486206,0,false_negative,0.3085281771486206,0.957918517
+ptbxl_external,11487,atrial_flutter,Atrial flutter,77.0,60-79,Male,Annotated signal issue,0,0.9574925,0.8377659916877747,1,false_positive,0.11972650831222531,0.9574925
+chapman_test,JS05351,atrial_flutter,Atrial flutter,78.0,60-79,Male,Not annotated,0,0.9574267,0.8377659916877747,1,false_positive,0.1196607083122253,0.9574267
+chapman_test,JS09590,atrial_flutter,Atrial flutter,74.0,60-79,Male,Not annotated,0,0.95717674,0.8377659916877747,1,false_positive,0.11941074831222531,0.95717674
+chapman_test,JS05770,atrial_flutter,Atrial flutter,68.0,60-79,Male,Not annotated,0,0.95604694,0.8377659916877747,1,false_positive,0.11828094831222535,0.95604694
+chapman_test,JS01639,atrial_flutter,Atrial flutter,88.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.95560473,0.8377659916877747,1,false_positive,0.11783873831222536,0.95560473
+chapman_test,JS45352,atrial_flutter,Atrial flutter,64.0,60-79,Female,Not annotated,0,0.95522356,0.8377659916877747,1,false_positive,0.11745756831222531,0.95522356
+chapman_test,JS01158,atrial_flutter,Atrial flutter,86.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.95516145,0.8377659916877747,1,false_positive,0.11739545831222531,0.95516145
+chapman_test,JS06085,atrial_flutter,Atrial flutter,74.0,60-79,Male,Not annotated,0,0.9544908,0.8377659916877747,1,false_positive,0.11672480831222531,0.9544908
+chapman_test,JS04073,atrial_flutter,Atrial flutter,52.0,40-59,Male,Not annotated,0,0.954263,0.8377659916877747,1,false_positive,0.11649700831222531,0.954263
+chapman_test,JS19867,sinus_tachycardia,Sinus tachycardia,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9539041,0.3506096601486206,1,false_positive,0.6032944398513794,0.9539041
+chapman_test,JS03090,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.95315355,0.8377659916877747,1,false_positive,0.11538755831222536,0.95315355
+chapman_test,JS07001,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9531155,0.8377659916877747,1,false_positive,0.11534950831222535,0.9531155
+chapman_test,JS45352,sinus_tachycardia,Sinus tachycardia,64.0,60-79,Female,Not annotated,1,0.047708806,0.3506096601486206,0,false_negative,0.3029008541486206,0.952291194
+chapman_test,JS07896,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.95188665,0.8377659916877747,1,false_positive,0.11412065831222529,0.95188665
+chapman_test,JS01317,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9512288,0.8377659916877747,1,false_positive,0.11346280831222533,0.9512288
+chapman_test,JS38917,sinus_rhythm,Sinus rhythm,22.0,0-39,Male,Not annotated,1,0.04991088,0.7859958410263062,0,false_negative,0.7360849610263062,0.95008912
+chapman_test,JS37970,sinus_tachycardia,Sinus tachycardia,28.0,0-39,Male,Not annotated,0,0.9498709,0.3506096601486206,1,false_positive,0.5992612398513794,0.9498709
+chapman_test,JS20151,sinus_tachycardia,Sinus tachycardia,75.0,60-79,Female,Not annotated,1,0.050230935,0.3506096601486206,0,false_negative,0.30037872514862063,0.949769065
+chapman_test,JS12465,sinus_bradycardia,Sinus bradycardia,81.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.05205909,0.3377516567707062,0,false_negative,0.2856925667707062,0.94794091
+chapman_test,JS12519,sinus_bradycardia,Sinus bradycardia,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9442081,0.3377516567707062,1,false_positive,0.6064564432292938,0.9442081
+ptbxl_external,11286,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Male,No annotated issue,1,0.056100182,0.8429837226867676,0,false_negative,0.7868835406867676,0.943899818
+ptbxl_external,15180,atrial_fibrillation,Atrial fibrillation,69.0,60-79,Male,Annotated signal issue,1,0.05696482,0.8429837226867676,0,false_negative,0.7860189026867676,0.94303518
+chapman_test,JS13165,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Male,Not annotated,0,0.94123805,0.8429837226867676,1,false_positive,0.09825432731323247,0.94123805
+chapman_test,JS07565,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.06278025,0.3377516567707062,0,false_negative,0.2749714067707062,0.93721975
+chapman_test,JS20285,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,Not annotated,1,0.06621938,0.3506096601486206,0,false_negative,0.2843902801486206,0.9337806200000001
+chapman_test,JS16427,atrial_fibrillation,Atrial fibrillation,41.0,40-59,Female,Not annotated,0,0.9336029,0.8429837226867676,1,false_positive,0.09061917731323244,0.9336029
+chapman_test,JS13772,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Male,Not annotated,0,0.9317505,0.8429837226867676,1,false_positive,0.08876677731323246,0.9317505
+ptbxl_external,18775,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,0,0.93060124,0.3506096601486206,1,false_positive,0.5799915798513794,0.93060124
+chapman_test,JS15390,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9305964,0.8429837226867676,1,false_positive,0.08761267731323241,0.9305964
+chapman_test,JS13152,atrial_fibrillation,Atrial fibrillation,55.0,40-59,Male,Not annotated,0,0.9301543,0.8429837226867676,1,false_positive,0.08717057731323241,0.9301543
+chapman_test,JS16247,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9298722,0.8429837226867676,1,false_positive,0.08688847731323246,0.9298722
+chapman_test,JS44646,sinus_tachycardia,Sinus tachycardia,30.0,0-39,Male,Not annotated,1,0.07118372,0.3506096601486206,0,false_negative,0.2794259401486206,0.9288162799999999
+chapman_test,JS18042,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Female,Not annotated,0,0.92650515,0.8429837226867676,1,false_positive,0.08352142731323242,0.92650515
+ptbxl_external,18777,sinus_tachycardia,Sinus tachycardia,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.9263738,0.3506096601486206,1,false_positive,0.5757641398513794,0.9263738
+chapman_test,JS13957,atrial_fibrillation,Atrial fibrillation,60.0,60-79,Male,Not annotated,0,0.9262417,0.8429837226867676,1,false_positive,0.08325797731323237,0.9262417
+ptbxl_external,11418,sinus_tachycardia,Sinus tachycardia,300.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,1,0.07398176,0.3506096601486206,0,false_negative,0.2766279001486206,0.92601824
+chapman_test,JS17044,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.92570394,0.8429837226867676,1,false_positive,0.08272021731323242,0.92570394
+chapman_test,JS15373,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9249426,0.8429837226867676,1,false_positive,0.08195887731323237,0.9249426
+chapman_test,JS23061,sinus_tachycardia,Sinus tachycardia,51.0,40-59,Male,Not annotated,1,0.0758124,0.3506096601486206,0,false_negative,0.2747972601486206,0.9241876
+chapman_test,JS16897,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Male,Not annotated,0,0.92414397,0.8429837226867676,1,false_positive,0.08116024731323246,0.92414397
+chapman_test,JS12290,sinus_arrhythmia,Sinus arrhythmia,70.0,60-79,Male,Not annotated,1,0.07590695,0.8895966410636902,0,false_negative,0.8136896910636902,0.92409305
+chapman_test,JS17992,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Female,Not annotated,0,0.9234363,0.8429837226867676,1,false_positive,0.08045257731323241,0.9234363
+chapman_test,JS12713,atrial_fibrillation,Atrial fibrillation,68.0,60-79,Male,Not annotated,0,0.92331576,0.8429837226867676,1,false_positive,0.08033203731323246,0.92331576
+chapman_test,JS14608,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.92236227,0.8429837226867676,1,false_positive,0.07937854731323246,0.92236227
+chapman_test,JS12533,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Not annotated,0,0.92223775,0.8429837226867676,1,false_positive,0.07925402731323239,0.92223775
+chapman_test,JS17794,atrial_fibrillation,Atrial fibrillation,69.0,60-79,Female,Not annotated,0,0.9219545,0.8429837226867676,1,false_positive,0.07897077731323243,0.9219545
+chapman_test,JS18895,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Not annotated,0,0.92195404,0.8429837226867676,1,false_positive,0.07897031731323245,0.92195404
+chapman_test,JS14855,atrial_fibrillation,Atrial fibrillation,64.0,60-79,Female,Not annotated,0,0.9215527,0.8429837226867676,1,false_positive,0.07856897731323242,0.9215527
+chapman_test,JS19094,sinus_rhythm,Sinus rhythm,35.0,0-39,Female,Not annotated,1,0.07923619,0.7859958410263062,0,false_negative,0.7067596510263061,0.92076381
+chapman_test,JS18611,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Male,Not annotated,0,0.9200912,0.8429837226867676,1,false_positive,0.07710747731323242,0.9200912
+chapman_test,JS17540,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.92008245,0.8429837226867676,1,false_positive,0.07709872731323242,0.92008245
+chapman_test,JS18289,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.919997,0.8429837226867676,1,false_positive,0.07701327731323238,0.919997
+chapman_test,JS12683,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Female,Not annotated,0,0.9199843,0.8429837226867676,1,false_positive,0.0770005773132324,0.9199843
+chapman_test,JS15539,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.9197909,0.8429837226867676,1,false_positive,0.07680717731323239,0.9197909
+ptbxl_external,18520,atrial_fibrillation,Atrial fibrillation,52.0,40-59,Female,No annotated issue,0,0.9195587,0.8429837226867676,1,false_positive,0.07657497731323237,0.9195587
+ptbxl_external,1901,atrial_fibrillation,Atrial fibrillation,17.0,0-39,Female,No annotated issue,1,0.08071599,0.8429837226867676,0,false_negative,0.7622677326867676,0.91928401
+chapman_test,JS12976,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9192721,0.8429837226867676,1,false_positive,0.07628837731323246,0.9192721
+chapman_test,JS15127,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9191765,0.8429837226867676,1,false_positive,0.07619277731323237,0.9191765
+ptbxl_external,12195,atrial_fibrillation,Atrial fibrillation,71.0,60-79,Male,No annotated issue,0,0.9179027,0.8429837226867676,1,false_positive,0.07491897731323238,0.9179027
+chapman_test,JS38873,sinus_rhythm,Sinus rhythm,22.0,0-39,Male,Not annotated,1,0.08302916,0.7859958410263062,0,false_negative,0.7029666810263061,0.91697084
+chapman_test,JS30418,sinus_bradycardia,Sinus bradycardia,72.0,60-79,Female,Not annotated,1,0.083976746,0.3377516567707062,0,false_negative,0.2537749107707062,0.916023254
+ptbxl_external,12692,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,No annotated issue,0,0.9153462,0.3506096601486206,1,false_positive,0.5647365398513794,0.9153462
+chapman_test,JS14665,sinus_tachycardia,Sinus tachycardia,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,0,0.9136925,0.3506096601486206,1,false_positive,0.5630828398513794,0.9136925
+chapman_test,JS37508,sinus_tachycardia,Sinus tachycardia,50.0,40-59,Female,Not annotated,0,0.91326874,0.3506096601486206,1,false_positive,0.5626590798513794,0.91326874
+chapman_test,JS34858,sinus_tachycardia,Sinus tachycardia,6.0,0-39,Female,Not annotated,0,0.91018724,0.3506096601486206,1,false_positive,0.5595775798513793,0.91018724
+chapman_test,JS35413,sinus_bradycardia,Sinus bradycardia,30.0,0-39,Female,Not annotated,0,0.9054681,0.3377516567707062,1,false_positive,0.5677164432292938,0.9054681
+chapman_test,JS20741,sinus_tachycardia,Sinus tachycardia,88.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.09543637,0.3506096601486206,0,false_negative,0.2551732901486206,0.90456363
+ptbxl_external,7055,sinus_tachycardia,Sinus tachycardia,58.0,40-59,Female,No annotated issue,1,0.09913191,0.3506096601486206,0,false_negative,0.2514777501486206,0.90086809
+ptbxl_external,12179,sinus_bradycardia,Sinus bradycardia,50.0,40-59,Male,No annotated issue,1,0.09985163,0.3377516567707062,0,false_negative,0.23790002677070618,0.90014837
+ptbxl_external,19353,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.89794785,0.8429837226867676,1,false_positive,0.054964127313232414,0.89794785
+ptbxl_external,13666,sinus_tachycardia,Sinus tachycardia,4.0,0-39,Female,No annotated issue,0,0.89722514,0.3506096601486206,1,false_positive,0.5466154798513794,0.89722514
+chapman_test,JS11844,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.1029539,0.3506096601486206,0,false_negative,0.24765576014862062,0.8970461
+ptbxl_external,20240,sinus_tachycardia,Sinus tachycardia,47.0,40-59,Female,No annotated issue,0,0.89610803,0.3506096601486206,1,false_positive,0.5454983698513794,0.89610803
+chapman_test,JS11597,sinus_bradycardia,Sinus bradycardia,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.10801149,0.3377516567707062,0,false_negative,0.2297401667707062,0.89198851
+chapman_test,JS38903,sinus_rhythm,Sinus rhythm,5.0,0-39,Male,Not annotated,1,0.11569787,0.7859958410263062,0,false_negative,0.6702979710263062,0.88430213
+chapman_test,JS11565,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.11590514,0.3506096601486206,0,false_negative,0.2347045201486206,0.88409486
+ptbxl_external,13577,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.8831246,0.8429837226867676,1,false_positive,0.04014087731323246,0.8831246
+ptbxl_external,16239,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Male,Annotated signal issue,0,0.87883145,0.8429837226867676,1,false_positive,0.03584772731323238,0.87883145
+ptbxl_external,15059,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,No annotated issue,0,0.8779583,0.8429837226867676,1,false_positive,0.03497457731323239,0.8779583
+ptbxl_external,6562,sinus_tachycardia,Sinus tachycardia,79.0,60-79,Female,No annotated issue,0,0.8776882,0.3506096601486206,1,false_positive,0.5270785398513794,0.8776882
+ptbxl_external,12545,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.8774298,0.8429837226867676,1,false_positive,0.03444607731323246,0.8774298
+ptbxl_external,10160,atrial_fibrillation,Atrial fibrillation,72.0,60-79,Male,No annotated issue,0,0.87730235,0.8429837226867676,1,false_positive,0.03431862731323243,0.87730235
+chapman_test,JS45349,sinus_arrhythmia,Sinus arrhythmia,13.0,0-39,Female,Not annotated,1,0.12510346,0.8895966410636902,0,false_negative,0.7644931810636901,0.87489654
+chapman_test,JS11092,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.87288606,0.3506096601486206,1,false_positive,0.5222763998513794,0.87288606
+chapman_test,JS19443,sinus_tachycardia,Sinus tachycardia,63.0,60-79,Female,Not annotated,0,0.87141293,0.3506096601486206,1,false_positive,0.5208032698513794,0.87141293
+ptbxl_external,7055,atrial_fibrillation,Atrial fibrillation,58.0,40-59,Female,No annotated issue,0,0.8679455,0.8429837226867676,1,false_positive,0.02496177731323246,0.8679455
+ptbxl_external,382,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.8677547,0.8429837226867676,1,false_positive,0.024770977313232412,0.8677547
+chapman_test,JS12497,sinus_tachycardia,Sinus tachycardia,78.0,60-79,Female,Not annotated,1,0.13272054,0.3506096601486206,0,false_negative,0.2178891201486206,0.86727946
+chapman_test,JS41236,sinus_tachycardia,Sinus tachycardia,30.0,0-39,Female,Not annotated,0,0.86572593,0.3506096601486206,1,false_positive,0.5151162698513794,0.86572593
+ptbxl_external,10240,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,0,0.8632331,0.3506096601486206,1,false_positive,0.5126234398513794,0.8632331
+ptbxl_external,1456,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Annotated signal issue,0,0.8601723,0.8429837226867676,1,false_positive,0.017188577313232423,0.8601723
+ptbxl_external,7889,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Female,No annotated issue,0,0.85964185,0.8429837226867676,1,false_positive,0.016658127313232463,0.85964185
+chapman_test,JS39215,sinus_tachycardia,Sinus tachycardia,63.0,60-79,Male,Not annotated,0,0.8540475,0.3506096601486206,1,false_positive,0.5034378398513794,0.8540475
+chapman_test,JS19521,sinus_tachycardia,Sinus tachycardia,67.0,60-79,Female,Not annotated,0,0.8523649,0.3506096601486206,1,false_positive,0.5017552398513794,0.8523649
+chapman_test,JS11106,sinus_rhythm,Sinus rhythm,22.0,0-39,Female,Not annotated,1,0.14779916,0.7859958410263062,0,false_negative,0.6381966810263061,0.85220084
+chapman_test,JS38949,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.85180295,0.3506096601486206,1,false_positive,0.5011932898513793,0.85180295
+chapman_test,JS35806,sinus_tachycardia,Sinus tachycardia,6.0,0-39,Female,Not annotated,0,0.85124695,0.3506096601486206,1,false_positive,0.5006372898513793,0.85124695
+ptbxl_external,449,atrial_fibrillation,Atrial fibrillation,63.0,60-79,Female,No annotated issue,0,0.8490634,0.8429837226867676,1,false_positive,0.0060796773132324455,0.8490634
+chapman_test,JS23083,sinus_bradycardia,Sinus bradycardia,68.0,60-79,Female,Not annotated,1,0.15126662,0.3377516567707062,0,false_negative,0.1864850367707062,0.84873338
+ptbxl_external,2417,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Female,No annotated issue,0,0.8470463,0.8429837226867676,1,false_positive,0.004062577313232452,0.8470463
+ptbxl_external,19935,sinus_tachycardia,Sinus tachycardia,84.0,80+ (includes privacy-coded 90+),Female,No annotated issue,0,0.8463899,0.3506096601486206,1,false_positive,0.4957802398513794,0.8463899
+ptbxl_external,11420,atrial_fibrillation,Atrial fibrillation,84.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,0,0.8460712,0.8429837226867676,1,false_positive,0.003087477313232445,0.8460712
+ptbxl_external,19412,atrial_fibrillation,Atrial fibrillation,50.0,40-59,Female,No annotated issue,1,0.15394767,0.8429837226867676,0,false_negative,0.6890360526867676,0.84605233
+chapman_test,JS12434,sinus_tachycardia,Sinus tachycardia,51.0,40-59,Male,Not annotated,1,0.15459855,0.3506096601486206,0,false_negative,0.1960111101486206,0.84540145
+ptbxl_external,336,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Male,Annotated signal issue,0,0.84436774,0.8429837226867676,1,false_positive,0.0013840173132324551,0.84436774
+ptbxl_external,9144,atrial_fibrillation,Atrial fibrillation,71.0,60-79,Female,No annotated issue,0,0.8440681,0.8429837226867676,1,false_positive,0.0010843773132324097,0.8440681
+ptbxl_external,13166,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,0,0.84389746,0.8429837226867676,1,false_positive,0.00091373731323241,0.84389746
+chapman_test,JS08102,sinus_bradycardia,Sinus bradycardia,79.0,60-79,Male,Not annotated,1,0.16289452,0.3377516567707062,0,false_negative,0.1748571367707062,0.83710548
+chapman_test,JS23094,sinus_arrhythmia,Sinus arrhythmia,70.0,60-79,Female,Not annotated,1,0.16483629,0.8895966410636902,0,false_negative,0.7247603510636902,0.83516371
+chapman_test,JS18789,atrial_flutter,Atrial flutter,58.0,40-59,Female,Not annotated,1,0.17792843,0.8377659916877747,0,false_negative,0.6598375616877746,0.82207157
+chapman_test,JS43766,sinus_tachycardia,Sinus tachycardia,15.0,0-39,Female,Not annotated,1,0.18441744,0.3506096601486206,0,false_negative,0.16619222014862062,0.81558256
+chapman_test,JS23105,sinus_tachycardia,Sinus tachycardia,77.0,60-79,Male,Not annotated,1,0.1947101,0.3506096601486206,0,false_negative,0.1558995601486206,0.8052899
+chapman_test,JS34551,sinus_bradycardia,Sinus bradycardia,18.0,0-39,Female,Not annotated,1,0.19907276,0.3377516567707062,0,false_negative,0.1386788967707062,0.80092724
+chapman_test,JS22927,sinus_bradycardia,Sinus bradycardia,50.0,40-59,Female,Not annotated,1,0.20680761,0.3377516567707062,0,false_negative,0.13094404677070617,0.79319239
+chapman_test,JS33915,sinus_bradycardia,Sinus bradycardia,52.0,40-59,Female,Not annotated,1,0.20829566,0.3377516567707062,0,false_negative,0.12945599677070618,0.79170434
+chapman_test,JS20682,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.21220873,0.3506096601486206,0,false_negative,0.1384009301486206,0.78779127
+chapman_test,JS36006,sinus_bradycardia,Sinus bradycardia,44.0,40-59,Male,Not annotated,0,0.7652284,0.3377516567707062,1,false_positive,0.42747674322929385,0.7652284
+chapman_test,JS34288,sinus_bradycardia,Sinus bradycardia,41.0,40-59,Female,Not annotated,1,0.2372858,0.3377516567707062,0,false_negative,0.10046585677070619,0.7627142
+chapman_test,JS05511,sinus_bradycardia,Sinus bradycardia,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.23913525,0.3377516567707062,0,false_negative,0.09861640677070618,0.76086475
+chapman_test,JS28694,sinus_bradycardia,Sinus bradycardia,16.0,0-39,Female,Not annotated,1,0.23999922,0.3377516567707062,0,false_negative,0.09775243677070616,0.7600007799999999
+chapman_test,JS18789,sinus_tachycardia,Sinus tachycardia,58.0,40-59,Female,Not annotated,0,0.75832915,0.3506096601486206,1,false_positive,0.4077194898513794,0.75832915
+chapman_test,JS04287,atrial_flutter,Atrial flutter,54.0,40-59,Male,Not annotated,1,0.26109922,0.8377659916877747,0,false_negative,0.5766667716877747,0.73890078
+chapman_test,JS44083,sinus_tachycardia,Sinus tachycardia,38.0,0-39,Female,Not annotated,1,0.2627491,0.3506096601486206,0,false_negative,0.08786056014862059,0.7372509
+chapman_test,JS19499,atrial_flutter,Atrial flutter,78.0,60-79,Male,Not annotated,1,0.2636903,0.8377659916877747,0,false_negative,0.5740756916877747,0.7363097000000001
+chapman_test,JS21712,sinus_bradycardia,Sinus bradycardia,88.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.7321174,0.3377516567707062,1,false_positive,0.39436574322929385,0.7321174
+chapman_test,JS11082,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,0,0.7282281,0.3506096601486206,1,false_positive,0.37761843985137944,0.7282281
+chapman_test,JS01439,sinus_bradycardia,Sinus bradycardia,43.0,40-59,Male,Not annotated,1,0.27641216,0.3377516567707062,0,false_negative,0.06133949677070616,0.72358784
+chapman_test,JS38487,sinus_rhythm,Sinus rhythm,38.0,0-39,Female,Not annotated,1,0.2842595,0.7859958410263062,0,false_negative,0.5017363410263062,0.7157405
+chapman_test,JS36720,sinus_bradycardia,Sinus bradycardia,42.0,40-59,Female,Not annotated,0,0.7069455,0.3377516567707062,1,false_positive,0.3691938432292938,0.7069455
+chapman_test,JS13567,sinus_bradycardia,Sinus bradycardia,74.0,60-79,Male,Not annotated,0,0.70422345,0.3377516567707062,1,false_positive,0.3664717932292938,0.70422345
+chapman_test,JS11060,sinus_rhythm,Sinus rhythm,22.0,0-39,Male,Not annotated,1,0.29913568,0.7859958410263062,0,false_negative,0.48686016102630614,0.70086432
+chapman_test,JS32560,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.30061838,0.3377516567707062,0,false_negative,0.03713327677070616,0.69938162
+chapman_test,JS32649,sinus_bradycardia,Sinus bradycardia,26.0,0-39,Male,Not annotated,1,0.3105982,0.3377516567707062,0,false_negative,0.027153456770706186,0.6894018
+chapman_test,JS34536,sinus_bradycardia,Sinus bradycardia,16.0,0-39,Female,Not annotated,1,0.3124927,0.3377516567707062,0,false_negative,0.025258956770706165,0.6875073
+chapman_test,JS04908,sinus_rhythm,Sinus rhythm,70.0,60-79,Female,Not annotated,1,0.3185329,0.7859958410263062,0,false_negative,0.46746294102630614,0.6814671
+chapman_test,JS20601,sinus_arrhythmia,Sinus arrhythmia,87.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.32167524,0.8895966410636902,0,false_negative,0.5679214010636902,0.67832476
+chapman_test,JS23876,sinus_arrhythmia,Sinus arrhythmia,62.0,60-79,Female,Not annotated,1,0.32509044,0.8895966410636902,0,false_negative,0.5645062010636902,0.67490956
+ptbxl_external,13849,atrial_fibrillation,Atrial fibrillation,67.0,60-79,Female,No annotated issue,1,0.3255135,0.8429837226867676,0,false_negative,0.5174702226867676,0.6744865
+chapman_test,JS33826,sinus_bradycardia,Sinus bradycardia,52.0,40-59,Male,Not annotated,1,0.32557768,0.3377516567707062,0,false_negative,0.012173976770706196,0.67442232
+chapman_test,JS12497,sinus_bradycardia,Sinus bradycardia,78.0,60-79,Female,Not annotated,0,0.673015,0.3377516567707062,1,false_positive,0.33526334322929385,0.673015
+chapman_test,JS13032,atrial_flutter,Atrial flutter,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.32797235,0.8377659916877747,0,false_negative,0.5097936416877746,0.67202765
+chapman_test,JS24625,sinus_bradycardia,Sinus bradycardia,71.0,60-79,Male,Not annotated,1,0.32905838,0.3377516567707062,0,false_negative,0.008693276770706193,0.67094162
+chapman_test,JS21435,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,Not annotated,1,0.33010083,0.3377516567707062,0,false_negative,0.007650826770706165,0.66989917
+chapman_test,JS45128,sinus_tachycardia,Sinus tachycardia,47.0,40-59,Male,Not annotated,1,0.34346753,0.3506096601486206,0,false_negative,0.007142130148620585,0.6565324699999999
+chapman_test,JS12307,sinus_rhythm,Sinus rhythm,88.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.36239153,0.7859958410263062,0,false_negative,0.42360431102630614,0.63760847
+chapman_test,JS36802,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Female,Not annotated,0,0.62224406,0.3377516567707062,1,false_positive,0.2844924032292938,0.62224406
+chapman_test,JS38473,sinus_bradycardia,Sinus bradycardia,52.0,40-59,Male,Not annotated,0,0.6165457,0.3377516567707062,1,false_positive,0.2787940432292938,0.6165457
+chapman_test,JS19391,atrial_flutter,Atrial flutter,68.0,60-79,Male,Not annotated,1,0.38382494,0.8377659916877747,0,false_negative,0.45394105168777465,0.61617506
+chapman_test,JS20609,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Male,Not annotated,1,0.38594872,0.8895966410636902,0,false_negative,0.5036479210636902,0.61405128
+chapman_test,JS06869,atrial_fibrillation,Atrial fibrillation,54.0,40-59,Female,Not annotated,1,0.38619474,0.8429837226867676,0,false_negative,0.4567889826867676,0.61380526
+chapman_test,JS39171,sinus_rhythm,Sinus rhythm,50.0,40-59,Female,Not annotated,1,0.4012441,0.7859958410263062,0,false_negative,0.38475174102630616,0.5987559
+chapman_test,JS20301,sinus_arrhythmia,Sinus arrhythmia,76.0,60-79,Female,Not annotated,1,0.41159347,0.8895966410636902,0,false_negative,0.47800317106369017,0.58840653
+chapman_test,JS36532,sinus_bradycardia,Sinus bradycardia,38.0,0-39,Female,Not annotated,0,0.5874995,0.3377516567707062,1,false_positive,0.24974784322929378,0.5874995
+chapman_test,JS19443,atrial_flutter,Atrial flutter,63.0,60-79,Female,Not annotated,1,0.41279513,0.8377659916877747,0,false_negative,0.42497086168777465,0.58720487
+ptbxl_external,1282,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,Annotated signal issue,1,0.4179597,0.8895966410636902,0,false_negative,0.4716369410636902,0.5820403000000001
+chapman_test,JS11046,sinus_rhythm,Sinus rhythm,7.0,0-39,Female,Not annotated,1,0.41917044,0.7859958410263062,0,false_negative,0.3668254010263062,0.58082956
+chapman_test,JS38840,sinus_bradycardia,Sinus bradycardia,68.0,60-79,Female,Not annotated,0,0.5780701,0.3377516567707062,1,false_positive,0.24031844322929385,0.5780701
+ptbxl_external,12426,sinus_arrhythmia,Sinus arrhythmia,72.0,60-79,Female,No annotated issue,1,0.42353976,0.8895966410636902,0,false_negative,0.4660568810636902,0.5764602400000001
+chapman_test,JS19867,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.42557645,0.8377659916877747,0,false_negative,0.41218954168777466,0.57442355
+ptbxl_external,7811,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Male,Annotated signal issue,1,0.43749374,0.8429837226867676,0,false_negative,0.40548998268676756,0.5625062599999999
+ptbxl_external,19164,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.44096482,0.8429837226867676,0,false_negative,0.4020189026867676,0.55903518
+chapman_test,JS38840,sinus_rhythm,Sinus rhythm,68.0,60-79,Female,Not annotated,1,0.44420105,0.7859958410263062,0,false_negative,0.34179479102630617,0.55579895
+chapman_test,JS02014,sinus_bradycardia,Sinus bradycardia,71.0,60-79,Female,Not annotated,0,0.5478883,0.3377516567707062,1,false_positive,0.21013664322929382,0.5478883
+chapman_test,JS36297,sinus_rhythm,Sinus rhythm,10.0,0-39,Female,Not annotated,1,0.46157742,0.7859958410263062,0,false_negative,0.32441842102630614,0.53842258
+chapman_test,JS36720,sinus_rhythm,Sinus rhythm,42.0,40-59,Female,Not annotated,1,0.4723345,0.7859958410263062,0,false_negative,0.31366134102630616,0.5276655
+chapman_test,JS39050,sinus_rhythm,Sinus rhythm,12.0,0-39,Male,Not annotated,1,0.47276863,0.7859958410263062,0,false_negative,0.31322721102630613,0.52723137
+chapman_test,JS21712,sinus_rhythm,Sinus rhythm,88.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.47880915,0.7859958410263062,0,false_negative,0.30718669102630614,0.52119085
+chapman_test,JS24509,sinus_arrhythmia,Sinus arrhythmia,77.0,60-79,Male,Not annotated,1,0.479342,0.8895966410636902,0,false_negative,0.4102546410636902,0.5206580000000001
+chapman_test,JS20626,sinus_rhythm,Sinus rhythm,66.0,60-79,Male,Not annotated,1,0.48258337,0.7859958410263062,0,false_negative,0.30341247102630614,0.51741663
+chapman_test,JS12279,sinus_arrhythmia,Sinus arrhythmia,79.0,60-79,Female,Not annotated,1,0.49474213,0.8895966410636902,0,false_negative,0.3948545110636902,0.50525787
+chapman_test,JS04224,sinus_rhythm,Sinus rhythm,21.0,0-39,Female,Not annotated,1,0.5012087,0.7859958410263062,0,false_negative,0.2847871410263062,0.49879130000000005
+chapman_test,JS35806,sinus_arrhythmia,Sinus arrhythmia,6.0,0-39,Female,Not annotated,1,0.5034661,0.8895966410636902,0,false_negative,0.38613054106369016,0.4965339
+chapman_test,JS18740,atrial_flutter,Atrial flutter,60.0,60-79,Female,Not annotated,1,0.5050525,0.8377659916877747,0,false_negative,0.33271349168777464,0.4949475
+chapman_test,JS11092,sinus_rhythm,Sinus rhythm,22.0,0-39,Male,Not annotated,1,0.51076496,0.7859958410263062,0,false_negative,0.2752308810263061,0.48923503999999995
+chapman_test,JS14114,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Female,Not annotated,0,0.48587462,0.3377516567707062,1,false_positive,0.1481229632292938,0.48587462
+ptbxl_external,19955,sinus_arrhythmia,Sinus arrhythmia,69.0,60-79,Male,No annotated issue,1,0.5169736,0.8895966410636902,0,false_negative,0.37262304106369015,0.48302639999999997
+chapman_test,JS37008,sinus_rhythm,Sinus rhythm,67.0,60-79,Male,Not annotated,1,0.5182647,0.7859958410263062,0,false_negative,0.26773114102630613,0.4817353
+ptbxl_external,20085,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Female,Annotated signal issue,1,0.5205892,0.8429837226867676,0,false_negative,0.3223945226867676,0.4794108
+ptbxl_external,18777,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,1,0.52385515,0.8429837226867676,0,false_negative,0.31912857268676753,0.47614484999999995
+chapman_test,JS24227,sinus_arrhythmia,Sinus arrhythmia,70.0,60-79,Female,Not annotated,1,0.53187937,0.8895966410636902,0,false_negative,0.3577172710636902,0.46812063000000004
+chapman_test,JS35577,sinus_arrhythmia,Sinus arrhythmia,4.0,0-39,Female,Not annotated,1,0.5342948,0.8895966410636902,0,false_negative,0.3553018410636902,0.46570520000000004
+chapman_test,JS02580,atrial_flutter,Atrial flutter,48.0,40-59,Male,Not annotated,1,0.5364342,0.8377659916877747,0,false_negative,0.3013317916877747,0.46356580000000003
+chapman_test,JS39171,sinus_bradycardia,Sinus bradycardia,50.0,40-59,Female,Not annotated,0,0.45592827,0.3377516567707062,1,false_positive,0.11817661322929385,0.45592827
+ptbxl_external,6314,sinus_arrhythmia,Sinus arrhythmia,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.54739386,0.8895966410636902,0,false_negative,0.3422027810636902,0.45260614
+ptbxl_external,18421,sinus_arrhythmia,Sinus arrhythmia,67.0,60-79,Male,Annotated signal issue,1,0.5520733,0.8895966410636902,0,false_negative,0.3375233410636902,0.4479267
+chapman_test,JS24578,sinus_arrhythmia,Sinus arrhythmia,44.0,40-59,Female,Not annotated,1,0.5536187,0.8895966410636902,0,false_negative,0.33597794106369017,0.4463813
+chapman_test,JS34924,sinus_arrhythmia,Sinus arrhythmia,59.0,40-59,Female,Not annotated,1,0.55519164,0.8895966410636902,0,false_negative,0.3344050010636902,0.44480836
+chapman_test,JS10766,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,0,0.4370206,0.3377516567707062,1,false_positive,0.0992689432292938,0.4370206
+chapman_test,JS35604,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Male,Not annotated,1,0.56883305,0.8895966410636902,0,false_negative,0.32076359106369023,0.43116695000000005
+chapman_test,JS38487,sinus_bradycardia,Sinus bradycardia,38.0,0-39,Female,Not annotated,0,0.43039566,0.3377516567707062,1,false_positive,0.09264400322929384,0.43039566
+ptbxl_external,4866,sinus_arrhythmia,Sinus arrhythmia,74.0,60-79,Female,No annotated issue,1,0.5774674,0.8895966410636902,0,false_negative,0.3121292410636902,0.42253260000000004
+chapman_test,JS24646,sinus_arrhythmia,Sinus arrhythmia,43.0,40-59,Male,Not annotated,1,0.57844347,0.8895966410636902,0,false_negative,0.3111531710636902,0.42155653000000004
+chapman_test,JS34738,sinus_arrhythmia,Sinus arrhythmia,56.0,40-59,Male,Not annotated,1,0.5785266,0.8895966410636902,0,false_negative,0.3110700410636902,0.4214734
+chapman_test,JS21443,sinus_arrhythmia,Sinus arrhythmia,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.5813216,0.8895966410636902,0,false_negative,0.3082750410636902,0.4186784
+ptbxl_external,14427,sinus_arrhythmia,Sinus arrhythmia,83.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,1,0.5881176,0.8895966410636902,0,false_negative,0.30147904106369017,0.4118824
+chapman_test,JS34865,sinus_arrhythmia,Sinus arrhythmia,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.59178567,0.8895966410636902,0,false_negative,0.29781097106369014,0.40821432999999996
+chapman_test,JS19094,atrial_flutter,Atrial flutter,35.0,0-39,Female,Not annotated,1,0.5927716,0.8377659916877747,0,false_negative,0.2449943916877747,0.40722840000000005
+chapman_test,JS14665,atrial_flutter,Atrial flutter,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.5974519,0.8377659916877747,0,false_negative,0.24031409168777462,0.40254809999999996
+chapman_test,JS24441,sinus_arrhythmia,Sinus arrhythmia,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.6016967,0.8895966410636902,0,false_negative,0.2878999410636902,0.3983033
+chapman_test,JS35299,sinus_bradycardia,Sinus bradycardia,16.0,0-39,Male,Not annotated,0,0.39728096,0.3377516567707062,1,false_positive,0.05952930322929384,0.39728096
+ptbxl_external,6465,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Male,No annotated issue,1,0.60350955,0.8895966410636902,0,false_negative,0.28608709106369024,0.39649045000000005
+chapman_test,JS22985,sinus_bradycardia,Sinus bradycardia,54.0,40-59,Male,Not annotated,0,0.3958395,0.3377516567707062,1,false_positive,0.058087843229293834,0.3958395
+ptbxl_external,9301,sinus_arrhythmia,Sinus arrhythmia,77.0,60-79,Male,No annotated issue,1,0.6154828,0.8895966410636902,0,false_negative,0.2741138410636902,0.3845172
+chapman_test,JS23592,sinus_arrhythmia,Sinus arrhythmia,72.0,60-79,Female,Not annotated,1,0.619287,0.8895966410636902,0,false_negative,0.27030964106369015,0.38071299999999997
+ptbxl_external,440,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Female,No annotated issue,1,0.62060535,0.8895966410636902,0,false_negative,0.26899129106369024,0.37939465000000006
+ptbxl_external,11711,sinus_arrhythmia,Sinus arrhythmia,72.0,60-79,Female,No annotated issue,1,0.6217242,0.8895966410636902,0,false_negative,0.26787244106369024,0.37827580000000005
+chapman_test,JS20616,sinus_arrhythmia,Sinus arrhythmia,73.0,60-79,Female,Not annotated,1,0.6261412,0.8895966410636902,0,false_negative,0.26345544106369023,0.37385880000000005
+chapman_test,JS13665,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Male,Not annotated,0,0.37296677,0.3377516567707062,1,false_positive,0.035215113229293826,0.37296677
+ptbxl_external,6924,sinus_arrhythmia,Sinus arrhythmia,80.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.6325807,0.8895966410636902,0,false_negative,0.2570159410636902,0.3674193
+ptbxl_external,12176,sinus_arrhythmia,Sinus arrhythmia,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.63687736,0.8895966410636902,0,false_negative,0.25271928106369024,0.36312264000000005
+chapman_test,JS12480,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,Not annotated,0,0.36263454,0.3377516567707062,1,false_positive,0.02488288322929383,0.36263454
+ptbxl_external,7054,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Female,No annotated issue,1,0.6374954,0.8895966410636902,0,false_negative,0.25210124106369014,0.36250459999999995
+chapman_test,JS01438,atrial_fibrillation,Atrial fibrillation,71.0,60-79,Female,Not annotated,1,0.6390171,0.8429837226867676,0,false_negative,0.20396662268676757,0.3609829
+ptbxl_external,16994,sinus_arrhythmia,Sinus arrhythmia,40.0,40-59,Female,Annotated signal issue,1,0.6403324,0.8895966410636902,0,false_negative,0.24926424106369016,0.3596676
+chapman_test,JS37017,sinus_bradycardia,Sinus bradycardia,65.0,60-79,Female,Not annotated,0,0.35802922,0.3377516567707062,1,false_positive,0.020277563229293805,0.35802922
+chapman_test,JS13764,sinus_bradycardia,Sinus bradycardia,68.0,60-79,Male,Not annotated,0,0.35769612,0.3377516567707062,1,false_positive,0.01994446322929383,0.35769612
+chapman_test,JS23098,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Female,Not annotated,0,0.35563877,0.3377516567707062,1,false_positive,0.017887113229293816,0.35563877
+ptbxl_external,16468,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Female,No annotated issue,1,0.6548341,0.8895966410636902,0,false_negative,0.2347625410636902,0.3451659
+chapman_test,JS35942,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Female,Not annotated,0,0.3436099,0.3377516567707062,1,false_positive,0.005858243229293847,0.3436099
+ptbxl_external,20515,sinus_arrhythmia,Sinus arrhythmia,89.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.65775865,0.8895966410636902,0,false_negative,0.23183799106369019,0.34224135
+ptbxl_external,122,sinus_arrhythmia,Sinus arrhythmia,44.0,40-59,Male,No annotated issue,1,0.6639829,0.8895966410636902,0,false_negative,0.22561374106369014,0.33601709999999996
+ptbxl_external,5777,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.66775465,0.8429837226867676,0,false_negative,0.17522907268676757,0.33224535
+chapman_test,JS19521,atrial_flutter,Atrial flutter,67.0,60-79,Female,Not annotated,1,0.674261,0.8377659916877747,0,false_negative,0.16350499168777466,0.325739
+ptbxl_external,19960,sinus_arrhythmia,Sinus arrhythmia,35.0,0-39,Female,No annotated issue,1,0.674847,0.8895966410636902,0,false_negative,0.2147496410636902,0.325153
+ptbxl_external,6312,sinus_arrhythmia,Sinus arrhythmia,21.0,0-39,Male,Annotated signal issue,1,0.6799057,0.8895966410636902,0,false_negative,0.20969094106369024,0.32009430000000005
+ptbxl_external,14375,sinus_arrhythmia,Sinus arrhythmia,39.0,0-39,Male,No annotated issue,1,0.6818533,0.8895966410636902,0,false_negative,0.2077433410636902,0.3181467
+chapman_test,JS14508,atrial_flutter,Atrial flutter,57.0,40-59,Male,Not annotated,1,0.6829007,0.8377659916877747,0,false_negative,0.15486529168777463,0.3170993
+chapman_test,JS00316,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.68426794,0.8429837226867676,0,false_negative,0.15871578268676756,0.31573206
+ptbxl_external,14628,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.68698496,0.8429837226867676,0,false_negative,0.1559987626867676,0.31301504
+ptbxl_external,7561,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,Annotated signal issue,1,0.6915011,0.8895966410636902,0,false_negative,0.1980955410636902,0.3084989
+ptbxl_external,5219,sinus_arrhythmia,Sinus arrhythmia,46.0,40-59,Male,No annotated issue,1,0.6948609,0.8895966410636902,0,false_negative,0.19473574106369018,0.3051391
+ptbxl_external,15800,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,1,0.71110356,0.8429837226867676,0,false_negative,0.1318801626867676,0.28889644000000003
+ptbxl_external,15057,sinus_arrhythmia,Sinus arrhythmia,49.0,40-59,Female,No annotated issue,1,0.7116679,0.8895966410636902,0,false_negative,0.17792874106369017,0.2883321
+chapman_test,JS03726,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Male,Not annotated,1,0.7151887,0.8429837226867676,0,false_negative,0.12779502268676757,0.2848113
+ptbxl_external,18592,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.71519154,0.8429837226867676,0,false_negative,0.12779218268676762,0.28480846000000004
+ptbxl_external,1747,sinus_arrhythmia,Sinus arrhythmia,76.0,60-79,Male,No annotated issue,1,0.719954,0.8895966410636902,0,false_negative,0.1696426410636902,0.280046
+ptbxl_external,16357,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.7211726,0.8429837226867676,0,false_negative,0.12181112268676753,0.27882739999999995
+chapman_test,JS06886,atrial_fibrillation,Atrial fibrillation,54.0,40-59,Female,Not annotated,1,0.7421312,0.8429837226867676,0,false_negative,0.10085252268676759,0.2578688
+ptbxl_external,18671,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.7429613,0.8429837226867676,0,false_negative,0.10002242268676753,0.25703869999999995
+ptbxl_external,9732,atrial_fibrillation,Atrial fibrillation,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.74538606,0.8429837226867676,0,false_negative,0.09759766268676762,0.25461394000000004
+chapman_test,JS19252,atrial_flutter,Atrial flutter,59.0,40-59,Male,Not annotated,1,0.74855953,0.8377659916877747,0,false_negative,0.08920646168777469,0.25144047
+chapman_test,JS06085,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Male,Not annotated,1,0.75207245,0.8429837226867676,0,false_negative,0.09091127268676757,0.24792755
+chapman_test,JS06232,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.75272715,0.8429837226867676,0,false_negative,0.09025657268676757,0.24727285
+chapman_test,JS14287,atrial_flutter,Atrial flutter,76.0,60-79,Male,Not annotated,1,0.759858,0.8377659916877747,0,false_negative,0.07790799168777462,0.24014199999999997
+ptbxl_external,598,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Female,No annotated issue,1,0.7698486,0.8429837226867676,0,false_negative,0.07313512268676758,0.2301514
+ptbxl_external,6355,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,1,0.7792804,0.8429837226867676,0,false_negative,0.0637033226867676,0.22071960000000002
+ptbxl_external,20100,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Female,No annotated issue,1,0.7798991,0.8429837226867676,0,false_negative,0.06308462268676762,0.22010090000000004
+ptbxl_external,19906,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Male,No annotated issue,1,0.78441584,0.8429837226867676,0,false_negative,0.0585678826867676,0.21558416000000002
+chapman_test,JS07980,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Male,Not annotated,1,0.7848572,0.8429837226867676,0,false_negative,0.058126522686767546,0.21514279999999997
+chapman_test,JS19621,atrial_flutter,Atrial flutter,67.0,60-79,Male,Not annotated,1,0.78541964,0.8377659916877747,0,false_negative,0.052346351687774684,0.21458036000000003
+ptbxl_external,12758,atrial_fibrillation,Atrial fibrillation,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,1,0.787983,0.8429837226867676,0,false_negative,0.05500072268676759,0.212017
+chapman_test,JS05351,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Not annotated,1,0.790548,0.8429837226867676,0,false_negative,0.05243572268676755,0.20945199999999997
+chapman_test,JS19959,atrial_flutter,Atrial flutter,61.0,60-79,Female,Not annotated,1,0.79467976,0.8377659916877747,0,false_negative,0.0430862316877747,0.20532024000000004
+chapman_test,JS04447,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Female,Not annotated,1,0.7952671,0.8429837226867676,0,false_negative,0.047716622686767574,0.2047329
+chapman_test,JS19394,atrial_flutter,Atrial flutter,68.0,60-79,Male,Not annotated,1,0.79619384,0.8377659916877747,0,false_negative,0.04157215168777462,0.20380615999999996
+chapman_test,JS03287,atrial_fibrillation,Atrial fibrillation,72.0,60-79,Male,Not annotated,1,0.80205554,0.8429837226867676,0,false_negative,0.04092818268676757,0.19794446
+chapman_test,JS04417,atrial_fibrillation,Atrial fibrillation,88.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.8054381,0.8429837226867676,0,false_negative,0.03754562268676753,0.19456189999999995
+chapman_test,JS00975,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.80836123,0.8429837226867676,0,false_negative,0.034622492686767536,0.19163876999999996
+chapman_test,JS07523,atrial_fibrillation,Atrial fibrillation,64.0,60-79,Female,Not annotated,1,0.81192017,0.8429837226867676,0,false_negative,0.031063552686767526,0.18807982999999995
+chapman_test,JS16198,atrial_flutter,Atrial flutter,67.0,60-79,Female,Not annotated,1,0.81591946,0.8377659916877747,0,false_negative,0.021846531687774617,0.18408053999999996
+chapman_test,JS04372,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Male,Not annotated,1,0.8171101,0.8429837226867676,0,false_negative,0.025873622686767628,0.18288990000000005
+chapman_test,JS04201,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Female,Not annotated,1,0.8186664,0.8429837226867676,0,false_negative,0.024317322686767562,0.18133359999999998
+chapman_test,JS05006,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.8211533,0.8429837226867676,0,false_negative,0.021830422686767603,0.17884670000000003
+chapman_test,JS09634,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Female,Not annotated,1,0.82619375,0.8429837226867676,0,false_negative,0.01678997268676763,0.17380625000000005
+chapman_test,JS01355,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.82919014,0.8429837226867676,0,false_negative,0.013793582686767558,0.17080985999999998
+chapman_test,JS00661,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.8295311,0.8429837226867676,0,false_negative,0.013452622686767612,0.17046890000000003
+chapman_test,JS13764,atrial_flutter,Atrial flutter,68.0,60-79,Male,Not annotated,1,0.8304931,0.8377659916877747,0,false_negative,0.007272891687774674,0.16950690000000002
+chapman_test,JS04901,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.83073926,0.8429837226867676,0,false_negative,0.012244462686767599,0.16926074000000002
+chapman_test,JS09832,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,1,0.8308114,0.8429837226867676,0,false_negative,0.0121723226867676,0.16918860000000002
+chapman_test,JS03339,atrial_fibrillation,Atrial fibrillation,64.0,60-79,Female,Not annotated,1,0.8308316,0.8429837226867676,0,false_negative,0.012152122686767575,0.1691684
+chapman_test,JS02693,atrial_fibrillation,Atrial fibrillation,55.0,40-59,Male,Not annotated,1,0.83214074,0.8429837226867676,0,false_negative,0.010842982686767533,0.16785925999999995
+chapman_test,JS02020,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,1,0.8357915,0.8429837226867676,0,false_negative,0.007192222686767558,0.16420849999999998

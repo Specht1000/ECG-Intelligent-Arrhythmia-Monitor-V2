@@ -72,6 +72,23 @@ binary prediction as JSON. It currently accepts only the validated PTB-XL 100 Hz
 10-second, 12-lead format; future hardware inference requires an explicitly
 approved preprocessing and signal-quality pipeline.
 
+## Held-out error analysis
+
+Run the reproducible error analysis after training:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/analyze_anomaly_errors.py
+```
+
+The analysis reports false negatives by diagnostic superclass and SCP-ECG code,
+descriptive performance by sex, age group, and signal-quality annotation, a
+reliability diagram, validation-fitted temperature scaling, and an exploratory
+uncertainty region selected on validation data. It also creates a PDF containing
+the complete 12-lead waveforms of the most confident false negatives.
+
+Subgroup comparisons are descriptive and may be confounded by different diagnosis
+prevalence. The uncertainty region is not an approved abstention policy.
+
 ## Limitations
 
 - The labels are database annotations, not new specialist adjudications.

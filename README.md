@@ -18,6 +18,8 @@ decisions and the pending items that must not be resolved by assumption.
   PTB-XL, with machine-readable reports under `artifacts/dataset_audits/`.
 - an experimental PTB-XL normal-versus-abnormal baseline with official,
   patient-separated folds and reproducible evaluation artifacts.
+- an experimental six-label, multi-label rhythm classifier trained on Chapman
+  and evaluated on held-out Chapman data and PTB-XL official fold 10.
 
 ## Repository structure
 
@@ -78,6 +80,49 @@ Run experimental inference on one compatible PTB-XL record:
 ```powershell
 .\.venv\Scripts\python.exe host/ai/predict_anomaly.py database/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/records100/00000/00001_lr
 ```
+
+Analyze held-out errors, subgroups, calibration, and an exploratory uncertainty
+region:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/analyze_anomaly_errors.py
+```
+
+## Train the six-label rhythm classifier
+
+The first approved V2 rhythm benchmark covers sinus rhythm, sinus bradycardia,
+sinus tachycardia, sinus arrhythmia, atrial fibrillation, and atrial flutter. It
+trains on Chapman and uses PTB-XL fold 10 as a strictly external evaluation set.
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/train_rhythm_classifier.py
+```
+
+Run inference on one compatible 12-lead PTB-XL `records100` record:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/predict_rhythm.py database/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/records100/00000/00001_lr
+```
+
+See [`docs/AI_RHYTHM_CLASSIFIER.md`](docs/AI_RHYTHM_CLASSIFIER.md) for label
+mappings, the evaluation protocol, per-class results, and limitations.
+
+Analyze per-class errors, calibration, demographic subgroups, threshold
+proximity, and Chapman-to-PTB-XL domain shift:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/analyze_rhythm_errors.py
+```
+
+Create an experimental integrated-gradients explanation for one class:
+
+```powershell
+.\.venv\Scripts\python.exe host/ai/explain_rhythm_prediction.py database/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/records100/00000/00001_lr --class-name sinus_rhythm
+```
+
+See
+[`docs/AI_RHYTHM_ERROR_ANALYSIS.md`](docs/AI_RHYTHM_ERROR_ANALYSIS.md) for the
+findings and interpretation limits.
 
 ## Machine-learning environment
 

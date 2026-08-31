@@ -1,0 +1,468 @@
+{
+  "analysis": "PTB-XL anomaly baseline held-out error analysis",
+  "intended_use": "Research analysis only; not a diagnostic or clinical-use result.",
+  "test_record_count": 2158,
+  "raw_threshold": 0.41967713832855225,
+  "overall_test_metrics": {
+    "count": 2158,
+    "abnormal_prevalence": 0.577386468952734,
+    "accuracy": 0.8429101019462465,
+    "balanced_accuracy": 0.8514729590831009,
+    "f1": 0.8540680154972019,
+    "precision": 0.9210770659238626,
+    "sensitivity": 0.7961476725521669,
+    "specificity": 0.9067982456140351,
+    "confusion_matrix": [
+      [
+        827,
+        85
+      ],
+      [
+        254,
+        992
+      ]
+    ],
+    "roc_auc": 0.9270358128467235,
+    "average_precision": 0.9528455838742935
+  },
+  "error_type_counts": {
+    "true_positive": 992,
+    "true_negative": 827,
+    "false_negative": 254,
+    "false_positive": 85
+  },
+  "calibration": {
+    "raw": {
+      "brier_score": 0.11755105804496409,
+      "expected_calibration_error_10_bins": 0.07976918493605184
+    },
+    "temperature_scaled": {
+      "temperature_selected_on_validation": 1.3375924020040857,
+      "calibrated_threshold_equivalent_to_raw_threshold": 0.43971958018416196,
+      "brier_score": 0.1144571561814354,
+      "expected_calibration_error_10_bins": 0.06894330149090985
+    }
+  },
+  "uncertainty": {
+    "selection_rule": "Validation balanced accuracy >= 0.90 with maximum coverage",
+    "selected_on": "validation",
+    "calibrated_probability_margin": 0.13,
+    "calibrated_lower_bound": 0.30971958018416196,
+    "calibrated_upper_bound": 0.5697195801841619,
+    "validation_coverage": 0.8779123951537745,
+    "validation_metrics_on_retained": {
+      "count": 1884,
+      "abnormal_prevalence": 0.571656050955414,
+      "accuracy": 0.8943736730360934,
+      "balanced_accuracy": 0.9001580874865815,
+      "f1": 0.9029741589468552,
+      "precision": 0.9507186858316222,
+      "sensitivity": 0.8597957288765088,
+      "specificity": 0.9405204460966543,
+      "confusion_matrix": [
+        [
+          759,
+          48
+        ],
+        [
+          151,
+          926
+        ]
+      ],
+      "roc_auc": 0.9531030134420386,
+      "average_precision": 0.9692477361952085
+    },
+    "test_coverage": 0.8619091751621872,
+    "test_uncertain_count": 298,
+    "test_metrics_on_retained": {
+      "count": 1860,
+      "abnormal_prevalence": 0.578494623655914,
+      "accuracy": 0.885483870967742,
+      "balanced_accuracy": 0.8937533191715348,
+      "f1": 0.8947108255066732,
+      "precision": 0.955649419218585,
+      "sensitivity": 0.8410780669144982,
+      "specificity": 0.9464285714285714,
+      "confusion_matrix": [
+        [
+          742,
+          42
+        ],
+        [
+          171,
+          905
+        ]
+      ],
+      "roc_auc": 0.9461879314922995,
+      "average_precision": 0.9667604824630419
+    }
+  },
+  "privacy_coded_age_count": 32,
+  "subgroups": [
+    {
+      "category": "sex",
+      "group": "Female",
+      "count": 1048,
+      "abnormal_prevalence": 0.5925572519083969,
+      "accuracy": 0.8387404580152672,
+      "balanced_accuracy": 0.8485652437897626,
+      "f1": 0.8539325842696629,
+      "precision": 0.9216417910447762,
+      "sensitivity": 0.7954911433172303,
+      "specificity": 0.9016393442622951,
+      "confusion_matrix": [
+        [
+          385,
+          42
+        ],
+        [
+          127,
+          494
+        ]
+      ],
+      "roc_auc": 0.9241270595511508,
+      "average_precision": 0.9534024797479365
+    },
+    {
+      "category": "sex",
+      "group": "Male",
+      "count": 1110,
+      "abnormal_prevalence": 0.5630630630630631,
+      "accuracy": 0.8468468468468469,
+      "balanced_accuracy": 0.8540701030927835,
+      "f1": 0.8542024013722127,
+      "precision": 0.9205175600739371,
+      "sensitivity": 0.7968,
+      "specificity": 0.911340206185567,
+      "confusion_matrix": [
+        [
+          442,
+          43
+        ],
+        [
+          127,
+          498
+        ]
+      ],
+      "roc_auc": 0.9294482474226804,
+      "average_precision": 0.9522621930098407
+    },
+    {
+      "category": "age",
+      "group": "0-39",
+      "count": 284,
+      "abnormal_prevalence": 0.2323943661971831,
+      "accuracy": 0.8450704225352113,
+      "balanced_accuracy": 0.7089241034195163,
+      "f1": 0.5769230769230769,
+      "precision": 0.7894736842105263,
+      "sensitivity": 0.45454545454545453,
+      "specificity": 0.963302752293578,
+      "confusion_matrix": [
+        [
+          210,
+          8
+        ],
+        [
+          36,
+          30
+        ]
+      ],
+      "roc_auc": 0.8237420072282458,
+      "average_precision": 0.6617440036117015
+    },
+    {
+      "category": "age",
+      "group": "40-59",
+      "count": 639,
+      "abnormal_prevalence": 0.41471048513302033,
+      "accuracy": 0.8262910798122066,
+      "balanced_accuracy": 0.8076127535062052,
+      "f1": 0.7692307692307693,
+      "precision": 0.8564814814814815,
+      "sensitivity": 0.6981132075471698,
+      "specificity": 0.9171122994652406,
+      "confusion_matrix": [
+        [
+          343,
+          31
+        ],
+        [
+          80,
+          185
+        ]
+      ],
+      "roc_auc": 0.8947633942084553,
+      "average_precision": 0.8848288913068115
+    },
+    {
+      "category": "age",
+      "group": "60-79",
+      "count": 914,
+      "abnormal_prevalence": 0.6706783369803063,
+      "accuracy": 0.8315098468271335,
+      "balanced_accuracy": 0.839724030285129,
+      "f1": 0.8665511265164645,
+      "precision": 0.9242144177449169,
+      "sensitivity": 0.8156606851549756,
+      "specificity": 0.8637873754152824,
+      "confusion_matrix": [
+        [
+          260,
+          41
+        ],
+        [
+          113,
+          500
+        ]
+      ],
+      "roc_auc": 0.9234525480589444,
+      "average_precision": 0.9649180348242694
+    },
+    {
+      "category": "age",
+      "group": "80+ (includes privacy-coded 90+)",
+      "count": 321,
+      "abnormal_prevalence": 0.940809968847352,
+      "accuracy": 0.9065420560747663,
+      "balanced_accuracy": 0.8270303241547577,
+      "f1": 0.9486301369863014,
+      "precision": 0.9822695035460993,
+      "sensitivity": 0.9172185430463576,
+      "specificity": 0.7368421052631579,
+      "confusion_matrix": [
+        [
+          14,
+          5
+        ],
+        [
+          25,
+          277
+        ]
+      ],
+      "roc_auc": 0.9208783548274659,
+      "average_precision": 0.9946857253162393
+    },
+    {
+      "category": "signal_quality",
+      "group": "Annotated signal issue",
+      "count": 513,
+      "abnormal_prevalence": 0.5750487329434698,
+      "accuracy": 0.8304093567251462,
+      "balanced_accuracy": 0.8351811537863474,
+      "f1": 0.8449197860962567,
+      "precision": 0.8909774436090225,
+      "sensitivity": 0.8033898305084746,
+      "specificity": 0.8669724770642202,
+      "confusion_matrix": [
+        [
+          189,
+          29
+        ],
+        [
+          58,
+          237
+        ]
+      ],
+      "roc_auc": 0.915409734100451,
+      "average_precision": 0.9443000394426379
+    },
+    {
+      "category": "signal_quality",
+      "group": "No annotated issue",
+      "count": 1645,
+      "abnormal_prevalence": 0.5781155015197569,
+      "accuracy": 0.8468085106382979,
+      "balanced_accuracy": 0.8566047570129425,
+      "f1": 0.8569807037457434,
+      "precision": 0.9309494451294698,
+      "sensitivity": 0.7939011566771819,
+      "specificity": 0.9193083573487032,
+      "confusion_matrix": [
+        [
+          638,
+          56
+        ],
+        [
+          196,
+          755
+        ]
+      ],
+      "roc_auc": 0.9304993681760744,
+      "average_precision": 0.9553514169215165
+    }
+  ],
+  "diagnostic_superclasses": [
+    {
+      "diagnostic_class": "MI",
+      "count": 550,
+      "detection_sensitivity": 0.8309090909090909,
+      "mean_abnormal_probability": 0.8014122734454546,
+      "false_negative_count": 93
+    },
+    {
+      "diagnostic_class": "STTC",
+      "count": 521,
+      "detection_sensitivity": 0.8829174664107485,
+      "mean_abnormal_probability": 0.8323333215316698,
+      "false_negative_count": 61
+    },
+    {
+      "diagnostic_class": "CD",
+      "count": 496,
+      "detection_sensitivity": 0.8306451612903226,
+      "mean_abnormal_probability": 0.7997561273629032,
+      "false_negative_count": 84
+    },
+    {
+      "diagnostic_class": "HYP",
+      "count": 262,
+      "detection_sensitivity": 0.8625954198473282,
+      "mean_abnormal_probability": 0.8282052802557252,
+      "false_negative_count": 36
+    }
+  ],
+  "lowest_sensitivity_diagnostic_codes_minimum_support_10": [
+    {
+      "scp_code": "IVCD",
+      "description": "non-specific intraventricular conduction disturbance (block)",
+      "diagnostic_class": "CD",
+      "count": 79,
+      "detection_sensitivity": 0.5822784810126582,
+      "mean_abnormal_probability": 0.620952849392405,
+      "false_negative_count": 33
+    },
+    {
+      "scp_code": "AMI",
+      "description": "anterior myocardial infarction",
+      "diagnostic_class": "MI",
+      "count": 35,
+      "detection_sensitivity": 0.6571428571428571,
+      "mean_abnormal_probability": 0.6442751719428571,
+      "false_negative_count": 12
+    },
+    {
+      "scp_code": "IRBBB",
+      "description": "incomplete right bundle branch block",
+      "diagnostic_class": "CD",
+      "count": 112,
+      "detection_sensitivity": 0.7232142857142857,
+      "mean_abnormal_probability": 0.6676840167946428,
+      "false_negative_count": 31
+    },
+    {
+      "scp_code": "NDT",
+      "description": "non-diagnostic T abnormalities",
+      "diagnostic_class": "STTC",
+      "count": 182,
+      "detection_sensitivity": 0.7417582417582418,
+      "mean_abnormal_probability": 0.6884014723846155,
+      "false_negative_count": 47
+    },
+    {
+      "scp_code": "IMI",
+      "description": "inferior myocardial infarction",
+      "diagnostic_class": "MI",
+      "count": 267,
+      "detection_sensitivity": 0.7677902621722846,
+      "mean_abnormal_probability": 0.7484247916067415,
+      "false_negative_count": 62
+    },
+    {
+      "scp_code": "LPFB",
+      "description": "left posterior fascicular block",
+      "diagnostic_class": "CD",
+      "count": 18,
+      "detection_sensitivity": 0.7777777777777778,
+      "mean_abnormal_probability": 0.727267937111111,
+      "false_negative_count": 4
+    },
+    {
+      "scp_code": "RAO/RAE",
+      "description": "right atrial overload/enlargement",
+      "diagnostic_class": "HYP",
+      "count": 10,
+      "detection_sensitivity": 0.8,
+      "mean_abnormal_probability": 0.765417444,
+      "false_negative_count": 2
+    },
+    {
+      "scp_code": "LAO/LAE",
+      "description": "left atrial overload/enlargement",
+      "diagnostic_class": "HYP",
+      "count": 42,
+      "detection_sensitivity": 0.8333333333333334,
+      "mean_abnormal_probability": 0.7981453675,
+      "false_negative_count": 7
+    },
+    {
+      "scp_code": "LMI",
+      "description": "lateral myocardial infarction",
+      "diagnostic_class": "MI",
+      "count": 20,
+      "detection_sensitivity": 0.85,
+      "mean_abnormal_probability": 0.7893836055,
+      "false_negative_count": 3
+    },
+    {
+      "scp_code": "LVH",
+      "description": "left ventricular hypertrophy",
+      "diagnostic_class": "HYP",
+      "count": 214,
+      "detection_sensitivity": 0.8738317757009346,
+      "mean_abnormal_probability": 0.8413740418785048,
+      "false_negative_count": 27
+    },
+    {
+      "scp_code": "1AVB",
+      "description": "first degree AV block",
+      "diagnostic_class": "CD",
+      "count": 79,
+      "detection_sensitivity": 0.8860759493670886,
+      "mean_abnormal_probability": 0.8446781687341772,
+      "false_negative_count": 9
+    },
+    {
+      "scp_code": "NST_",
+      "description": "non-specific ST changes",
+      "diagnostic_class": "STTC",
+      "count": 77,
+      "detection_sensitivity": 0.8961038961038961,
+      "mean_abnormal_probability": 0.8115143674805194,
+      "false_negative_count": 8
+    },
+    {
+      "scp_code": "LNGQT",
+      "description": "long QT-interval",
+      "diagnostic_class": "STTC",
+      "count": 11,
+      "detection_sensitivity": 0.9090909090909091,
+      "mean_abnormal_probability": 0.840984311090909,
+      "false_negative_count": 1
+    },
+    {
+      "scp_code": "RVH",
+      "description": "right ventricular hypertrophy",
+      "diagnostic_class": "HYP",
+      "count": 12,
+      "detection_sensitivity": 0.9166666666666666,
+      "mean_abnormal_probability": 0.9034134458333333,
+      "false_negative_count": 1
+    },
+    {
+      "scp_code": "ALMI",
+      "description": "anterolateral myocardial infarction",
+      "diagnostic_class": "MI",
+      "count": 27,
+      "detection_sensitivity": 0.9259259259259259,
+      "mean_abnormal_probability": 0.8528461987037036,
+      "false_negative_count": 2
+    }
+  ],
+  "limitations": [
+    "Subgroup results are descriptive and were not adjusted for diagnosis prevalence or confounding.",
+    "Signal-quality groups use annotation presence, not a validated signal-quality index.",
+    "Temperature scaling and the uncertainty margin were selected on validation and remain exploratory.",
+    "The binary target covers broad diagnostic abnormalities and is not an arrhythmia taxonomy."
+  ]
+}

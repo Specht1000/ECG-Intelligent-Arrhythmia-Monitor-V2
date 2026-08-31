@@ -32,6 +32,10 @@ validation and certification.
 - **PTB-XL 1.0.3** is the complementary 12-lead dataset for patient-level
   validation, cross-dataset evaluation, and later combined training after label
   harmonization.
+- The first V2 complete-exam rhythm classifier is a **six-label multi-label
+  benchmark** covering sinus rhythm, sinus bradycardia, sinus tachycardia, sinus
+  arrhythmia, atrial fibrillation, and atrial flutter. This initial engineering
+  taxonomy does not replace the future specialist-approved clinical taxonomy.
 - The **MIT-BIH Arrhythmia Database** is an auxiliary dataset for beat-level and
   R-peak experiments only. Its two-channel recordings will not be used as evidence
   of final 12-lead model performance.
@@ -75,9 +79,22 @@ and hardware status metadata, and report errors.
 
 ## AI and arrhythmias
 
-The final class list has not been approved. The five classes used in V1 (normal,
+The first six-label engineering benchmark has been approved. The final clinical
+class list still requires specialist review. The five classes used in V1 (normal,
 supraventricular, ventricular, fusion, and other) are references only and **do
 not** define the V2 taxonomy.
+
+The approved initial benchmark is a multi-label, complete-exam task with direct
+Chapman SNOMED CT to PTB-XL SCP-ECG mappings:
+
+| Benchmark label | Chapman SNOMED CT | PTB-XL SCP-ECG |
+| --- | --- | --- |
+| Sinus rhythm | 426783006 | SR |
+| Sinus bradycardia | 426177001 | SBRAD |
+| Sinus tachycardia | 427084000 | STACH |
+| Sinus arrhythmia | 427393009 | SARRH |
+| Atrial fibrillation | 164889003 | AFIB |
+| Atrial flutter | 164890007 | AFLT |
 
 The following must be defined before training:
 
@@ -134,3 +151,9 @@ author. New decisions must be recorded in this file with their date and rational
 - **2026-08-30 — Complementary validation dataset:** PTB-XL 1.0.3 added for
   patient-level validation and cross-dataset evaluation. Its 500 Hz records match
   the 10-second, 12-lead input structure used by the primary Chapman experiments.
+- **2026-08-31 - Initial rhythm taxonomy:** a six-label, complete-exam,
+  multi-label benchmark was approved for sinus rhythm, sinus bradycardia, sinus
+  tachycardia, sinus arrhythmia, atrial fibrillation, and atrial flutter. Direct
+  Chapman SNOMED CT and PTB-XL SCP-ECG mappings are recorded above. Rationale:
+  these rhythm labels occur in both 12-lead datasets and support a first
+  cross-dataset experiment without claiming to be the final clinical taxonomy.
