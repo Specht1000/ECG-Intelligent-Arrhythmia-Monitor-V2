@@ -1,0 +1,41 @@
+{
+  "analysis": "Six-label rhythm error, calibration, subgroup, and domain-shift analysis",
+  "intended_use": "Exploratory research analysis only; no clinical abstention policy is defined.",
+  "data_policy": {
+    "temperature_fitting": "One temperature per class fitted on Chapman validation predictions only.",
+    "evaluation": "Calibration is reported on Chapman held-out test and PTB-XL external fold 10.",
+    "threshold_proximity": "Descriptive analysis only; margins are not an approved abstention policy."
+  },
+  "temperatures": {
+    "sinus_rhythm": 1.1289871428819827,
+    "sinus_bradycardia": 1.1379522555710608,
+    "sinus_tachycardia": 1.1599384611888794,
+    "sinus_arrhythmia": 1.780305462322156,
+    "atrial_fibrillation": 1.6470855519264227,
+    "atrial_flutter": 1.5174275102899943
+  },
+  "record_counts": {
+    "chapman_test": 4515,
+    "ptbxl_external": 2198,
+    "total_binary_outcomes": 40278,
+    "total_errors": 2754
+  },
+  "findings": {
+    "weakest_external_average_precision_class": "atrial_flutter",
+    "weakest_external_average_precision": 0.03404985250935638,
+    "largest_average_precision_drop_class": "sinus_bradycardia",
+    "largest_average_precision_change": -0.8611589472523864,
+    "temperature_scaling_ece_improvements_out_of_12": 2,
+    "ptbxl_no_target_exam_count": 147,
+    "ptbxl_no_target_exam_any_false_positive_rate": 0.8775510204081632,
+    "chapman_afib_positive_rate_on_flutter_records": 0.4987562189054726,
+    "chapman_flutter_positive_rate_on_afib_records": 0.9943820224719101
+  },
+  "limitations": [
+    "Subgroup metrics are retrospective and may have small positive support.",
+    "Chapman has no separate patient identifier and no signal-quality annotation used here.",
+    "PTB-XL atrial-flutter support is only seven positive records.",
+    "Temperature scaling does not correct label or acquisition domain shift.",
+    "No uncertainty margin or abstention policy has been clinically approved."
+  ]
+}

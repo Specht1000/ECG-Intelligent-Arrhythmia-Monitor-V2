@@ -1,8 +1,9 @@
-"""Mathematical reconstruction of the standard 12 ECG leads.
+"""Mathematical relationships for bipolar limb leads.
 
-The acquisition boundary used here contains the eight independent leads I, II
-and V1 through V6. Values may be expressed in volts, millivolts, microvolts, or
-ADC-calibrated units, as long as every value uses the same unit.
+The current acquisition boundary contains the two independent bipolar leads I
+and II. Lead III is derived through Einthoven's law. Legacy 12-lead helpers are
+retained for reproducibility of earlier experiments but are outside the current
+four-electrode project scope. Values may use any unit if all inputs match.
 
 This module does not perform electrode-potential conversion, calibration,
 filtering, resampling, or signal-quality assessment.
@@ -14,6 +15,7 @@ from typing import Mapping, Tuple
 
 
 BASE_LEADS = ("I", "II", "V1", "V2", "V3", "V4", "V5", "V6")
+BIPOLAR_LIMB_LEADS = ("I", "II", "III")
 STANDARD_12_LEADS = (
     "I",
     "II",
@@ -54,6 +56,21 @@ def derive_limb_leads(lead_i: Real, lead_ii: Real) -> Tuple[Real, Real, Real, Re
     lead_avl = lead_i - lead_ii / 2.0
     lead_avf = lead_ii - lead_i / 2.0
     return lead_iii, lead_avr, lead_avl, lead_avf
+
+
+def reconstruct_bipolar_limb_leads(
+    independent_leads: Mapping[str, Real],
+) -> "OrderedDict[str, Real]":
+    """Return I, II, and derived III in canonical bipolar order."""
+
+    missing = [name for name in ("I", "II") if name not in independent_leads]
+    if missing:
+        raise ValueError("Missing independent lead(s): {}".format(", ".join(missing)))
+    lead_i = independent_leads["I"]
+    lead_ii = independent_leads["II"]
+    _require_real("I", lead_i)
+    _require_real("II", lead_ii)
+    return OrderedDict((("I", lead_i), ("II", lead_ii), ("III", lead_ii - lead_i)))
 
 
 def reconstruct_12_leads(base_leads: Mapping[str, Real]) -> "OrderedDict[str, Real]":

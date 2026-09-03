@@ -1,0 +1,16 @@
+{
+  "record": "C:\\Projetos\\PFE 5A\\Software\\database\\ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3\\records100\\00000\\00001_lr",
+  "explained_class": "sinus_rhythm",
+  "display_name": "Sinus rhythm",
+  "calibrated_probability": 0.9601079023177955,
+  "decision_threshold": 0.5891976926789273,
+  "positive": true,
+  "integration_steps": 32,
+  "relative_absolute_attribution_by_lead": {
+    "I": 0.47425001859664917,
+    "II": 0.34815242886543274,
+    "III": 0.1775975525379181
+  },
+  "plot": "C:\\Projetos\\PFE 5A\\Software\\artifacts\\advanced_bipolar_rhythm_explanations\\00001_lr_sinus_rhythm_integrated_gradients.png",
+  "interpretation_limit": "Integrated gradients measures model sensitivity relative to the normalized-zero waveform baseline while deterministic features are fixed. It does not prove medical causality or clinical correctness."
+}

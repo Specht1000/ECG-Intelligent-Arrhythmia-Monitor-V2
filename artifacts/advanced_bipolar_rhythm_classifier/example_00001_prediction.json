@@ -1,0 +1,109 @@
+{
+  "record": "C:\\Projetos\\PFE 5A\\Software\\database\\ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3\\records100\\00000\\00001_lr",
+  "input_kind": "compatible 12-lead WFDB source with selected bipolar leads",
+  "input_leads": [
+    "I",
+    "II",
+    "III"
+  ],
+  "lead_iii_source": "input",
+  "sampling_frequency_hz": 100,
+  "status": "result_available",
+  "uncertainty_reasons": [],
+  "positive_labels": [
+    "sinus_rhythm"
+  ],
+  "predictions": [
+    {
+      "class": "sinus_rhythm",
+      "display_name": "Sinus rhythm",
+      "raw_probability": 0.9315847754478455,
+      "calibrated_probability": 0.9601079023177955,
+      "decision_threshold": 0.5891976926789273,
+      "threshold_margin": 0.3709102096388682,
+      "positive": true
+    },
+    {
+      "class": "sinus_bradycardia",
+      "display_name": "Sinus bradycardia",
+      "raw_probability": 0.0033579871524125338,
+      "calibrated_probability": 0.0014729107093723267,
+      "decision_threshold": 0.7382726131377791,
+      "threshold_margin": 0.7367997024284069,
+      "positive": false
+    },
+    {
+      "class": "sinus_tachycardia",
+      "display_name": "Sinus tachycardia",
+      "raw_probability": 0.002659756224602461,
+      "calibrated_probability": 0.0014423982388621244,
+      "decision_threshold": 0.5202338186871619,
+      "threshold_margin": 0.5187914204482997,
+      "positive": false
+    },
+    {
+      "class": "sinus_arrhythmia",
+      "display_name": "Sinus arrhythmia",
+      "raw_probability": 0.46690160036087036,
+      "calibrated_probability": 0.38295026064488885,
+      "decision_threshold": 0.8993042434197341,
+      "threshold_margin": 0.5163539827748453,
+      "positive": false
+    },
+    {
+      "class": "atrial_fibrillation",
+      "display_name": "Atrial fibrillation",
+      "raw_probability": 0.0119122713804245,
+      "calibrated_probability": 0.003952846399837173,
+      "decision_threshold": 0.7160894757361738,
+      "threshold_margin": 0.7121366293363366,
+      "positive": false
+    },
+    {
+      "class": "atrial_flutter",
+      "display_name": "Atrial flutter",
+      "raw_probability": 0.025420095771551132,
+      "calibrated_probability": 0.011670935836210913,
+      "decision_threshold": 0.8000295347154742,
+      "threshold_margin": 0.7883585988792633,
+      "positive": false
+    }
+  ],
+  "signal_quality": {
+    "acceptable": true,
+    "score": 1.0,
+    "reasons": [],
+    "metrics": {
+      "heart_rate_bpm": 63.897762298583984,
+      "rr_mean_seconds": 0.9390000104904175,
+      "rr_standard_deviation_seconds": 0.018138350918889046,
+      "rr_rmssd_seconds": 0.024944374337792397,
+      "rr_pnn50": 0.1111111119389534,
+      "detected_qrs_count": 11.0,
+      "signal_robust_range_mv": 0.41901999711990356,
+      "derivative_mad_mv": 0.014000000432133675,
+      "baseline_power_ratio": 0.14858175814151764,
+      "high_frequency_power_ratio": 0.028053371235728264,
+      "spectral_entropy": 0.6854353547096252,
+      "einthoven_rmse_mv": 0.0004949746653437614,
+      "minimum_lead_standard_deviation_mv": 0.05872972682118416
+    },
+    "policy": "Experimental software research gate; not clinically approved."
+  },
+  "deterministic_rhythm_features": {
+    "heart_rate_bpm": 63.897762298583984,
+    "rr_mean_seconds": 0.9390000104904175,
+    "rr_standard_deviation_seconds": 0.018138350918889046,
+    "rr_rmssd_seconds": 0.024944374337792397,
+    "rr_pnn50": 0.1111111119389534,
+    "detected_qrs_count": 11.0,
+    "signal_robust_range_mv": 0.41901999711990356,
+    "derivative_mad_mv": 0.014000000432133675,
+    "baseline_power_ratio": 0.14858175814151764,
+    "high_frequency_power_ratio": 0.028053371235728264,
+    "spectral_entropy": 0.6854353547096252,
+    "einthoven_rmse_mv": 0.0004949746653437614
+  },
+  "model": "Advanced multi-dataset bipolar limb-lead rhythm classifier",
+  "intended_use": "Research only; not a diagnosis or clinical-use output."
+}

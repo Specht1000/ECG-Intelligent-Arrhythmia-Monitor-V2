@@ -21,7 +21,7 @@ from matplotlib.colors import Normalize
 
 from predict_rhythm import DEFAULT_MODEL, format_predictions, normalize_record_base
 from train_anomaly_baseline import load_low_resolution_record
-from train_rhythm_classifier import RhythmECGNet
+from train_rhythm_classifier import LEADS, RhythmECGNet
 
 
 DEFAULT_OUTPUT_DIR = Path("artifacts/rhythm_explanations")
@@ -59,11 +59,18 @@ def load_model_and_input(
         raise ValueError("Unsupported model checkpoint: {}".format(model_path))
     if checkpoint.get("sampling_frequency_hz") != 100 or checkpoint.get("sample_count") != 1000:
         raise ValueError("The checkpoint does not describe a 100 Hz, 10-second input")
-    model = RhythmECGNet(class_count=len(checkpoint["class_names"]))
+    input_leads = tuple(checkpoint["lead_order"])
+    if any(lead not in LEADS for lead in input_leads):
+        raise ValueError("The checkpoint contains an unsupported input lead")
+    model = RhythmECGNet(
+        class_count=len(checkpoint["class_names"]),
+        input_channel_count=len(input_leads),
+    )
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
 
-    waveform = load_low_resolution_record(normalize_record_base(record_base))
+    source_waveform = load_low_resolution_record(normalize_record_base(record_base))
+    waveform = source_waveform[[LEADS.index(lead) for lead in input_leads]]
     means = np.asarray(checkpoint["normalization_means_mv"], dtype=np.float32)[:, None]
     standard_deviations = np.asarray(
         checkpoint["normalization_standard_deviations_mv"], dtype=np.float32
@@ -102,8 +109,21 @@ def plot_explanation(
     normalized_attribution = np.clip(
         absolute_attribution / max(scale, np.finfo(np.float32).eps), 0.0, 1.0
     )
-    figure, axes = plt.subplots(6, 2, figsize=(16, 14), sharex=True)
+    column_count = 2
+    row_count = int(np.ceil(len(lead_names) / column_count))
+    figure, axes = plt.subplots(
+        row_count,
+        column_count,
+        figsize=(16, max(5, row_count * 2.6)),
+        sharex=True,
+        squeeze=False,
+    )
+    visible_axes = []
     for lead_index, axis in enumerate(axes.flat):
+        if lead_index >= len(lead_names):
+            axis.set_visible(False)
+            continue
+        visible_axes.append(axis)
         axis.plot(time_seconds, waveform[lead_index], color="#606060", linewidth=0.7, zorder=1)
         axis.scatter(
             time_seconds,
@@ -118,10 +138,10 @@ def plot_explanation(
         )
         axis.set_ylabel("{} (mV)".format(lead_names[lead_index]))
         axis.grid(alpha=0.15)
-    for axis in axes[-1]:
+    for axis in visible_axes:
         axis.set_xlabel("Time (s)")
     scalar_mappable = ScalarMappable(norm=Normalize(0.0, 1.0), cmap="Reds")
-    colorbar = figure.colorbar(scalar_mappable, ax=list(axes.flat), fraction=0.015, pad=0.02)
+    colorbar = figure.colorbar(scalar_mappable, ax=visible_axes, fraction=0.015, pad=0.02)
     colorbar.set_label("Normalized absolute attribution")
     figure.suptitle(
         "Integrated gradients - {} | probability {:.3f} | threshold {:.3f}".format(

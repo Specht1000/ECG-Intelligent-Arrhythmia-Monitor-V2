@@ -6,7 +6,8 @@ this file, this file takes precedence.
 
 ## Objective
 
-Develop a second version of a low-cost 12-lead ECG system for the fifth-year PFE.
+Develop a second version of a low-cost bipolar limb-lead ECG system for the
+fifth-year PFE.
 The system must acquire cardiac signals, transmit them to a computer, and use
 artificial intelligence to assist a cardiologist with arrhythmia analysis.
 
@@ -21,54 +22,52 @@ validation and certification.
   **STM32F072RBT6** MCU.
 - A **dedicated PCB**, developed in collaboration with another team member, will
   perform ECG analog acquisition and conditioning.
-- The system will use **10 electrodes**: RA, LA, RL, LL, and V1 through V6.
-- The system will work with the **12 standard leads**: I, II, III, aVR, aVL, aVF,
-  and V1 through V6.
+- The system will use **four electrodes**: RA, LA, LL, and RL. RL is the
+  reference/return electrode and is not a diagnostic lead.
+- The current system and AI scope contains only the **three bipolar limb leads**:
+  I, II, and III. Augmented limb leads and precordial leads are excluded.
 - The main processing, user interface, and AI will run on the computer.
 - The AI will be a **cardiologist-support tool for arrhythmia analysis**, not an
   autonomous diagnostic system.
-- The **Chapman-Shaoxing-Ningbo 12-lead ECG database** is the primary dataset for
-  the first arrhythmia-classification experiments.
-- **PTB-XL 1.0.3** is the complementary 12-lead dataset for patient-level
-  validation, cross-dataset evaluation, and later combined training after label
-  harmonization.
+- The **Chapman-Shaoxing-Ningbo ECG database** is the primary dataset for the
+  first arrhythmia-classification experiments. Only its I, II, and III channels
+  are supplied to the current model.
+- **PTB-XL 1.0.3** is the complementary dataset for patient-level validation and
+  cross-dataset evaluation. Only its I, II, and III channels are supplied to the
+  current model.
 - The first V2 complete-exam rhythm classifier is a **six-label multi-label
   benchmark** covering sinus rhythm, sinus bradycardia, sinus tachycardia, sinus
   arrhythmia, atrial fibrillation, and atrial flutter. This initial engineering
   taxonomy does not replace the future specialist-approved clinical taxonomy.
 - The **MIT-BIH Arrhythmia Database** is an auxiliary dataset for beat-level and
-  R-peak experiments only. Its two-channel recordings will not be used as evidence
-  of final 12-lead model performance.
+  R-peak experiments only. Its two modified-lead channels will not be used as
+  evidence of final bipolar limb-lead model performance.
 - V2 will use a new architecture. V1 components and limitations are not inherited
   automatically.
 
 ## Relationship between electrodes and leads
 
-Ten electrodes do not mean ten leads. The RL electrode is normally used as a
-reference/return electrode, and the 12 leads are constructed from limb and
-precordial measurements.
-
-When the PCB provides I, II, and V1 through V6, the remaining limb leads will be
-calculated on the computer:
+Four electrodes provide three bipolar limb leads. RA, LA, and LL are measurement
+electrodes; RL is the reference/return electrode. The bipolar leads are:
 
 ```text
-III = II - I
-aVR = -(I + II) / 2
-aVL = I - II / 2
-aVF = II - I / 2
+I   = LA - RA
+II  = LL - RA
+III = LL - LA = II - I
 ```
 
-This logical interface does not define the PCB's electrical topology. The PCB
-designer must confirm whether the precordial outputs are already referenced to
-the Wilson central terminal and exactly which signals reach the ADC.
+Only I and II are mathematically independent. Lead III may be acquired directly
+or reconstructed from synchronized I and II samples, depending on the PCB. This
+logical relationship does not finalize the PCB topology, isolation, driven-
+reference circuit, or ADC channel implementation.
 
 ## Current functional architecture
 
 ```text
-10 electrodes
+4 electrodes (RA, LA, LL, RL reference/return)
     -> patient protection + analog front end + ADC on the PCB
     -> STM32 Nucleo (synchronized acquisition, timestamps, and transport)
-    -> computer (validation, filtering, 12-lead reconstruction, UI, and storage)
+    -> computer (validation, filtering, bipolar-lead handling, UI, and storage)
     -> AI (analysis support, probabilities, uncertainty, and explainability)
     -> cardiologist
 ```
@@ -96,14 +95,18 @@ Chapman SNOMED CT to PTB-XL SCP-ECG mappings:
 | Atrial fibrillation | 164889003 | AFIB |
 | Atrial flutter | 164890007 | AFLT |
 
-The following must be defined before training:
+The six-label engineering benchmark has now been trained with a reproducible
+patient-separated protocol, per-class metrics, probability calibration,
+experimental abstention, and integrated-gradients explanations. The following
+still must be finalized before later clinical-model training and specialist
+validation:
 
-- the clinical task: beat, rhythm, event, or complete-exam classification;
-- the taxonomy and labeling standard;
-- licensed 12-lead ECG datasets;
-- patient-level separation between training, validation, and test sets;
-- per-class metrics, probability calibration, and abstention policy;
-- the explainability method and its presentation to the cardiologist;
+- the specialist-approved clinical task and time scale beyond the current
+  complete-exam engineering benchmark;
+- the final clinical taxonomy and labeling standard;
+- datasets with licensing appropriate for the intended research and validation;
+- clinically approved acceptance criteria, calibration, and abstention policy;
+- the presentation and interpretation of explanations by the cardiologist;
 - the specialist validation protocol.
 
 ## Pending decisions requiring confirmation
@@ -157,3 +160,18 @@ author. New decisions must be recorded in this file with their date and rational
   Chapman SNOMED CT and PTB-XL SCP-ECG mappings are recorded above. Rationale:
   these rhythm labels occur in both 12-lead datasets and support a first
   cross-dataset experiment without claiming to be the final clinical taxonomy.
+- **2026-08-31 - Four-electrode bipolar scope:** the current acquisition and AI
+  input were changed to four electrodes (RA, LA, LL, and RL reference/return) and
+  the three bipolar limb leads I, II, and III. Augmented limb and precordial leads
+  are excluded. Rationale: align the software with Matheus Oliveira's proposal
+  while following the PFE author's explicit instruction to use bipolar leads only.
+- **2026-09-03 - Advanced bipolar research benchmark:** Chapman training data and
+  PTB-XL folds 1-8 were combined for the six-label model; validation combines the
+  established Chapman validation split with PTB-XL fold 9, while Chapman held-out
+  data and PTB-XL fold 10 remain separate tests. The selected model reached 0.7900
+  and 0.6108 macro average precision on those tests, respectively. Controlled
+  short-training ablations ranked I/II at 100 Hz above explicit I/II/III at 100,
+  250, and 500 Hz. Rationale: measure cross-dataset generalization and input-cost
+  trade-offs without changing the confirmed four-electrode bipolar scope. The
+  sample rates, quality gate, thresholds, and abstention rules remain offline
+  research settings and do not finalize hardware or clinical requirements.

@@ -1,0 +1,28 @@
+{
+  "no_target_exam_errors": {
+    "chapman_heldout": {
+      "record_count": 179,
+      "any_false_positive_rate": 0.07262569832402235
+    },
+    "ptbxl_fold10": {
+      "record_count": 147,
+      "any_false_positive_rate": 0.41496598639455784
+    }
+  },
+  "atrial_cross_confusion": {
+    "chapman_heldout": {
+      "af_only_count": 178,
+      "af_only_predicted_as_flutter_rate": 0.6910112359550562,
+      "flutter_only_count": 804,
+      "flutter_only_predicted_as_af_rate": 0.12935323383084577
+    },
+    "ptbxl_fold10": {
+      "af_only_count": 150,
+      "af_only_predicted_as_flutter_rate": 0.04,
+      "flutter_only_count": 5,
+      "flutter_only_predicted_as_af_rate": 0.0
+    }
+  },
+  "comparison_with_baseline_available": true,
+  "interpretation_limit": "This is an engineering error analysis. PTB-XL fold 10 is a held-out test for the advanced multi-dataset model, while it was an external dataset for the Chapman-only baseline; improvements are therefore not attributable to one method."
+}

@@ -38,8 +38,8 @@ from train_rhythm_classifier import CLASS_NAMES, DISPLAY_NAMES
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_ARTIFACT_ROOT = PROJECT_ROOT / "artifacts" / "rhythm_classifier"
-DEFAULT_OUTPUT_ROOT = PROJECT_ROOT / "artifacts" / "rhythm_error_analysis"
+DEFAULT_ARTIFACT_ROOT = PROJECT_ROOT / "artifacts" / "bipolar_rhythm_classifier"
+DEFAULT_OUTPUT_ROOT = PROJECT_ROOT / "artifacts" / "bipolar_rhythm_error_analysis"
 DEFAULT_CHAPMAN_ROOT = (
     PROJECT_ROOT
     / "database"

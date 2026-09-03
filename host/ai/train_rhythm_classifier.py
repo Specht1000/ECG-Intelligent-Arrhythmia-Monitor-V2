@@ -58,6 +58,7 @@ DEFAULT_PTBXL_ROOT = (
     / "ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3"
 )
 LEADS = ("I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6")
+BIPOLAR_LEADS = ("I", "II", "III")
 CLASS_NAMES = (
     "sinus_rhythm",
     "sinus_bradycardia",
@@ -383,20 +384,25 @@ class RhythmDataset(Dataset):
         indices: Sequence[int],
         means: np.ndarray,
         standard_deviations: np.ndarray,
+        channel_indices: Optional[Sequence[int]] = None,
     ) -> None:
         self.waveforms = waveforms
         self.labels = labels.astype(np.float32)
         self.identifiers = np.asarray(identifiers)
         self.indices = np.asarray(indices, dtype=np.int64)
-        self.means = means[:, None]
-        self.standard_deviations = standard_deviations[:, None]
+        self.channel_indices = np.asarray(
+            channel_indices if channel_indices is not None else np.arange(len(means)),
+            dtype=np.int64,
+        )
+        self.means = means[self.channel_indices, None]
+        self.standard_deviations = standard_deviations[self.channel_indices, None]
 
     def __len__(self) -> int:
         return len(self.indices)
 
     def __getitem__(self, item: int) -> Tuple[torch.Tensor, torch.Tensor, int]:
         index = int(self.indices[item])
-        waveform = np.asarray(self.waveforms[index], dtype=np.float32)
+        waveform = np.asarray(self.waveforms[index], dtype=np.float32)[self.channel_indices]
         waveform = (waveform - self.means) / self.standard_deviations
         return (
             torch.from_numpy(waveform),
@@ -406,10 +412,16 @@ class RhythmDataset(Dataset):
 
 
 class RhythmECGNet(nn.Module):
-    def __init__(self, class_count: int = len(CLASS_NAMES)) -> None:
+    def __init__(
+        self,
+        class_count: int = len(CLASS_NAMES),
+        input_channel_count: int = len(LEADS),
+    ) -> None:
         super().__init__()
         self.features = nn.Sequential(
-            nn.Conv1d(12, 24, kernel_size=15, stride=2, padding=7, bias=False),
+            nn.Conv1d(
+                input_channel_count, 24, kernel_size=15, stride=2, padding=7, bias=False
+            ),
             nn.BatchNorm1d(24),
             nn.ReLU(inplace=True),
             ResidualBlock(24, 24),
@@ -595,7 +607,7 @@ def plot_evaluation(
     for index, count in enumerate(support):
         axes[1, 1].text(index, count, str(count), ha="center", va="bottom")
 
-    figure.suptitle("Six-label rhythm benchmark")
+    figure.suptitle("Bipolar limb-lead six-label rhythm benchmark")
     figure.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
     figure.savefig(output_path, dpi=160, bbox_inches="tight")
@@ -615,7 +627,16 @@ def build_argument_parser() -> argparse.ArgumentParser:
         default=Path(".cache/chapman_rhythm_waveforms_all_records.npy"),
     )
     parser.add_argument("--ptbxl-cache", type=Path, default=Path(".cache/ptbxl_rhythm_external.npy"))
-    parser.add_argument("--output-dir", type=Path, default=Path("artifacts/rhythm_classifier"))
+    parser.add_argument(
+        "--output-dir", type=Path, default=Path("artifacts/bipolar_rhythm_classifier")
+    )
+    parser.add_argument(
+        "--input-leads",
+        nargs="+",
+        choices=LEADS,
+        default=list(BIPOLAR_LEADS),
+        help="Ordered model inputs; the current project scope is I II III",
+    )
     parser.add_argument("--epochs", type=int, default=RhythmTrainingConfig.epochs)
     parser.add_argument("--batch-size", type=int, default=RhythmTrainingConfig.batch_size)
     parser.add_argument("--learning-rate", type=float, default=RhythmTrainingConfig.learning_rate)
@@ -638,6 +659,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     chapman_root = args.chapman_root.resolve()
     ptbxl_root = args.ptbxl_root.resolve()
+    input_leads = tuple(args.input_leads)
+    if len(set(input_leads)) != len(input_leads):
+        raise ValueError("Input leads must not contain duplicates")
+    channel_indices = np.asarray([LEADS.index(lead) for lead in input_leads], dtype=np.int64)
 
     chapman_metadata = build_or_load_chapman_index(
         chapman_root, args.index.resolve(), config.waveform_workers
@@ -657,9 +682,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         config.waveform_workers,
     )
 
-    means, standard_deviations = compute_normalization(
+    all_lead_means, all_lead_standard_deviations = compute_normalization(
         chapman_waveforms, splits["training"]
     )
+    means = all_lead_means[channel_indices]
+    standard_deviations = all_lead_standard_deviations[channel_indices]
     chapman_labels = chapman_metadata.loc[:, CLASS_NAMES].to_numpy(dtype=np.float32)
     ptbxl_labels = ptbxl_metadata.loc[:, CLASS_NAMES].to_numpy(dtype=np.float32)
     datasets = {
@@ -668,8 +695,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             chapman_labels,
             chapman_metadata["record_id"],
             indices,
-            means,
-            standard_deviations,
+            all_lead_means,
+            all_lead_standard_deviations,
+            channel_indices,
         )
         for split, indices in splits.items()
     }
@@ -679,8 +707,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         ptbxl_labels,
         ptbxl_metadata["ecg_id"],
         external_indices,
-        means,
-        standard_deviations,
+        all_lead_means,
+        all_lead_standard_deviations,
+        channel_indices,
     )
     loaders = {
         split: DataLoader(
@@ -693,7 +722,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     }
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = RhythmECGNet().to(device)
+    model = RhythmECGNet(input_channel_count=len(input_leads)).to(device)
     training_labels = chapman_labels[splits["training"]]
     positive_counts = training_labels.sum(axis=0)
     negative_counts = len(training_labels) - positive_counts
@@ -709,6 +738,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     )
 
     print("Device: {}".format(device))
+    print("Model input leads: {}".format(", ".join(input_leads)))
     print("Chapman eligible records: {:,}".format(len(chapman_metadata)))
     print("Split sizes: {}".format({key: len(value) for key, value in splits.items()}))
     print("PTB-XL external records: {:,}".format(len(ptbxl_metadata)))
@@ -823,7 +853,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     split_manifest.to_csv(output_dir / "chapman_split_manifest.csv", index=False)
 
     report = {
-        "experiment": "Six-label complete-exam rhythm benchmark",
+        "experiment": "Three-bipolar-lead six-label complete-exam rhythm benchmark",
         "intended_use": "Research benchmark only; not a diagnostic or clinical-use model.",
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "task": "Multi-label complete-exam rhythm classification",
@@ -837,7 +867,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             "primary_training_dataset": "Chapman-Shaoxing-Ningbo",
             "chapman_split": "80% train, 10% validation, 10% held-out test; stratified by label combination.",
             "external_dataset": "PTB-XL 1.0.3 official fold 10 only; never used for training or threshold selection.",
-            "input": "12 leads, 10 seconds, resampled to 100 Hz",
+            "input": "I, II, and III bipolar limb leads; 10 seconds, resampled to 100 Hz",
         },
         "record_counts": {
             "chapman_eligible": int(len(chapman_metadata)),
@@ -861,7 +891,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "trainable_parameters": int(sum(p.numel() for p in model.parameters())),
         "positive_weights": dict(zip(CLASS_NAMES, positive_weights.tolist())),
         "normalization": {
-            "lead_order": list(LEADS),
+            "lead_order": list(input_leads),
             "means_mv": means.tolist(),
             "standard_deviations_mv": standard_deviations.tolist(),
         },
@@ -873,6 +903,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         "ptbxl_external_metrics": external_metrics,
         "limitations": [
             "This engineering taxonomy contains only six rhythm labels and is not the final clinical taxonomy.",
+            "Only bipolar limb leads I, II, and III are used; augmented and precordial leads are excluded.",
+            "Lead III is mathematically dependent on I and II.",
             "Chapman records without any target label are retained as all-negative background examples.",
             "Chapman provides one ECG per published subject record and does not expose a separate patient identifier.",
             "PTB-XL external performance may be affected by acquisition and annotation domain shift.",
@@ -899,7 +931,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             "thresholds": thresholds,
             "sampling_frequency_hz": config.sampling_frequency_hz,
             "sample_count": config.sample_count,
-            "lead_order": LEADS,
+            "lead_order": input_leads,
+            "source_lead_order": LEADS,
             "normalization_means_mv": means,
             "normalization_standard_deviations_mv": standard_deviations,
             "configuration": asdict(config),

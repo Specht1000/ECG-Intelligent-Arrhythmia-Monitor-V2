@@ -1,0 +1,518 @@
+dataset,identifier,class_name,display_name,age,age_group,sex_group,signal_quality_group,target_label_scope,reference,probability,threshold,prediction,error_type,distance_from_threshold,error_confidence
+ptbxl_external,3281,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,No annotated issue,At least one target label,0,0.99999833,0.6374501585960388,1,false_positive,0.36254817140396123,0.99999833
+ptbxl_external,3904,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Male,Annotated signal issue,At least one target label,0,0.99999464,0.6374501585960388,1,false_positive,0.3625444814039612,0.99999464
+ptbxl_external,13337,sinus_bradycardia,Sinus bradycardia,88.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,At least one target label,0,0.9999944,0.6374501585960388,1,false_positive,0.36254424140396113,0.9999944
+ptbxl_external,21555,sinus_bradycardia,Sinus bradycardia,81.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,0,0.9999937,0.6374501585960388,1,false_positive,0.36254354140396117,0.9999937
+ptbxl_external,9740,sinus_bradycardia,Sinus bradycardia,59.0,40-59,Male,No annotated issue,No target label,0,0.9999932,0.6374501585960388,1,false_positive,0.3625430414039612,0.9999932
+ptbxl_external,1522,sinus_bradycardia,Sinus bradycardia,73.0,60-79,Male,No annotated issue,At least one target label,0,0.9999914,0.6374501585960388,1,false_positive,0.36254124140396116,0.9999914
+ptbxl_external,9108,sinus_bradycardia,Sinus bradycardia,83.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.99998975,0.6374501585960388,1,false_positive,0.3625395914039612,0.99998975
+ptbxl_external,430,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,No annotated issue,At least one target label,0,0.9999895,0.6374501585960388,1,false_positive,0.36253934140396116,0.9999895
+ptbxl_external,14217,sinus_bradycardia,Sinus bradycardia,57.0,40-59,Female,No annotated issue,At least one target label,0,0.9999881,0.6374501585960388,1,false_positive,0.36253794140396123,0.9999881
+ptbxl_external,16534,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Female,No annotated issue,No target label,0,0.9999857,0.6374501585960388,1,false_positive,0.36253554140396116,0.9999857
+ptbxl_external,8555,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,No annotated issue,At least one target label,0,0.99998474,0.6374501585960388,1,false_positive,0.3625345814039612,0.99998474
+ptbxl_external,20887,sinus_bradycardia,Sinus bradycardia,46.0,40-59,Male,No annotated issue,At least one target label,0,0.99998236,0.6374501585960388,1,false_positive,0.36253220140396114,0.99998236
+ptbxl_external,19187,sinus_bradycardia,Sinus bradycardia,64.0,60-79,Male,No annotated issue,At least one target label,0,0.9999807,0.6374501585960388,1,false_positive,0.3625305414039611,0.9999807
+ptbxl_external,18802,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Female,No annotated issue,At least one target label,0,0.999979,0.6374501585960388,1,false_positive,0.36252884140396113,0.999979
+ptbxl_external,5841,sinus_tachycardia,Sinus tachycardia,73.0,60-79,Female,No annotated issue,No target label,0,0.9999789,0.7884369492530823,1,false_positive,0.21154195074691773,0.9999789
+ptbxl_external,5725,sinus_bradycardia,Sinus bradycardia,59.0,40-59,Male,No annotated issue,At least one target label,0,0.99997807,0.6374501585960388,1,false_positive,0.36252791140396123,0.99997807
+ptbxl_external,1351,sinus_bradycardia,Sinus bradycardia,76.0,60-79,Male,No annotated issue,At least one target label,0,0.99997663,0.6374501585960388,1,false_positive,0.3625264714039612,0.99997663
+ptbxl_external,14392,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Male,No annotated issue,At least one target label,0,0.99997663,0.6374501585960388,1,false_positive,0.3625264714039612,0.99997663
+ptbxl_external,3281,sinus_rhythm,Sinus rhythm,62.0,60-79,Male,No annotated issue,At least one target label,1,2.3552977e-05,0.4860624670982361,0,false_negative,0.48603891412123607,0.999976447023
+ptbxl_external,10860,sinus_bradycardia,Sinus bradycardia,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.9999747,0.6374501585960388,1,false_positive,0.3625245414039612,0.9999747
+ptbxl_external,15901,sinus_bradycardia,Sinus bradycardia,63.0,60-79,Male,No annotated issue,At least one target label,0,0.9999728,0.6374501585960388,1,false_positive,0.3625226414039612,0.9999728
+ptbxl_external,3908,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Male,No annotated issue,At least one target label,0,0.9999689,0.6374501585960388,1,false_positive,0.36251874140396123,0.9999689
+ptbxl_external,10272,sinus_bradycardia,Sinus bradycardia,69.0,60-79,Male,No annotated issue,At least one target label,0,0.99996746,0.6374501585960388,1,false_positive,0.3625173014039612,0.99996746
+ptbxl_external,775,sinus_bradycardia,Sinus bradycardia,40.0,40-59,Male,No annotated issue,At least one target label,0,0.99996686,0.6374501585960388,1,false_positive,0.3625167014039612,0.99996686
+ptbxl_external,2238,sinus_bradycardia,Sinus bradycardia,60.0,60-79,Male,No annotated issue,At least one target label,0,0.9999665,0.6374501585960388,1,false_positive,0.36251634140396116,0.9999665
+ptbxl_external,20523,sinus_bradycardia,Sinus bradycardia,54.0,40-59,Male,No annotated issue,At least one target label,0,0.9999652,0.6374501585960388,1,false_positive,0.3625150414039612,0.9999652
+ptbxl_external,3904,sinus_rhythm,Sinus rhythm,55.0,40-59,Male,Annotated signal issue,At least one target label,1,3.5568428e-05,0.4860624670982361,0,false_negative,0.4860268986702361,0.999964431572
+ptbxl_external,473,sinus_bradycardia,Sinus bradycardia,58.0,40-59,Male,No annotated issue,At least one target label,0,0.999962,0.6374501585960388,1,false_positive,0.3625118414039612,0.999962
+ptbxl_external,1522,sinus_rhythm,Sinus rhythm,73.0,60-79,Male,No annotated issue,At least one target label,1,9.198827e-05,0.4860624670982361,0,false_negative,0.4859704788282361,0.99990801173
+ptbxl_external,21555,sinus_rhythm,Sinus rhythm,81.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,9.6962634e-05,0.4860624670982361,0,false_negative,0.4859655044642361,0.999903037366
+ptbxl_external,9108,sinus_rhythm,Sinus rhythm,83.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.0001087449,0.4860624670982361,0,false_negative,0.48595372219823607,0.9998912551
+ptbxl_external,13337,sinus_rhythm,Sinus rhythm,88.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,At least one target label,1,0.00010883805,0.4860624670982361,0,false_negative,0.4859536290482361,0.99989116195
+ptbxl_external,15180,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,Annotated signal issue,At least one target label,0,0.99986124,0.7884369492530823,1,false_positive,0.2114242907469177,0.99986124
+ptbxl_external,8555,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,No annotated issue,At least one target label,1,0.0001452138,0.4860624670982361,0,false_negative,0.4859172532982361,0.9998547862
+ptbxl_external,14392,sinus_rhythm,Sinus rhythm,66.0,60-79,Male,No annotated issue,At least one target label,1,0.00014950645,0.4860624670982361,0,false_negative,0.4859129606482361,0.99985049355
+ptbxl_external,20887,sinus_rhythm,Sinus rhythm,46.0,40-59,Male,No annotated issue,At least one target label,1,0.00015176175,0.4860624670982361,0,false_negative,0.4859107053482361,0.99984823825
+ptbxl_external,14217,sinus_rhythm,Sinus rhythm,57.0,40-59,Female,No annotated issue,At least one target label,1,0.00015749167,0.4860624670982361,0,false_negative,0.4859049754282361,0.99984250833
+ptbxl_external,3908,sinus_rhythm,Sinus rhythm,55.0,40-59,Male,No annotated issue,At least one target label,1,0.00017982213,0.4860624670982361,0,false_negative,0.4858826449682361,0.99982017787
+ptbxl_external,430,sinus_rhythm,Sinus rhythm,62.0,60-79,Male,No annotated issue,At least one target label,1,0.00018170929,0.4860624670982361,0,false_negative,0.4858807578082361,0.99981829071
+ptbxl_external,5725,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,At least one target label,1,0.00020105632,0.4860624670982361,0,false_negative,0.4858614107782361,0.99979894368
+ptbxl_external,160,sinus_rhythm,Sinus rhythm,68.0,60-79,Female,No annotated issue,At least one target label,1,0.000205712,0.4860624670982361,0,false_negative,0.48585675509823606,0.999794288
+ptbxl_external,19187,sinus_rhythm,Sinus rhythm,64.0,60-79,Male,No annotated issue,At least one target label,1,0.00020840802,0.4860624670982361,0,false_negative,0.4858540590782361,0.99979159198
+ptbxl_external,1961,sinus_rhythm,Sinus rhythm,74.0,60-79,Female,No annotated issue,At least one target label,1,0.00022136867,0.4860624670982361,0,false_negative,0.4858410984282361,0.99977863133
+ptbxl_external,10860,sinus_rhythm,Sinus rhythm,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.00022269264,0.4860624670982361,0,false_negative,0.48583977445823606,0.99977730736
+ptbxl_external,11834,sinus_rhythm,Sinus rhythm,40.0,40-59,Female,No annotated issue,At least one target label,1,0.00022379713,0.4860624670982361,0,false_negative,0.4858386699682361,0.99977620287
+ptbxl_external,18802,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,No annotated issue,At least one target label,1,0.00022597067,0.4860624670982361,0,false_negative,0.48583649642823606,0.99977402933
+ptbxl_external,8482,sinus_tachycardia,Sinus tachycardia,56.0,40-59,Female,Annotated signal issue,At least one target label,0,0.99977034,0.7884369492530823,1,false_positive,0.2113333907469177,0.99977034
+ptbxl_external,20523,sinus_rhythm,Sinus rhythm,54.0,40-59,Male,No annotated issue,At least one target label,1,0.00023826121,0.4860624670982361,0,false_negative,0.4858242058882361,0.99976173879
+chapman_test,JS20946,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Male,Not annotated,No target label,0,0.9997595,0.6374501585960388,1,false_positive,0.3623093414039612,0.9997595
+ptbxl_external,10950,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,At least one target label,1,0.0002511784,0.4860624670982361,0,false_negative,0.4858112886982361,0.9997488216
+ptbxl_external,1351,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,No annotated issue,At least one target label,1,0.0002635329,0.4860624670982361,0,false_negative,0.4857989341982361,0.9997364671
+ptbxl_external,10272,sinus_rhythm,Sinus rhythm,69.0,60-79,Male,No annotated issue,At least one target label,1,0.00026870408,0.4860624670982361,0,false_negative,0.48579376301823607,0.99973129592
+ptbxl_external,9953,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,At least one target label,1,0.0003189882,0.4860624670982361,0,false_negative,0.4857434788982361,0.9996810118
+ptbxl_external,15901,sinus_rhythm,Sinus rhythm,63.0,60-79,Male,No annotated issue,At least one target label,1,0.00036388272,0.4860624670982361,0,false_negative,0.4856985843782361,0.99963611728
+chapman_test,JS11044,sinus_tachycardia,Sinus tachycardia,5.0,0-39,Male,Not annotated,At least one target label,0,0.99957234,0.7884369492530823,1,false_positive,0.21113539074691767,0.99957234
+ptbxl_external,5911,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,No target label,0,0.9992932,0.7884369492530823,1,false_positive,0.21085625074691772,0.9992932
+ptbxl_external,2549,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Male,No annotated issue,At least one target label,1,0.0008536506,0.74114990234375,0,false_negative,0.74029625174375,0.9991463494
+ptbxl_external,13899,sinus_tachycardia,Sinus tachycardia,71.0,60-79,Male,Annotated signal issue,At least one target label,0,0.9990921,0.7884369492530823,1,false_positive,0.21065515074691776,0.9990921
+chapman_test,JS38847,sinus_tachycardia,Sinus tachycardia,4.0,0-39,Female,Not annotated,At least one target label,0,0.99890065,0.7884369492530823,1,false_positive,0.21046370074691767,0.99890065
+chapman_test,JS11084,sinus_tachycardia,Sinus tachycardia,6.0,0-39,Female,Not annotated,At least one target label,0,0.9988826,0.7884369492530823,1,false_positive,0.21044565074691768,0.9988826
+chapman_test,JS36958,sinus_tachycardia,Sinus tachycardia,7.0,0-39,Male,Not annotated,At least one target label,0,0.9982558,0.7884369492530823,1,false_positive,0.20981885074691775,0.9982558
+ptbxl_external,20674,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Male,No annotated issue,At least one target label,1,0.0017840695,0.74114990234375,0,false_negative,0.73936583284375,0.9982159305
+ptbxl_external,7865,sinus_tachycardia,Sinus tachycardia,79.0,60-79,Male,Annotated signal issue,No target label,0,0.99788195,0.7884369492530823,1,false_positive,0.20944500074691774,0.99788195
+ptbxl_external,15796,atrial_fibrillation,Atrial fibrillation,45.0,40-59,Female,Annotated signal issue,At least one target label,1,0.0023015016,0.74114990234375,0,false_negative,0.73884840074375,0.9976984984
+ptbxl_external,8263,sinus_tachycardia,Sinus tachycardia,63.0,60-79,Male,No annotated issue,No target label,0,0.99755377,0.7884369492530823,1,false_positive,0.20911682074691773,0.99755377
+chapman_test,JS21017,sinus_bradycardia,Sinus bradycardia,29.0,0-39,Male,Not annotated,No target label,0,0.99736834,0.6374501585960388,1,false_positive,0.35991818140396115,0.99736834
+ptbxl_external,12074,sinus_rhythm,Sinus rhythm,47.0,40-59,Male,No annotated issue,No target label,0,0.997315,0.4860624670982361,1,false_positive,0.5112525329017639,0.997315
+chapman_test,JS39042,sinus_tachycardia,Sinus tachycardia,4.0,0-39,Male,Not annotated,At least one target label,0,0.9972361,0.7884369492530823,1,false_positive,0.20879915074691768,0.9972361
+ptbxl_external,13238,sinus_tachycardia,Sinus tachycardia,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,No target label,0,0.9970591,0.7884369492530823,1,false_positive,0.2086221507469177,0.9970591
+ptbxl_external,17298,sinus_bradycardia,Sinus bradycardia,78.0,60-79,Female,Annotated signal issue,At least one target label,1,0.0031720132,0.6374501585960388,0,false_negative,0.6342781453960388,0.9968279868
+ptbxl_external,2293,sinus_rhythm,Sinus rhythm,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,No target label,0,0.9966486,0.4860624670982361,1,false_positive,0.5105861329017639,0.9966486
+ptbxl_external,15180,atrial_fibrillation,Atrial fibrillation,69.0,60-79,Male,Annotated signal issue,At least one target label,1,0.003501042,0.74114990234375,0,false_negative,0.73764886034375,0.996498958
+chapman_test,JS35555,sinus_bradycardia,Sinus bradycardia,43.0,40-59,Female,Not annotated,At least one target label,0,0.99610955,0.6374501585960388,1,false_positive,0.3586593914039612,0.99610955
+ptbxl_external,19345,sinus_tachycardia,Sinus tachycardia,80.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,At least one target label,0,0.9958637,0.7884369492530823,1,false_positive,0.20742675074691774,0.9958637
+ptbxl_external,19134,sinus_rhythm,Sinus rhythm,73.0,60-79,Male,Annotated signal issue,No target label,0,0.9958282,0.4860624670982361,1,false_positive,0.509765732901764,0.9958282
+ptbxl_external,440,sinus_rhythm,Sinus rhythm,58.0,40-59,Female,No annotated issue,At least one target label,0,0.99578,0.4860624670982361,1,false_positive,0.5097175329017639,0.99578
+chapman_test,JS10424,sinus_tachycardia,Sinus tachycardia,39.0,0-39,Female,Not annotated,No target label,0,0.9957314,0.7884369492530823,1,false_positive,0.20729445074691777,0.9957314
+ptbxl_external,347,atrial_flutter,Atrial flutter,75.0,60-79,Male,No annotated issue,At least one target label,1,0.0047931764,0.8128908276557922,0,false_negative,0.8080976512557922,0.9952068236
+chapman_test,JS23097,sinus_bradycardia,Sinus bradycardia,75.0,60-79,Male,Not annotated,At least one target label,1,0.0048111933,0.6374501585960388,0,false_negative,0.6326389652960388,0.9951888067
+ptbxl_external,10356,sinus_tachycardia,Sinus tachycardia,41.0,40-59,Female,Annotated signal issue,No target label,0,0.9951049,0.7884369492530823,1,false_positive,0.20666795074691768,0.9951049
+chapman_test,JS12280,sinus_arrhythmia,Sinus arrhythmia,69.0,60-79,Male,Not annotated,At least one target label,1,0.0049081417,0.9340595006942749,0,false_negative,0.9291513589942749,0.9950918583
+chapman_test,JS38866,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,At least one target label,0,0.9949616,0.7884369492530823,1,false_positive,0.20652465074691773,0.9949616
+ptbxl_external,1747,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,No annotated issue,At least one target label,0,0.99428564,0.4860624670982361,1,false_positive,0.5082231729017639,0.99428564
+ptbxl_external,4747,sinus_rhythm,Sinus rhythm,36.0,0-39,Male,No annotated issue,No target label,0,0.99413884,0.4860624670982361,1,false_positive,0.5080763729017639,0.99413884
+ptbxl_external,18916,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,No annotated issue,At least one target label,0,0.99403423,0.7884369492530823,1,false_positive,0.20559728074691774,0.99403423
+ptbxl_external,13853,sinus_tachycardia,Sinus tachycardia,67.0,60-79,Female,Annotated signal issue,No target label,0,0.99397874,0.7884369492530823,1,false_positive,0.2055417907469177,0.99397874
+ptbxl_external,7876,sinus_tachycardia,Sinus tachycardia,66.0,60-79,Female,No annotated issue,No target label,0,0.9939699,0.7884369492530823,1,false_positive,0.2055329507469177,0.9939699
+ptbxl_external,9338,sinus_rhythm,Sinus rhythm,44.0,40-59,Female,No annotated issue,At least one target label,0,0.99387795,0.4860624670982361,1,false_positive,0.5078154829017639,0.99387795
+chapman_test,JS11800,sinus_bradycardia,Sinus bradycardia,68.0,60-79,Female,Not annotated,At least one target label,1,0.006147941,0.6374501585960388,0,false_negative,0.6313022175960388,0.993852059
+ptbxl_external,15798,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.99365187,0.7884369492530823,1,false_positive,0.20521492074691772,0.99365187
+chapman_test,JS37012,sinus_tachycardia,Sinus tachycardia,6.0,0-39,Male,Not annotated,At least one target label,0,0.99361306,0.7884369492530823,1,false_positive,0.20517611074691777,0.99361306
+chapman_test,JS11063,sinus_arrhythmia,Sinus arrhythmia,6.0,0-39,Male,Not annotated,At least one target label,0,0.993525,0.9340595006942749,1,false_positive,0.05946549930572509,0.993525
+chapman_test,JS04159,sinus_rhythm,Sinus rhythm,76.0,60-79,Male,Not annotated,At least one target label,1,0.0064894375,0.4860624670982361,0,false_negative,0.4795730295982361,0.9935105625
+chapman_test,JS10116,sinus_rhythm,Sinus rhythm,75.0,60-79,Male,Not annotated,No target label,0,0.9935057,0.4860624670982361,1,false_positive,0.507443232901764,0.9935057
+chapman_test,JS35471,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Not annotated,At least one target label,0,0.99338585,0.4860624670982361,1,false_positive,0.5073233829017639,0.99338585
+chapman_test,JS35510,sinus_rhythm,Sinus rhythm,30.0,0-39,Male,Not annotated,At least one target label,0,0.99333113,0.4860624670982361,1,false_positive,0.5072686629017639,0.99333113
+ptbxl_external,12711,sinus_rhythm,Sinus rhythm,64.0,60-79,Male,No annotated issue,No target label,0,0.9933021,0.4860624670982361,1,false_positive,0.5072396329017639,0.9933021
+ptbxl_external,14937,sinus_rhythm,Sinus rhythm,78.0,60-79,Female,No annotated issue,No target label,0,0.9931538,0.4860624670982361,1,false_positive,0.5070913329017639,0.9931538
+ptbxl_external,2492,sinus_rhythm,Sinus rhythm,80.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,No target label,0,0.9923712,0.4860624670982361,1,false_positive,0.5063087329017639,0.9923712
+ptbxl_external,21826,sinus_rhythm,Sinus rhythm,82.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,At least one target label,0,0.99228173,0.4860624670982361,1,false_positive,0.5062192629017639,0.99228173
+chapman_test,JS35050,sinus_rhythm,Sinus rhythm,39.0,0-39,Female,Not annotated,At least one target label,0,0.99217695,0.4860624670982361,1,false_positive,0.5061144829017639,0.99217695
+ptbxl_external,18775,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,At least one target label,0,0.9920386,0.7884369492530823,1,false_positive,0.20360165074691772,0.9920386
+ptbxl_external,854,sinus_rhythm,Sinus rhythm,53.0,40-59,Male,No annotated issue,No target label,0,0.99187285,0.4860624670982361,1,false_positive,0.5058103829017639,0.99187285
+chapman_test,JS01508,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Male,Not annotated,At least one target label,1,0.008325482,0.7884369492530823,0,false_negative,0.7801114672530822,0.991674518
+ptbxl_external,14375,sinus_rhythm,Sinus rhythm,39.0,0-39,Male,No annotated issue,At least one target label,0,0.99156976,0.4860624670982361,1,false_positive,0.5055072929017639,0.99156976
+ptbxl_external,13712,sinus_arrhythmia,Sinus arrhythmia,22.0,0-39,Male,No annotated issue,At least one target label,0,0.991479,0.9340595006942749,1,false_positive,0.0574194993057251,0.991479
+chapman_test,JS35920,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,Not annotated,At least one target label,0,0.99135625,0.4860624670982361,1,false_positive,0.505293782901764,0.99135625
+chapman_test,JS39517,sinus_arrhythmia,Sinus arrhythmia,21.0,0-39,Male,Not annotated,At least one target label,0,0.9911327,0.9340595006942749,1,false_positive,0.057073199305725075,0.9911327
+ptbxl_external,15001,sinus_arrhythmia,Sinus arrhythmia,16.0,0-39,Female,No annotated issue,At least one target label,0,0.99103785,0.9340595006942749,1,false_positive,0.056978349305725096,0.99103785
+chapman_test,JS35710,sinus_rhythm,Sinus rhythm,62.0,60-79,Female,Not annotated,At least one target label,0,0.9909566,0.4860624670982361,1,false_positive,0.5048941329017639,0.9909566
+ptbxl_external,12692,sinus_tachycardia,Sinus tachycardia,69.0,60-79,Male,No annotated issue,At least one target label,0,0.9909339,0.7884369492530823,1,false_positive,0.20249695074691776,0.9909339
+ptbxl_external,2987,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Female,No annotated issue,At least one target label,0,0.9906719,0.9340595006942749,1,false_positive,0.05661239930572515,0.9906719
+chapman_test,JS22031,sinus_arrhythmia,Sinus arrhythmia,0.0,0-39,Female,Not annotated,At least one target label,0,0.99050903,0.9340595006942749,1,false_positive,0.05644952930572511,0.99050903
+chapman_test,JS41232,sinus_arrhythmia,Sinus arrhythmia,40.0,40-59,Male,Not annotated,At least one target label,0,0.99001783,0.9340595006942749,1,false_positive,0.055958329305725085,0.99001783
+ptbxl_external,15235,sinus_tachycardia,Sinus tachycardia,56.0,40-59,Male,No annotated issue,At least one target label,0,0.98996663,0.7884369492530823,1,false_positive,0.20152968074691768,0.98996663
+ptbxl_external,8140,sinus_rhythm,Sinus rhythm,59.0,40-59,Male,No annotated issue,No target label,0,0.98950607,0.4860624670982361,1,false_positive,0.5034436029017639,0.98950607
+chapman_test,JS00145,atrial_flutter,Atrial flutter,68.0,60-79,Female,Not annotated,At least one target label,0,0.98948365,0.8128908276557922,1,false_positive,0.1765928223442078,0.98948365
+chapman_test,JS11044,sinus_rhythm,Sinus rhythm,5.0,0-39,Male,Not annotated,At least one target label,1,0.010591395,0.4860624670982361,0,false_negative,0.4754710720982361,0.989408605
+chapman_test,JS21018,sinus_bradycardia,Sinus bradycardia,73.0,60-79,Male,Not annotated,No target label,0,0.98937476,0.6374501585960388,1,false_positive,0.3519246014039612,0.98937476
+chapman_test,JS36800,sinus_arrhythmia,Sinus arrhythmia,16.0,0-39,Male,Not annotated,At least one target label,0,0.9893128,0.9340595006942749,1,false_positive,0.05525329930572509,0.9893128
+chapman_test,JS21241,sinus_tachycardia,Sinus tachycardia,62.0,60-79,Male,Not annotated,At least one target label,1,0.010801419,0.7884369492530823,0,false_negative,0.7776355302530823,0.989198581
+ptbxl_external,1447,sinus_rhythm,Sinus rhythm,64.0,60-79,Female,Annotated signal issue,No target label,0,0.98901385,0.4860624670982361,1,false_positive,0.5029513829017639,0.98901385
+ptbxl_external,1311,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Female,Annotated signal issue,At least one target label,0,0.9890115,0.9340595006942749,1,false_positive,0.05495199930572514,0.9890115
+ptbxl_external,21205,atrial_flutter,Atrial flutter,64.0,60-79,Male,Annotated signal issue,At least one target label,0,0.98881346,0.8128908276557922,1,false_positive,0.1759226323442078,0.98881346
+chapman_test,JS41379,sinus_arrhythmia,Sinus arrhythmia,12.0,0-39,Male,Not annotated,At least one target label,0,0.988622,0.9340595006942749,1,false_positive,0.0545624993057251,0.988622
+chapman_test,JS38571,sinus_arrhythmia,Sinus arrhythmia,31.0,0-39,Female,Not annotated,At least one target label,0,0.9886092,0.9340595006942749,1,false_positive,0.05454969930572506,0.9886092
+chapman_test,JS07562,atrial_flutter,Atrial flutter,66.0,60-79,Male,Not annotated,At least one target label,0,0.98859507,0.8128908276557922,1,false_positive,0.17570424234420778,0.98859507
+ptbxl_external,4866,sinus_rhythm,Sinus rhythm,74.0,60-79,Female,No annotated issue,At least one target label,0,0.9884975,0.4860624670982361,1,false_positive,0.502435032901764,0.9884975
+chapman_test,JS12280,sinus_rhythm,Sinus rhythm,69.0,60-79,Male,Not annotated,At least one target label,1,0.011727793,0.4860624670982361,0,false_negative,0.4743346740982361,0.988272207
+ptbxl_external,12607,sinus_rhythm,Sinus rhythm,70.0,60-79,Female,No annotated issue,No target label,0,0.9881334,0.4860624670982361,1,false_positive,0.502070932901764,0.9881334
+chapman_test,JS24219,sinus_rhythm,Sinus rhythm,53.0,40-59,Female,Not annotated,At least one target label,1,0.011874995,0.4860624670982361,0,false_negative,0.4741874720982361,0.988125005
+chapman_test,JS35712,sinus_rhythm,Sinus rhythm,38.0,0-39,Female,Not annotated,At least one target label,0,0.98777896,0.4860624670982361,1,false_positive,0.5017164929017639,0.98777896
+chapman_test,JS34802,sinus_rhythm,Sinus rhythm,42.0,40-59,Female,Not annotated,At least one target label,0,0.98769265,0.4860624670982361,1,false_positive,0.5016301829017639,0.98769265
+chapman_test,JS22747,sinus_bradycardia,Sinus bradycardia,74.0,60-79,Male,Not annotated,At least one target label,0,0.9876351,0.6374501585960388,1,false_positive,0.35018494140396117,0.9876351
+chapman_test,JS34797,sinus_rhythm,Sinus rhythm,47.0,40-59,Male,Not annotated,At least one target label,0,0.98741573,0.4860624670982361,1,false_positive,0.501353262901764,0.98741573
+chapman_test,JS34996,sinus_rhythm,Sinus rhythm,44.0,40-59,Male,Not annotated,At least one target label,0,0.98715407,0.4860624670982361,1,false_positive,0.5010916029017639,0.98715407
+ptbxl_external,15796,sinus_rhythm,Sinus rhythm,45.0,40-59,Female,Annotated signal issue,At least one target label,0,0.98699665,0.4860624670982361,1,false_positive,0.500934182901764,0.98699665
+ptbxl_external,5212,sinus_rhythm,Sinus rhythm,56.0,40-59,Male,No annotated issue,No target label,0,0.9869401,0.4860624670982361,1,false_positive,0.5008776329017639,0.9869401
+chapman_test,JS04477,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.9867563,0.8128908276557922,1,false_positive,0.1738654723442078,0.9867563
+chapman_test,JS21120,sinus_rhythm,Sinus rhythm,70.0,60-79,Male,Not annotated,At least one target label,1,0.013264922,0.4860624670982361,0,false_negative,0.47279754509823607,0.986735078
+chapman_test,JS09497,atrial_flutter,Atrial flutter,71.0,60-79,Male,Not annotated,At least one target label,0,0.986694,0.8128908276557922,1,false_positive,0.17380317234420772,0.986694
+ptbxl_external,9110,sinus_rhythm,Sinus rhythm,78.0,60-79,Male,No annotated issue,No target label,0,0.98650706,0.4860624670982361,1,false_positive,0.5004445929017639,0.98650706
+chapman_test,JS23080,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,Not annotated,No target label,0,0.98632866,0.4860624670982361,1,false_positive,0.5002661929017639,0.98632866
+chapman_test,JS38683,sinus_tachycardia,Sinus tachycardia,5.0,0-39,Male,Not annotated,At least one target label,0,0.9862504,0.7884369492530823,1,false_positive,0.1978134507469177,0.9862504
+chapman_test,JS10705,atrial_flutter,Atrial flutter,86.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.013775255,0.8128908276557922,0,false_negative,0.7991155726557923,0.986224745
+ptbxl_external,382,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,No target label,0,0.9861616,0.8128908276557922,1,false_positive,0.17327077234420774,0.9861616
+ptbxl_external,7024,atrial_flutter,Atrial flutter,58.0,40-59,Female,No annotated issue,At least one target label,0,0.9861454,0.8128908276557922,1,false_positive,0.1732545723442077,0.9861454
+ptbxl_external,16905,atrial_flutter,Atrial flutter,82.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.98610675,0.8128908276557922,1,false_positive,0.1732159223442078,0.98610675
+ptbxl_external,15507,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Annotated signal issue,At least one target label,0,0.9860044,0.4860624670982361,1,false_positive,0.4999419329017639,0.9860044
+ptbxl_external,19353,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.98579085,0.8128908276557922,1,false_positive,0.17290002234420776,0.98579085
+ptbxl_external,5951,sinus_tachycardia,Sinus tachycardia,72.0,60-79,Male,No annotated issue,At least one target label,0,0.98568994,0.7884369492530823,1,false_positive,0.1972529907469177,0.98568994
+chapman_test,JS35373,sinus_rhythm,Sinus rhythm,19.0,0-39,Female,Not annotated,At least one target label,0,0.98557615,0.4860624670982361,1,false_positive,0.4995136829017639,0.98557615
+ptbxl_external,15834,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.014426433,0.74114990234375,0,false_negative,0.72672346934375,0.985573567
+ptbxl_external,18421,sinus_rhythm,Sinus rhythm,67.0,60-79,Male,Annotated signal issue,At least one target label,0,0.9855409,0.4860624670982361,1,false_positive,0.49947843290176397,0.9855409
+ptbxl_external,11664,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,No annotated issue,At least one target label,0,0.98552287,0.4860624670982361,1,false_positive,0.49946040290176397,0.98552287
+chapman_test,JS01553,atrial_flutter,Atrial flutter,53.0,40-59,Female,Not annotated,At least one target label,0,0.98526984,0.8128908276557922,1,false_positive,0.17237901234420772,0.98526984
+ptbxl_external,7055,sinus_tachycardia,Sinus tachycardia,58.0,40-59,Female,No annotated issue,At least one target label,1,0.014736331,0.7884369492530823,0,false_negative,0.7737006182530822,0.985263669
+chapman_test,JS34873,sinus_rhythm,Sinus rhythm,27.0,0-39,Male,Not annotated,At least one target label,0,0.98520523,0.4860624670982361,1,false_positive,0.49914276290176396,0.98520523
+ptbxl_external,9338,sinus_tachycardia,Sinus tachycardia,44.0,40-59,Female,No annotated issue,At least one target label,1,0.014854393,0.7884369492530823,0,false_negative,0.7735825562530823,0.985145607
+chapman_test,JS10131,sinus_rhythm,Sinus rhythm,63.0,60-79,Female,Not annotated,No target label,0,0.9850557,0.4860624670982361,1,false_positive,0.4989932329017639,0.9850557
+chapman_test,JS23353,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Female,Not annotated,No target label,0,0.9847964,0.6374501585960388,1,false_positive,0.3473462414039612,0.9847964
+chapman_test,JS36590,sinus_arrhythmia,Sinus arrhythmia,6.0,0-39,Male,Not annotated,At least one target label,0,0.9846734,0.9340595006942749,1,false_positive,0.05061389930572513,0.9846734
+chapman_test,JS09833,atrial_flutter,Atrial flutter,67.0,60-79,Female,Not annotated,At least one target label,0,0.984602,0.8128908276557922,1,false_positive,0.17171117234420774,0.984602
+chapman_test,JS35170,sinus_rhythm,Sinus rhythm,48.0,40-59,Male,Not annotated,At least one target label,0,0.9844616,0.4860624670982361,1,false_positive,0.49839913290176396,0.9844616
+chapman_test,JS02364,atrial_flutter,Atrial flutter,51.0,40-59,Male,Not annotated,At least one target label,0,0.9843305,0.8128908276557922,1,false_positive,0.17143967234420776,0.9843305
+chapman_test,JS07896,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.98420745,0.8128908276557922,1,false_positive,0.17131662234420775,0.98420745
+chapman_test,JS03331,sinus_tachycardia,Sinus tachycardia,68.0,60-79,Male,Not annotated,At least one target label,0,0.98409986,0.7884369492530823,1,false_positive,0.19566291074691777,0.98409986
+chapman_test,JS03221,atrial_flutter,Atrial flutter,57.0,40-59,Male,Not annotated,At least one target label,0,0.9838839,0.8128908276557922,1,false_positive,0.1709930723442078,0.9838839
+chapman_test,JS09817,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9837583,0.8128908276557922,1,false_positive,0.17086747234420774,0.9837583
+chapman_test,JS08078,atrial_flutter,Atrial flutter,53.0,40-59,Male,Not annotated,At least one target label,0,0.9836072,0.8128908276557922,1,false_positive,0.17071637234420778,0.9836072
+chapman_test,JS34965,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Not annotated,At least one target label,0,0.9836068,0.4860624670982361,1,false_positive,0.4975443329017639,0.9836068
+chapman_test,JS11647,sinus_rhythm,Sinus rhythm,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.98359585,0.4860624670982361,1,false_positive,0.49753338290176397,0.98359585
+chapman_test,JS08329,atrial_flutter,Atrial flutter,84.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.98352045,0.8128908276557922,1,false_positive,0.17062962234420775,0.98352045
+chapman_test,JS35589,sinus_rhythm,Sinus rhythm,33.0,0-39,Male,Not annotated,At least one target label,0,0.98350865,0.4860624670982361,1,false_positive,0.4974461829017639,0.98350865
+chapman_test,JS09324,atrial_flutter,Atrial flutter,77.0,60-79,Female,Not annotated,At least one target label,0,0.98334336,0.8128908276557922,1,false_positive,0.17045253234420776,0.98334336
+chapman_test,JS02299,atrial_flutter,Atrial flutter,86.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.9831729,0.8128908276557922,1,false_positive,0.17028207234420778,0.9831729
+chapman_test,JS37969,sinus_arrhythmia,Sinus arrhythmia,28.0,0-39,Male,Not annotated,At least one target label,0,0.9829312,0.9340595006942749,1,false_positive,0.0488716993057251,0.9829312
+ptbxl_external,9756,atrial_flutter,Atrial flutter,49.0,40-59,Male,No annotated issue,At least one target label,0,0.982809,0.8128908276557922,1,false_positive,0.1699181723442078,0.982809
+chapman_test,JS23403,sinus_bradycardia,Sinus bradycardia,78.0,60-79,Male,Not annotated,No target label,0,0.9827868,0.6374501585960388,1,false_positive,0.34533664140396114,0.9827868
+ptbxl_external,17298,sinus_rhythm,Sinus rhythm,78.0,60-79,Female,Annotated signal issue,At least one target label,0,0.9826801,0.4860624670982361,1,false_positive,0.49661763290176386,0.9826801
+ptbxl_external,5351,atrial_flutter,Atrial flutter,79.0,60-79,Male,Annotated signal issue,At least one target label,0,0.98264253,0.8128908276557922,1,false_positive,0.16975170234420778,0.98264253
+chapman_test,JS05580,atrial_flutter,Atrial flutter,69.0,60-79,Female,Not annotated,At least one target label,0,0.98252976,0.8128908276557922,1,false_positive,0.1696389323442078,0.98252976
+ptbxl_external,19370,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.9824584,0.8128908276557922,1,false_positive,0.16956757234420772,0.9824584
+chapman_test,JS00852,atrial_flutter,Atrial flutter,66.0,60-79,Male,Not annotated,At least one target label,0,0.9824027,0.8128908276557922,1,false_positive,0.16951187234420773,0.9824027
+chapman_test,JS04738,atrial_flutter,Atrial flutter,69.0,60-79,Male,Not annotated,At least one target label,0,0.9823552,0.8128908276557922,1,false_positive,0.16946437234420775,0.9823552
+chapman_test,JS10023,sinus_tachycardia,Sinus tachycardia,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,No target label,0,0.9823362,0.7884369492530823,1,false_positive,0.19389925074691772,0.9823362
+chapman_test,JS07345,atrial_flutter,Atrial flutter,77.0,60-79,Male,Not annotated,At least one target label,0,0.9822511,0.8128908276557922,1,false_positive,0.1693602723442078,0.9822511
+chapman_test,JS38239,sinus_arrhythmia,Sinus arrhythmia,48.0,40-59,Male,Not annotated,At least one target label,0,0.9821639,0.9340595006942749,1,false_positive,0.048104399305725076,0.9821639
+chapman_test,JS04570,atrial_flutter,Atrial flutter,72.0,60-79,Female,Not annotated,At least one target label,0,0.98205584,0.8128908276557922,1,false_positive,0.16916501234420778,0.98205584
+chapman_test,JS39255,sinus_arrhythmia,Sinus arrhythmia,55.0,40-59,Female,Not annotated,At least one target label,0,0.9819633,0.9340595006942749,1,false_positive,0.04790379930572508,0.9819633
+ptbxl_external,9095,atrial_flutter,Atrial flutter,78.0,60-79,Female,No annotated issue,At least one target label,0,0.9819239,0.8128908276557922,1,false_positive,0.16903307234420772,0.9819239
+chapman_test,JS01264,atrial_flutter,Atrial flutter,62.0,60-79,Male,Not annotated,At least one target label,0,0.98179483,0.8128908276557922,1,false_positive,0.16890400234420777,0.98179483
+ptbxl_external,20958,atrial_flutter,Atrial flutter,73.0,60-79,Male,No annotated issue,At least one target label,0,0.98176306,0.8128908276557922,1,false_positive,0.16887223234420778,0.98176306
+chapman_test,JS01769,atrial_flutter,Atrial flutter,78.0,60-79,Male,Not annotated,At least one target label,0,0.98169637,0.8128908276557922,1,false_positive,0.16880554234420775,0.98169637
+ptbxl_external,17007,atrial_flutter,Atrial flutter,55.0,40-59,Male,Annotated signal issue,At least one target label,0,0.981645,0.8128908276557922,1,false_positive,0.16875417234420775,0.981645
+chapman_test,JS01926,atrial_flutter,Atrial flutter,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9815254,0.8128908276557922,1,false_positive,0.16863457234420776,0.9815254
+chapman_test,JS35891,sinus_rhythm,Sinus rhythm,47.0,40-59,Female,Not annotated,At least one target label,0,0.98118764,0.4860624670982361,1,false_positive,0.49512517290176394,0.98118764
+chapman_test,JS04318,atrial_flutter,Atrial flutter,67.0,60-79,Female,Not annotated,At least one target label,0,0.9811848,0.8128908276557922,1,false_positive,0.16829397234420773,0.9811848
+chapman_test,JS07268,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.981122,0.8128908276557922,1,false_positive,0.1682311723442078,0.981122
+ptbxl_external,11686,atrial_flutter,Atrial flutter,62.0,60-79,Male,Annotated signal issue,At least one target label,0,0.9811065,0.8128908276557922,1,false_positive,0.16821567234420776,0.9811065
+ptbxl_external,17000,atrial_flutter,Atrial flutter,55.0,40-59,Male,No annotated issue,At least one target label,0,0.9810463,0.8128908276557922,1,false_positive,0.1681554723442078,0.9810463
+ptbxl_external,16700,sinus_tachycardia,Sinus tachycardia,72.0,60-79,Male,No annotated issue,At least one target label,0,0.9809966,0.7884369492530823,1,false_positive,0.19255965074691772,0.9809966
+chapman_test,JS40239,sinus_arrhythmia,Sinus arrhythmia,46.0,40-59,Male,Not annotated,At least one target label,0,0.980928,0.9340595006942749,1,false_positive,0.04686849930572512,0.980928
+chapman_test,JS06727,atrial_flutter,Atrial flutter,79.0,60-79,Male,Not annotated,At least one target label,0,0.9809202,0.8128908276557922,1,false_positive,0.16802937234420778,0.9809202
+chapman_test,JS21110,sinus_rhythm,Sinus rhythm,79.0,60-79,Male,Not annotated,At least one target label,1,0.019421505,0.4860624670982361,0,false_negative,0.4666409620982361,0.980578495
+ptbxl_external,19956,atrial_flutter,Atrial flutter,71.0,60-79,Female,No annotated issue,At least one target label,0,0.98047286,0.8128908276557922,1,false_positive,0.16758203234420777,0.98047286
+chapman_test,JS18740,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Female,Not annotated,At least one target label,0,0.9802991,0.7884369492530823,1,false_positive,0.1918621507469177,0.9802991
+ptbxl_external,19388,atrial_flutter,Atrial flutter,89.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,0,0.9798409,0.8128908276557922,1,false_positive,0.16695007234420778,0.9798409
+chapman_test,JS21767,sinus_tachycardia,Sinus tachycardia,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.020302244,0.7884369492530823,0,false_negative,0.7681347052530823,0.979697756
+ptbxl_external,6670,sinus_rhythm,Sinus rhythm,56.0,40-59,Female,No annotated issue,No target label,0,0.9796393,0.4860624670982361,1,false_positive,0.4935768329017639,0.9796393
+chapman_test,JS36054,sinus_rhythm,Sinus rhythm,28.0,0-39,Female,Not annotated,At least one target label,0,0.97963345,0.4860624670982361,1,false_positive,0.49357098290176393,0.97963345
+ptbxl_external,6186,atrial_flutter,Atrial flutter,57.0,40-59,Female,No annotated issue,At least one target label,0,0.9795832,0.8128908276557922,1,false_positive,0.16669237234420775,0.9795832
+chapman_test,JS11084,sinus_rhythm,Sinus rhythm,6.0,0-39,Female,Not annotated,At least one target label,1,0.020419458,0.4860624670982361,0,false_negative,0.4656430090982361,0.979580542
+chapman_test,JS24220,sinus_rhythm,Sinus rhythm,52.0,40-59,Male,Not annotated,At least one target label,1,0.020551281,0.4860624670982361,0,false_negative,0.4655111860982361,0.979448719
+ptbxl_external,3009,atrial_flutter,Atrial flutter,62.0,60-79,Female,No annotated issue,At least one target label,0,0.9793691,0.8128908276557922,1,false_positive,0.16647827234420776,0.9793691
+ptbxl_external,11982,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,No annotated issue,No target label,0,0.97929364,0.8128908276557922,1,false_positive,0.16640281234420773,0.97929364
+ptbxl_external,2055,atrial_flutter,Atrial flutter,70.0,60-79,Female,No annotated issue,At least one target label,0,0.97911626,0.8128908276557922,1,false_positive,0.16622543234420772,0.97911626
+chapman_test,JS39959,sinus_arrhythmia,Sinus arrhythmia,47.0,40-59,Male,Not annotated,At least one target label,0,0.97901434,0.9340595006942749,1,false_positive,0.04495483930572508,0.97901434
+chapman_test,JS23966,sinus_arrhythmia,Sinus arrhythmia,23.0,0-39,Female,Not annotated,At least one target label,0,0.97900736,0.9340595006942749,1,false_positive,0.04494785930572509,0.97900736
+chapman_test,JS35436,sinus_rhythm,Sinus rhythm,32.0,0-39,Male,Not annotated,At least one target label,0,0.97892773,0.4860624670982361,1,false_positive,0.4928652629017639,0.97892773
+chapman_test,JS35002,sinus_rhythm,Sinus rhythm,51.0,40-59,Female,Not annotated,At least one target label,0,0.9788976,0.4860624670982361,1,false_positive,0.49283513290176395,0.9788976
+ptbxl_external,19305,atrial_flutter,Atrial flutter,73.0,60-79,Male,Annotated signal issue,At least one target label,0,0.9788911,0.8128908276557922,1,false_positive,0.16600027234420778,0.9788911
+chapman_test,JS34825,sinus_rhythm,Sinus rhythm,84.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.9788655,0.4860624670982361,1,false_positive,0.49280303290176397,0.9788655
+ptbxl_external,1487,sinus_arrhythmia,Sinus arrhythmia,34.0,0-39,Female,No annotated issue,At least one target label,0,0.9787915,0.9340595006942749,1,false_positive,0.044731999305725134,0.9787915
+ptbxl_external,20085,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Female,Annotated signal issue,At least one target label,1,0.021216717,0.74114990234375,0,false_negative,0.71993318534375,0.978783283
+ptbxl_external,3454,atrial_flutter,Atrial flutter,64.0,60-79,Male,No annotated issue,At least one target label,0,0.97875535,0.8128908276557922,1,false_positive,0.1658645223442078,0.97875535
+ptbxl_external,7946,sinus_tachycardia,Sinus tachycardia,68.0,60-79,Female,No annotated issue,At least one target label,0,0.9787193,0.7884369492530823,1,false_positive,0.19028235074691768,0.9787193
+chapman_test,JS20609,sinus_rhythm,Sinus rhythm,75.0,60-79,Male,Not annotated,At least one target label,0,0.9786381,0.4860624670982361,1,false_positive,0.49257563290176387,0.9786381
+ptbxl_external,18592,atrial_flutter,Atrial flutter,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,0,0.97859806,0.8128908276557922,1,false_positive,0.1657072323442078,0.97859806
+ptbxl_external,15852,atrial_flutter,Atrial flutter,80.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,At least one target label,0,0.9785372,0.8128908276557922,1,false_positive,0.16564637234420776,0.9785372
+chapman_test,JS40757,sinus_arrhythmia,Sinus arrhythmia,48.0,40-59,Female,Not annotated,At least one target label,0,0.9783092,0.9340595006942749,1,false_positive,0.04424969930572509,0.9783092
+ptbxl_external,21085,atrial_flutter,Atrial flutter,84.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.9781383,0.8128908276557922,1,false_positive,0.16524747234420778,0.9781383
+ptbxl_external,21675,atrial_flutter,Atrial flutter,66.0,60-79,Female,No annotated issue,At least one target label,0,0.97791934,0.8128908276557922,1,false_positive,0.1650285123442078,0.97791934
+chapman_test,JS11816,sinus_rhythm,Sinus rhythm,53.0,40-59,Female,Not annotated,No target label,0,0.97763044,0.4860624670982361,1,false_positive,0.4915679729017639,0.97763044
+chapman_test,JS41205,sinus_arrhythmia,Sinus arrhythmia,10.0,0-39,Male,Not annotated,At least one target label,0,0.9773706,0.9340595006942749,1,false_positive,0.043311099305725076,0.9773706
+chapman_test,JS11058,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,At least one target label,0,0.9765673,0.7884369492530823,1,false_positive,0.18813035074691775,0.9765673
+ptbxl_external,10240,sinus_tachycardia,Sinus tachycardia,65.0,60-79,Male,No annotated issue,No target label,0,0.97649026,0.7884369492530823,1,false_positive,0.18805331074691778,0.97649026
+chapman_test,JS37336,sinus_bradycardia,Sinus bradycardia,65.0,60-79,Female,Not annotated,At least one target label,0,0.9763663,0.6374501585960388,1,false_positive,0.3389161414039612,0.9763663
+chapman_test,JS38059,sinus_arrhythmia,Sinus arrhythmia,31.0,0-39,Male,Not annotated,At least one target label,0,0.97633016,0.9340595006942749,1,false_positive,0.042270659305725045,0.97633016
+chapman_test,JS23205,sinus_bradycardia,Sinus bradycardia,59.0,40-59,Female,Not annotated,No target label,0,0.9761845,0.6374501585960388,1,false_positive,0.3387343414039612,0.9761845
+chapman_test,JS37135,sinus_arrhythmia,Sinus arrhythmia,20.0,0-39,Male,Not annotated,At least one target label,0,0.9756909,0.9340595006942749,1,false_positive,0.041631399305725125,0.9756909
+ptbxl_external,13849,atrial_fibrillation,Atrial fibrillation,67.0,60-79,Female,No annotated issue,At least one target label,1,0.024359081,0.74114990234375,0,false_negative,0.71679082134375,0.975640919
+chapman_test,JS35748,sinus_bradycardia,Sinus bradycardia,19.0,0-39,Female,Not annotated,At least one target label,0,0.9748258,0.6374501585960388,1,false_positive,0.33737564140396115,0.9748258
+chapman_test,JS36931,sinus_arrhythmia,Sinus arrhythmia,28.0,0-39,Female,Not annotated,At least one target label,0,0.9748223,0.9340595006942749,1,false_positive,0.04076279930572513,0.9748223
+chapman_test,JS39995,sinus_arrhythmia,Sinus arrhythmia,38.0,0-39,Female,Not annotated,At least one target label,0,0.97473574,0.9340595006942749,1,false_positive,0.04067623930572506,0.97473574
+chapman_test,JS39022,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Female,Not annotated,At least one target label,0,0.9743919,0.7884369492530823,1,false_positive,0.1859549507469177,0.9743919
+chapman_test,JS08029,sinus_tachycardia,Sinus tachycardia,33.0,0-39,Female,Not annotated,At least one target label,0,0.9741872,0.7884369492530823,1,false_positive,0.18575025074691776,0.9741872
+ptbxl_external,16152,sinus_arrhythmia,Sinus arrhythmia,49.0,40-59,Male,No annotated issue,At least one target label,0,0.9736225,0.9340595006942749,1,false_positive,0.039562999305725044,0.9736225
+chapman_test,JS36193,sinus_arrhythmia,Sinus arrhythmia,43.0,40-59,Female,Not annotated,At least one target label,0,0.9733595,0.9340595006942749,1,false_positive,0.03929999930572514,0.9733595
+chapman_test,JS36417,sinus_arrhythmia,Sinus arrhythmia,39.0,0-39,Female,Not annotated,At least one target label,0,0.9733516,0.9340595006942749,1,false_positive,0.03929209930572508,0.9733516
+ptbxl_external,115,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,Annotated signal issue,At least one target label,0,0.97330904,0.9340595006942749,1,false_positive,0.039249539305725056,0.97330904
+chapman_test,JS38847,sinus_rhythm,Sinus rhythm,4.0,0-39,Female,Not annotated,At least one target label,1,0.026827313,0.4860624670982361,0,false_negative,0.45923515409823606,0.973172687
+ptbxl_external,19409,sinus_tachycardia,Sinus tachycardia,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,0,0.9730031,0.7884369492530823,1,false_positive,0.18456615074691773,0.9730031
+ptbxl_external,3641,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Male,Annotated signal issue,At least one target label,0,0.9727658,0.9340595006942749,1,false_positive,0.03870629930572511,0.9727658
+chapman_test,JS41210,sinus_arrhythmia,Sinus arrhythmia,43.0,40-59,Male,Not annotated,At least one target label,0,0.97254354,0.9340595006942749,1,false_positive,0.03848403930572508,0.97254354
+chapman_test,JS04981,sinus_arrhythmia,Sinus arrhythmia,74.0,60-79,Female,Not annotated,At least one target label,0,0.97213745,0.9340595006942749,1,false_positive,0.038077949305725056,0.97213745
+ptbxl_external,20240,sinus_tachycardia,Sinus tachycardia,47.0,40-59,Female,No annotated issue,At least one target label,0,0.972059,0.7884369492530823,1,false_positive,0.18362205074691773,0.972059
+chapman_test,JS19170,sinus_rhythm,Sinus rhythm,73.0,60-79,Male,Not annotated,At least one target label,1,0.028809598,0.4860624670982361,0,false_negative,0.4572528690982361,0.971190402
+chapman_test,JS36718,sinus_arrhythmia,Sinus arrhythmia,30.0,0-39,Male,Not annotated,At least one target label,0,0.9710646,0.9340595006942749,1,false_positive,0.03700509930572515,0.9710646
+ptbxl_external,11788,sinus_tachycardia,Sinus tachycardia,77.0,60-79,Female,No annotated issue,At least one target label,0,0.9709618,0.7884369492530823,1,false_positive,0.1825248507469177,0.9709618
+ptbxl_external,4672,sinus_arrhythmia,Sinus arrhythmia,69.0,60-79,Female,No annotated issue,At least one target label,0,0.9702497,0.9340595006942749,1,false_positive,0.03619019930572509,0.9702497
+ptbxl_external,5147,sinus_arrhythmia,Sinus arrhythmia,78.0,60-79,Male,No annotated issue,At least one target label,0,0.9701855,0.9340595006942749,1,false_positive,0.03612599930572513,0.9701855
+ptbxl_external,12082,sinus_arrhythmia,Sinus arrhythmia,33.0,0-39,Female,Annotated signal issue,At least one target label,0,0.969928,0.9340595006942749,1,false_positive,0.03586849930572511,0.969928
+chapman_test,JS41243,sinus_tachycardia,Sinus tachycardia,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.96950173,0.7884369492530823,1,false_positive,0.18106478074691768,0.96950173
+chapman_test,JS04739,sinus_tachycardia,Sinus tachycardia,19.0,0-39,Male,Not annotated,At least one target label,1,0.030763306,0.7884369492530823,0,false_negative,0.7576736432530823,0.969236694
+ptbxl_external,13959,sinus_arrhythmia,Sinus arrhythmia,24.0,0-39,Male,No annotated issue,At least one target label,0,0.9689284,0.9340595006942749,1,false_positive,0.03486889930572512,0.9689284
+ptbxl_external,6951,sinus_arrhythmia,Sinus arrhythmia,68.0,60-79,Male,No annotated issue,At least one target label,0,0.9679958,0.9340595006942749,1,false_positive,0.03393629930572506,0.9679958
+ptbxl_external,17661,sinus_arrhythmia,Sinus arrhythmia,19.0,0-39,Male,No annotated issue,At least one target label,0,0.9678019,0.9340595006942749,1,false_positive,0.03374239930572509,0.9678019
+ptbxl_external,17638,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Male,Annotated signal issue,At least one target label,0,0.9677126,0.9340595006942749,1,false_positive,0.03365309930572513,0.9677126
+ptbxl_external,2270,sinus_arrhythmia,Sinus arrhythmia,26.0,0-39,Female,Annotated signal issue,At least one target label,0,0.9667771,0.9340595006942749,1,false_positive,0.03271759930572504,0.9667771
+ptbxl_external,1944,sinus_tachycardia,Sinus tachycardia,78.0,60-79,Male,No annotated issue,At least one target label,0,0.96648383,0.7884369492530823,1,false_positive,0.17804688074691777,0.96648383
+chapman_test,JS11808,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Male,Not annotated,No target label,0,0.96598303,0.6374501585960388,1,false_positive,0.32853287140396115,0.96598303
+ptbxl_external,9183,sinus_arrhythmia,Sinus arrhythmia,26.0,0-39,Male,No annotated issue,At least one target label,0,0.96550304,0.9340595006942749,1,false_positive,0.03144353930572508,0.96550304
+chapman_test,JS00293,sinus_bradycardia,Sinus bradycardia,55.0,40-59,Male,Not annotated,At least one target label,0,0.9650948,0.6374501585960388,1,false_positive,0.3276446414039612,0.9650948
+ptbxl_external,6188,sinus_arrhythmia,Sinus arrhythmia,22.0,0-39,Female,No annotated issue,At least one target label,0,0.9647988,0.9340595006942749,1,false_positive,0.030739299305725054,0.9647988
+ptbxl_external,12276,sinus_arrhythmia,Sinus arrhythmia,37.0,0-39,Female,No annotated issue,At least one target label,0,0.9646475,0.9340595006942749,1,false_positive,0.03058799930572509,0.9646475
+ptbxl_external,2963,sinus_arrhythmia,Sinus arrhythmia,20.0,0-39,Female,Annotated signal issue,At least one target label,0,0.9643654,0.9340595006942749,1,false_positive,0.030305899305725137,0.9643654
+ptbxl_external,3568,sinus_arrhythmia,Sinus arrhythmia,77.0,60-79,Male,No annotated issue,At least one target label,0,0.9643039,0.9340595006942749,1,false_positive,0.03024439930572509,0.9643039
+ptbxl_external,17936,sinus_arrhythmia,Sinus arrhythmia,30.0,0-39,Male,Annotated signal issue,At least one target label,0,0.96360904,0.9340595006942749,1,false_positive,0.029549539305725125,0.96360904
+chapman_test,JS23282,sinus_bradycardia,Sinus bradycardia,60.0,60-79,Female,Not annotated,At least one target label,1,0.036667097,0.6374501585960388,0,false_negative,0.6007830615960388,0.963332903
+ptbxl_external,19402,sinus_arrhythmia,Sinus arrhythmia,62.0,60-79,Male,No annotated issue,At least one target label,0,0.9627323,0.9340595006942749,1,false_positive,0.028672799305725083,0.9627323
+chapman_test,JS21106,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Female,Not annotated,At least one target label,1,0.037363574,0.9340595006942749,0,false_negative,0.8966959266942749,0.962636426
+ptbxl_external,5154,sinus_arrhythmia,Sinus arrhythmia,78.0,60-79,Male,No annotated issue,At least one target label,0,0.9623321,0.9340595006942749,1,false_positive,0.02827259930572512,0.9623321
+ptbxl_external,11226,sinus_arrhythmia,Sinus arrhythmia,62.0,60-79,Male,No annotated issue,At least one target label,0,0.9621932,0.9340595006942749,1,false_positive,0.02813369930572507,0.9621932
+chapman_test,JS19956,sinus_tachycardia,Sinus tachycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9612563,0.7884369492530823,1,false_positive,0.17281935074691768,0.9612563
+chapman_test,JS00909,sinus_tachycardia,Sinus tachycardia,67.0,60-79,Female,Not annotated,At least one target label,0,0.9612093,0.7884369492530823,1,false_positive,0.17277235074691777,0.9612093
+chapman_test,JS20308,sinus_bradycardia,Sinus bradycardia,58.0,40-59,Female,Not annotated,No target label,0,0.96011937,0.6374501585960388,1,false_positive,0.3226692114039612,0.96011937
+chapman_test,JS11092,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,At least one target label,0,0.95777106,0.7884369492530823,1,false_positive,0.16933411074691773,0.95777106
+chapman_test,JS39413,sinus_bradycardia,Sinus bradycardia,54.0,40-59,Male,Not annotated,At least one target label,0,0.95616657,0.6374501585960388,1,false_positive,0.31871641140396123,0.95616657
+chapman_test,JS03192,sinus_bradycardia,Sinus bradycardia,50.0,40-59,Female,Not annotated,At least one target label,0,0.954402,0.6374501585960388,1,false_positive,0.31695184140396115,0.954402
+chapman_test,JS11625,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,No target label,0,0.94973797,0.6374501585960388,1,false_positive,0.3122878114039612,0.94973797
+chapman_test,JS37330,sinus_bradycardia,Sinus bradycardia,28.0,0-39,Female,Not annotated,At least one target label,0,0.94910914,0.6374501585960388,1,false_positive,0.3116589814039612,0.94910914
+ptbxl_external,19412,atrial_fibrillation,Atrial fibrillation,50.0,40-59,Female,No annotated issue,At least one target label,1,0.05102353,0.74114990234375,0,false_negative,0.69012637234375,0.94897647
+chapman_test,JS36958,sinus_rhythm,Sinus rhythm,7.0,0-39,Male,Not annotated,At least one target label,1,0.051104896,0.4860624670982361,0,false_negative,0.4349575710982361,0.948895104
+ptbxl_external,11286,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Male,No annotated issue,At least one target label,1,0.052384466,0.74114990234375,0,false_negative,0.68876543634375,0.947615534
+chapman_test,JS03656,sinus_bradycardia,Sinus bradycardia,41.0,40-59,Female,Not annotated,At least one target label,0,0.9458551,0.6374501585960388,1,false_positive,0.30840494140396113,0.9458551
+chapman_test,JS39622,sinus_bradycardia,Sinus bradycardia,43.0,40-59,Female,Not annotated,At least one target label,0,0.9434399,0.6374501585960388,1,false_positive,0.3059897414039612,0.9434399
+chapman_test,JS19156,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.9431335,0.74114990234375,1,false_positive,0.20198359765624996,0.9431335
+chapman_test,JS11119,sinus_tachycardia,Sinus tachycardia,22.0,0-39,Male,Not annotated,At least one target label,0,0.94149244,0.7884369492530823,1,false_positive,0.1530554907469177,0.94149244
+chapman_test,JS37336,sinus_rhythm,Sinus rhythm,65.0,60-79,Female,Not annotated,At least one target label,1,0.059940632,0.4860624670982361,0,false_negative,0.4261218350982361,0.940059368
+chapman_test,JS39042,sinus_rhythm,Sinus rhythm,4.0,0-39,Male,Not annotated,At least one target label,1,0.060401246,0.4860624670982361,0,false_negative,0.42566122109823606,0.939598754
+chapman_test,JS00293,sinus_rhythm,Sinus rhythm,55.0,40-59,Male,Not annotated,At least one target label,1,0.061124407,0.4860624670982361,0,false_negative,0.4249380600982361,0.938875593
+chapman_test,JS35516,sinus_bradycardia,Sinus bradycardia,48.0,40-59,Male,Not annotated,At least one target label,0,0.9368436,0.6374501585960388,1,false_positive,0.2993934414039612,0.9368436
+chapman_test,JS39368,sinus_bradycardia,Sinus bradycardia,49.0,40-59,Male,Not annotated,At least one target label,0,0.9341349,0.6374501585960388,1,false_positive,0.29668474140396117,0.9341349
+chapman_test,JS22124,sinus_bradycardia,Sinus bradycardia,73.0,60-79,Male,Not annotated,At least one target label,1,0.06772873,0.6374501585960388,0,false_negative,0.5697214285960388,0.93227127
+chapman_test,JS03192,sinus_rhythm,Sinus rhythm,50.0,40-59,Female,Not annotated,At least one target label,1,0.06971936,0.4860624670982361,0,false_negative,0.4163431070982361,0.93028064
+chapman_test,JS21665,sinus_bradycardia,Sinus bradycardia,65.0,60-79,Male,Not annotated,At least one target label,0,0.929525,0.6374501585960388,1,false_positive,0.2920748414039612,0.929525
+chapman_test,JS13010,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Male,Not annotated,At least one target label,0,0.9257783,0.74114990234375,1,false_positive,0.18462839765625005,0.9257783
+chapman_test,JS37012,sinus_rhythm,Sinus rhythm,6.0,0-39,Male,Not annotated,At least one target label,1,0.07649596,0.4860624670982361,0,false_negative,0.40956650709823605,0.92350404
+ptbxl_external,377,atrial_fibrillation,Atrial fibrillation,17.0,0-39,Female,No annotated issue,At least one target label,0,0.92285216,0.74114990234375,1,false_positive,0.18170225765625003,0.92285216
+chapman_test,JS18468,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9226992,0.74114990234375,1,false_positive,0.18154929765625005,0.9226992
+chapman_test,JS00909,atrial_flutter,Atrial flutter,67.0,60-79,Female,Not annotated,At least one target label,1,0.079163,0.8128908276557922,0,false_negative,0.7337278276557923,0.920837
+chapman_test,JS04963,sinus_bradycardia,Sinus bradycardia,70.0,60-79,Male,Not annotated,At least one target label,0,0.92038006,0.6374501585960388,1,false_positive,0.28292990140396124,0.92038006
+chapman_test,JS10992,sinus_tachycardia,Sinus tachycardia,17.0,0-39,Female,Not annotated,At least one target label,0,0.91980785,0.7884369492530823,1,false_positive,0.1313709007469177,0.91980785
+chapman_test,JS22236,sinus_bradycardia,Sinus bradycardia,66.0,60-79,Female,Not annotated,No target label,0,0.91965336,0.6374501585960388,1,false_positive,0.28220320140396116,0.91965336
+ptbxl_external,19164,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.0806714,0.74114990234375,0,false_negative,0.66047850234375,0.9193286
+chapman_test,JS16176,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Male,Not annotated,At least one target label,0,0.91899717,0.74114990234375,1,false_positive,0.17784726765625003,0.91899717
+chapman_test,JS06588,sinus_bradycardia,Sinus bradycardia,56.0,40-59,Female,Not annotated,At least one target label,1,0.08106095,0.6374501585960388,0,false_negative,0.5563892085960388,0.91893905
+chapman_test,JS09667,sinus_tachycardia,Sinus tachycardia,75.0,60-79,Female,Not annotated,At least one target label,1,0.08226307,0.7884369492530823,0,false_negative,0.7061738792530823,0.91773693
+chapman_test,JS37330,sinus_rhythm,Sinus rhythm,28.0,0-39,Female,Not annotated,At least one target label,1,0.08283608,0.4860624670982361,0,false_negative,0.4032263870982361,0.91716392
+chapman_test,JS11718,sinus_bradycardia,Sinus bradycardia,74.0,60-79,Male,Not annotated,At least one target label,1,0.082852654,0.6374501585960388,0,false_negative,0.5545975045960388,0.917147346
+chapman_test,JS15732,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9146729,0.74114990234375,1,false_positive,0.17352299765625,0.9146729
+chapman_test,JS18603,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Male,Not annotated,At least one target label,0,0.9141841,0.74114990234375,1,false_positive,0.17303419765625005,0.9141841
+chapman_test,JS40980,sinus_bradycardia,Sinus bradycardia,72.0,60-79,Male,Not annotated,At least one target label,0,0.91146815,0.6374501585960388,1,false_positive,0.2740179914039612,0.91146815
+chapman_test,JS15315,atrial_fibrillation,Atrial fibrillation,60.0,60-79,Male,Not annotated,At least one target label,0,0.911324,0.74114990234375,1,false_positive,0.17017409765625002,0.911324
+chapman_test,JS19615,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Female,Not annotated,At least one target label,0,0.9104637,0.74114990234375,1,false_positive,0.16931379765625,0.9104637
+chapman_test,JS21128,sinus_arrhythmia,Sinus arrhythmia,85.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.09010505,0.9340595006942749,0,false_negative,0.8439544506942749,0.90989495
+chapman_test,JS13751,atrial_fibrillation,Atrial fibrillation,71.0,60-79,Male,Not annotated,At least one target label,0,0.9086132,0.74114990234375,1,false_positive,0.16746329765625,0.9086132
+chapman_test,JS19468,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.90693873,0.74114990234375,1,false_positive,0.16578882765625003,0.90693873
+chapman_test,JS22124,sinus_arrhythmia,Sinus arrhythmia,73.0,60-79,Male,Not annotated,At least one target label,1,0.09548028,0.9340595006942749,0,false_negative,0.8385792206942749,0.90451972
+chapman_test,JS23097,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Male,Not annotated,At least one target label,1,0.0968105,0.9340595006942749,0,false_negative,0.8372490006942749,0.9031895
+chapman_test,JS18823,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9026536,0.74114990234375,1,false_positive,0.16150369765624994,0.9026536
+ptbxl_external,7055,atrial_fibrillation,Atrial fibrillation,58.0,40-59,Female,No annotated issue,At least one target label,0,0.9025961,0.74114990234375,1,false_positive,0.16144619765625,0.9025961
+chapman_test,JS17166,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Not annotated,At least one target label,0,0.9019462,0.74114990234375,1,false_positive,0.16079629765625003,0.9019462
+chapman_test,JS13401,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.9016149,0.74114990234375,1,false_positive,0.16046499765625,0.9016149
+chapman_test,JS14884,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.90013045,0.74114990234375,1,false_positive,0.15898054765625003,0.90013045
+chapman_test,JS16773,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.8994352,0.74114990234375,1,false_positive,0.15828529765625,0.8994352
+chapman_test,JS17097,atrial_fibrillation,Atrial fibrillation,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.8994141,0.74114990234375,1,false_positive,0.15826419765625,0.8994141
+chapman_test,JS13918,atrial_fibrillation,Atrial fibrillation,68.0,60-79,Male,Not annotated,At least one target label,0,0.89749455,0.74114990234375,1,false_positive,0.15634464765625,0.89749455
+chapman_test,JS13557,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.8972576,0.74114990234375,1,false_positive,0.15610769765625,0.8972576
+ptbxl_external,7811,atrial_fibrillation,Atrial fibrillation,75.0,60-79,Male,Annotated signal issue,At least one target label,1,0.10332509,0.74114990234375,0,false_negative,0.63782481234375,0.89667491
+chapman_test,JS12713,atrial_fibrillation,Atrial fibrillation,68.0,60-79,Male,Not annotated,At least one target label,0,0.89654917,0.74114990234375,1,false_positive,0.15539926765625,0.89654917
+chapman_test,JS13881,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.89615005,0.74114990234375,1,false_positive,0.15500014765625003,0.89615005
+chapman_test,JS13205,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Female,Not annotated,At least one target label,0,0.8946275,0.74114990234375,1,false_positive,0.15347759765625002,0.8946275
+ptbxl_external,1901,atrial_fibrillation,Atrial fibrillation,17.0,0-39,Female,No annotated issue,At least one target label,1,0.10580377,0.74114990234375,0,false_negative,0.63534613234375,0.89419623
+chapman_test,JS14043,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.89356524,0.74114990234375,1,false_positive,0.15241533765625004,0.89356524
+chapman_test,JS45378,sinus_tachycardia,Sinus tachycardia,50.0,40-59,Male,Not annotated,No target label,0,0.89334357,0.7884369492530823,1,false_positive,0.1049066207469177,0.89334357
+chapman_test,JS18334,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Male,Not annotated,At least one target label,0,0.89264995,0.74114990234375,1,false_positive,0.15150004765625003,0.89264995
+chapman_test,JS05991,sinus_tachycardia,Sinus tachycardia,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,0,0.8922971,0.7884369492530823,1,false_positive,0.10386015074691768,0.8922971
+chapman_test,JS17525,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.89218616,0.74114990234375,1,false_positive,0.15103625765624995,0.89218616
+chapman_test,JS16450,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,0,0.89187634,0.74114990234375,1,false_positive,0.15072643765625005,0.89187634
+ptbxl_external,11418,sinus_tachycardia,Sinus tachycardia,300.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,At least one target label,1,0.108292125,0.7884369492530823,0,false_negative,0.6801448242530823,0.891707875
+chapman_test,JS38683,sinus_rhythm,Sinus rhythm,5.0,0-39,Male,Not annotated,At least one target label,1,0.11722147,0.4860624670982361,0,false_negative,0.3688409970982361,0.88277853
+chapman_test,JS02413,sinus_tachycardia,Sinus tachycardia,71.0,60-79,Female,Not annotated,At least one target label,0,0.88121814,0.7884369492530823,1,false_positive,0.09278119074691771,0.88121814
+chapman_test,JS05991,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.120003946,0.74114990234375,0,false_negative,0.62114595634375,0.879996054
+chapman_test,JS41242,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Female,Not annotated,At least one target label,0,0.8786941,0.7884369492530823,1,false_positive,0.09025715074691776,0.8786941
+ptbxl_external,18520,atrial_fibrillation,Atrial fibrillation,52.0,40-59,Female,No annotated issue,At least one target label,0,0.8774614,0.74114990234375,1,false_positive,0.13631149765624995,0.8774614
+ptbxl_external,1282,sinus_arrhythmia,Sinus arrhythmia,18.0,0-39,Female,Annotated signal issue,At least one target label,1,0.13678466,0.9340595006942749,0,false_negative,0.7972748406942749,0.86321534
+chapman_test,JS21128,sinus_tachycardia,Sinus tachycardia,85.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.15161714,0.7884369492530823,0,false_negative,0.6368198092530822,0.84838286
+chapman_test,JS08527,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.15533262,0.74114990234375,0,false_negative,0.58581728234375,0.84466738
+ptbxl_external,382,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,No target label,0,0.84300697,0.74114990234375,1,false_positive,0.10185706765625002,0.84300697
+chapman_test,JS11752,sinus_arrhythmia,Sinus arrhythmia,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.16006087,0.9340595006942749,0,false_negative,0.7739986306942749,0.83993913
+chapman_test,JS21711,sinus_rhythm,Sinus rhythm,77.0,60-79,Male,Not annotated,At least one target label,1,0.16414377,0.4860624670982361,0,false_negative,0.32191869709823606,0.83585623
+chapman_test,JS39413,sinus_rhythm,Sinus rhythm,54.0,40-59,Male,Not annotated,At least one target label,1,0.16557316,0.4860624670982361,0,false_negative,0.3204893070982361,0.83442684
+chapman_test,JS20693,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Female,Not annotated,At least one target label,1,0.16606185,0.7884369492530823,0,false_negative,0.6223750992530823,0.83393815
+ptbxl_external,18548,atrial_fibrillation,Atrial fibrillation,81.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.8319512,0.74114990234375,1,false_positive,0.09080129765625,0.8319512
+chapman_test,JS40980,sinus_rhythm,Sinus rhythm,72.0,60-79,Male,Not annotated,At least one target label,1,0.16902798,0.4860624670982361,0,false_negative,0.3170344870982361,0.83097202
+chapman_test,JS39622,sinus_rhythm,Sinus rhythm,43.0,40-59,Female,Not annotated,At least one target label,1,0.16964062,0.4860624670982361,0,false_negative,0.31642184709823606,0.83035938
+chapman_test,JS12518,sinus_rhythm,Sinus rhythm,67.0,60-79,Female,Not annotated,At least one target label,1,0.17228194,0.4860624670982361,0,false_negative,0.3137805270982361,0.82771806
+chapman_test,JS03656,sinus_rhythm,Sinus rhythm,41.0,40-59,Female,Not annotated,At least one target label,1,0.18044136,0.4860624670982361,0,false_negative,0.3056211070982361,0.81955864
+ptbxl_external,13577,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,No target label,0,0.8185078,0.74114990234375,1,false_positive,0.07735789765625001,0.8185078
+ptbxl_external,5606,atrial_fibrillation,Atrial fibrillation,62.0,60-79,Female,No annotated issue,No target label,0,0.81679595,0.74114990234375,1,false_positive,0.07564604765625005,0.81679595
+ptbxl_external,19353,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,0,0.8128497,0.74114990234375,1,false_positive,0.07169979765625001,0.8128497
+chapman_test,JS37598,sinus_rhythm,Sinus rhythm,40.0,40-59,Female,Not annotated,At least one target label,1,0.19466619,0.4860624670982361,0,false_negative,0.2913962770982361,0.80533381
+chapman_test,JS24269,sinus_arrhythmia,Sinus arrhythmia,67.0,60-79,Female,Not annotated,At least one target label,1,0.206677,0.9340595006942749,0,false_negative,0.7273825006942749,0.793323
+chapman_test,JS22372,sinus_bradycardia,Sinus bradycardia,73.0,60-79,Male,Not annotated,At least one target label,1,0.20673834,0.6374501585960388,0,false_negative,0.4307118185960388,0.79326166
+ptbxl_external,16239,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Male,Annotated signal issue,No target label,0,0.79135674,0.74114990234375,1,false_positive,0.05020683765625,0.79135674
+ptbxl_external,11420,atrial_fibrillation,Atrial fibrillation,84.0,80+ (includes privacy-coded 90+),Male,Annotated signal issue,At least one target label,0,0.7836916,0.74114990234375,1,false_positive,0.042541697656250044,0.7836916
+ptbxl_external,17860,sinus_arrhythmia,Sinus arrhythmia,24.0,0-39,Female,No annotated issue,At least one target label,1,0.22034171,0.9340595006942749,0,false_negative,0.7137177906942749,0.77965829
+ptbxl_external,10807,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,0,0.76766205,0.74114990234375,1,false_positive,0.026512147656249985,0.76766205
+ptbxl_external,18548,sinus_tachycardia,Sinus tachycardia,81.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.24002726,0.7884369492530823,0,false_negative,0.5484096892530823,0.75997274
+chapman_test,JS11799,sinus_bradycardia,Sinus bradycardia,79.0,60-79,Male,Not annotated,At least one target label,1,0.24235594,0.6374501585960388,0,false_negative,0.3950942185960388,0.7576440600000001
+chapman_test,JS12133,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.24824859,0.6374501585960388,0,false_negative,0.3892015685960388,0.75175141
+ptbxl_external,512,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Female,Annotated signal issue,No target label,0,0.75087464,0.74114990234375,1,false_positive,0.009724737656250038,0.75087464
+ptbxl_external,20100,atrial_fibrillation,Atrial fibrillation,57.0,40-59,Female,No annotated issue,At least one target label,1,0.2696117,0.74114990234375,0,false_negative,0.47153820234375,0.7303883
+chapman_test,JS19956,atrial_flutter,Atrial flutter,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.27024487,0.8128908276557922,0,false_negative,0.5426459576557923,0.72975513
+chapman_test,JS11638,sinus_tachycardia,Sinus tachycardia,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.27991283,0.7884369492530823,0,false_negative,0.5085241192530823,0.72008717
+ptbxl_external,9732,atrial_fibrillation,Atrial fibrillation,300.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.2889556,0.74114990234375,0,false_negative,0.45219430234375,0.7110444
+chapman_test,JS19193,atrial_flutter,Atrial flutter,65.0,60-79,Female,Not annotated,At least one target label,1,0.2925878,0.8128908276557922,0,false_negative,0.5203030276557923,0.7074122
+chapman_test,JS10992,sinus_arrhythmia,Sinus arrhythmia,17.0,0-39,Female,Not annotated,At least one target label,1,0.2965576,0.9340595006942749,0,false_negative,0.6375019006942749,0.7034424
+chapman_test,JS04758,sinus_tachycardia,Sinus tachycardia,76.0,60-79,Female,Not annotated,At least one target label,1,0.3029638,0.7884369492530823,0,false_negative,0.48547314925308227,0.6970362
+ptbxl_external,12426,sinus_arrhythmia,Sinus arrhythmia,72.0,60-79,Female,No annotated issue,At least one target label,1,0.30835804,0.9340595006942749,0,false_negative,0.6257014606942749,0.69164196
+chapman_test,JS10869,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Female,Not annotated,At least one target label,1,0.30909285,0.9340595006942749,0,false_negative,0.6249666506942749,0.69090715
+chapman_test,JS08748,sinus_bradycardia,Sinus bradycardia,72.0,60-79,Female,Not annotated,At least one target label,1,0.32535756,0.6374501585960388,0,false_negative,0.31209259859603883,0.67464244
+chapman_test,JS22882,sinus_tachycardia,Sinus tachycardia,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.3291681,0.7884369492530823,0,false_negative,0.45926884925308226,0.6708319
+chapman_test,JS12468,sinus_bradycardia,Sinus bradycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.32977536,0.6374501585960388,0,false_negative,0.3076747985960388,0.67022464
+chapman_test,JS24479,sinus_arrhythmia,Sinus arrhythmia,81.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.33505648,0.9340595006942749,0,false_negative,0.5990030206942749,0.66494352
+chapman_test,JS11868,sinus_arrhythmia,Sinus arrhythmia,68.0,60-79,Male,Not annotated,At least one target label,1,0.35697553,0.9340595006942749,0,false_negative,0.577083970694275,0.6430244700000001
+chapman_test,JS11717,sinus_tachycardia,Sinus tachycardia,76.0,60-79,Male,Not annotated,At least one target label,1,0.35737002,0.7884369492530823,0,false_negative,0.43106692925308226,0.6426299799999999
+chapman_test,JS24551,sinus_arrhythmia,Sinus arrhythmia,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.35855138,0.9340595006942749,0,false_negative,0.5755081206942749,0.64144862
+chapman_test,JS24637,sinus_arrhythmia,Sinus arrhythmia,41.0,40-59,Male,Not annotated,At least one target label,1,0.3588912,0.9340595006942749,0,false_negative,0.5751683006942749,0.6411088
+chapman_test,JS34251,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Male,Not annotated,At least one target label,1,0.35903886,0.6374501585960388,0,false_negative,0.2784112985960388,0.6409611399999999
+chapman_test,JS11815,sinus_arrhythmia,Sinus arrhythmia,89.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.36012024,0.9340595006942749,0,false_negative,0.5739392606942749,0.63987976
+chapman_test,JS22374,sinus_arrhythmia,Sinus arrhythmia,39.0,0-39,Male,Not annotated,At least one target label,1,0.36026353,0.9340595006942749,0,false_negative,0.5737959706942749,0.63973647
+ptbxl_external,19906,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.36694214,0.74114990234375,0,false_negative,0.37420776234375,0.63305786
+chapman_test,JS24487,sinus_arrhythmia,Sinus arrhythmia,53.0,40-59,Female,Not annotated,At least one target label,1,0.3670043,0.9340595006942749,0,false_negative,0.5670552006942748,0.6329956999999999
+chapman_test,JS20153,sinus_tachycardia,Sinus tachycardia,85.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.37105235,0.7884369492530823,0,false_negative,0.4173845992530823,0.62894765
+chapman_test,JS34563,sinus_arrhythmia,Sinus arrhythmia,69.0,60-79,Female,Not annotated,At least one target label,1,0.3827162,0.9340595006942749,0,false_negative,0.551343300694275,0.6172838
+ptbxl_external,9211,atrial_fibrillation,Atrial fibrillation,64.0,60-79,Female,No annotated issue,At least one target label,1,0.38545924,0.74114990234375,0,false_negative,0.35569066234375,0.61454076
+ptbxl_external,8241,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.38690007,0.74114990234375,0,false_negative,0.35424983234375,0.61309993
+chapman_test,JS34946,sinus_arrhythmia,Sinus arrhythmia,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.38850176,0.9340595006942749,0,false_negative,0.5455577406942749,0.61149824
+ptbxl_external,598,atrial_fibrillation,Atrial fibrillation,73.0,60-79,Female,No annotated issue,At least one target label,1,0.39560303,0.74114990234375,0,false_negative,0.34554687234375,0.60439697
+ptbxl_external,19955,sinus_arrhythmia,Sinus arrhythmia,69.0,60-79,Male,No annotated issue,At least one target label,1,0.3979574,0.9340595006942749,0,false_negative,0.5361021006942749,0.6020426
+chapman_test,JS09004,atrial_fibrillation,Atrial fibrillation,54.0,40-59,Male,Not annotated,At least one target label,1,0.39832196,0.74114990234375,0,false_negative,0.34282794234375,0.60167804
+chapman_test,JS23090,sinus_bradycardia,Sinus bradycardia,62.0,60-79,Female,Not annotated,At least one target label,1,0.39864546,0.6374501585960388,0,false_negative,0.2388046985960388,0.60135454
+ptbxl_external,14628,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.39951733,0.74114990234375,0,false_negative,0.34163257234375,0.60048267
+ptbxl_external,5777,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.40223655,0.74114990234375,0,false_negative,0.33891335234375,0.59776345
+ptbxl_external,6352,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Female,No annotated issue,At least one target label,1,0.4051363,0.74114990234375,0,false_negative,0.33601360234375,0.5948637
+ptbxl_external,14427,sinus_arrhythmia,Sinus arrhythmia,83.0,80+ (includes privacy-coded 90+),Female,Annotated signal issue,At least one target label,1,0.40526837,0.9340595006942749,0,false_negative,0.528791130694275,0.5947316300000001
+chapman_test,JS07980,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Male,Not annotated,At least one target label,1,0.40649697,0.74114990234375,0,false_negative,0.33465293234375,0.5935030299999999
+chapman_test,JS02550,sinus_tachycardia,Sinus tachycardia,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.41013125,0.7884369492530823,0,false_negative,0.3783056992530823,0.5898687499999999
+chapman_test,JS23480,sinus_arrhythmia,Sinus arrhythmia,89.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.4110391,0.9340595006942749,0,false_negative,0.5230204006942749,0.5889609
+chapman_test,JS24265,sinus_arrhythmia,Sinus arrhythmia,71.0,60-79,Male,Not annotated,At least one target label,1,0.4125813,0.9340595006942749,0,false_negative,0.5214782006942749,0.5874187
+chapman_test,JS04139,atrial_fibrillation,Atrial fibrillation,61.0,60-79,Male,Not annotated,At least one target label,1,0.41329327,0.74114990234375,0,false_negative,0.32785663234375,0.58670673
+chapman_test,JS05230,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.41369933,0.74114990234375,0,false_negative,0.32745057234375,0.58630067
+chapman_test,JS34543,sinus_arrhythmia,Sinus arrhythmia,65.0,60-79,Male,Not annotated,At least one target label,1,0.41398197,0.9340595006942749,0,false_negative,0.5200775306942749,0.58601803
+chapman_test,JS19319,atrial_flutter,Atrial flutter,61.0,60-79,Female,Not annotated,At least one target label,1,0.41452107,0.8128908276557922,0,false_negative,0.39836975765579224,0.5854789300000001
+chapman_test,JS23588,sinus_arrhythmia,Sinus arrhythmia,65.0,60-79,Male,Not annotated,At least one target label,1,0.4248764,0.9340595006942749,0,false_negative,0.5091831006942749,0.5751236
+chapman_test,JS24227,sinus_arrhythmia,Sinus arrhythmia,70.0,60-79,Female,Not annotated,At least one target label,1,0.42546782,0.9340595006942749,0,false_negative,0.508591680694275,0.5745321800000001
+ptbxl_external,8680,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Male,Annotated signal issue,At least one target label,1,0.42635006,0.74114990234375,0,false_negative,0.31479984234375,0.57364994
+chapman_test,JS21555,sinus_bradycardia,Sinus bradycardia,61.0,60-79,Female,Not annotated,At least one target label,1,0.42645416,0.6374501585960388,0,false_negative,0.2109959985960388,0.57354584
+chapman_test,JS24545,sinus_arrhythmia,Sinus arrhythmia,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.43336722,0.9340595006942749,0,false_negative,0.5006922806942748,0.56663278
+chapman_test,JS34581,sinus_arrhythmia,Sinus arrhythmia,78.0,60-79,Male,Not annotated,At least one target label,1,0.4338362,0.9340595006942749,0,false_negative,0.5002233006942749,0.5661638
+ptbxl_external,18592,atrial_fibrillation,Atrial fibrillation,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.43388215,0.74114990234375,0,false_negative,0.30726775234375,0.5661178499999999
+chapman_test,JS09481,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Male,Not annotated,At least one target label,1,0.4375173,0.74114990234375,0,false_negative,0.30363260234375,0.5624827
+chapman_test,JS34551,sinus_bradycardia,Sinus bradycardia,18.0,0-39,Female,Not annotated,At least one target label,1,0.43762806,0.6374501585960388,0,false_negative,0.19982209859603883,0.56237194
+chapman_test,JS12380,sinus_tachycardia,Sinus tachycardia,85.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.44066203,0.7884369492530823,0,false_negative,0.3477749192530823,0.5593379700000001
+ptbxl_external,6465,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Male,No annotated issue,At least one target label,1,0.44209382,0.9340595006942749,0,false_negative,0.4919656806942749,0.55790618
+chapman_test,JS21112,sinus_bradycardia,Sinus bradycardia,79.0,60-79,Male,Not annotated,At least one target label,1,0.44801414,0.6374501585960388,0,false_negative,0.1894360185960388,0.55198586
+ptbxl_external,2722,atrial_fibrillation,Atrial fibrillation,88.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.44946197,0.74114990234375,0,false_negative,0.29168793234375,0.55053803
+chapman_test,JS19470,atrial_flutter,Atrial flutter,75.0,60-79,Female,Not annotated,At least one target label,1,0.45427385,0.8128908276557922,0,false_negative,0.35861697765579226,0.54572615
+chapman_test,JS12464,sinus_bradycardia,Sinus bradycardia,44.0,40-59,Female,Not annotated,At least one target label,1,0.4568683,0.6374501585960388,0,false_negative,0.1805818585960388,0.5431317
+chapman_test,JS03331,atrial_flutter,Atrial flutter,68.0,60-79,Male,Not annotated,At least one target label,1,0.4586099,0.8128908276557922,0,false_negative,0.3542809276557922,0.5413901
+chapman_test,JS20149,sinus_tachycardia,Sinus tachycardia,60.0,60-79,Female,Not annotated,At least one target label,1,0.46362653,0.7884369492530823,0,false_negative,0.3248104192530823,0.53637347
+chapman_test,JS19194,atrial_flutter,Atrial flutter,48.0,40-59,Female,Not annotated,At least one target label,1,0.46495304,0.8128908276557922,0,false_negative,0.34793778765579225,0.5350469600000001
+ptbxl_external,7054,sinus_arrhythmia,Sinus arrhythmia,75.0,60-79,Female,No annotated issue,At least one target label,1,0.4663226,0.9340595006942749,0,false_negative,0.4677369006942749,0.5336774
+chapman_test,JS01545,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.47318262,0.74114990234375,0,false_negative,0.26796728234375,0.52681738
+ptbxl_external,15958,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Male,No annotated issue,At least one target label,1,0.47715867,0.74114990234375,0,false_negative,0.26399123234375,0.52284133
+chapman_test,JS30331,sinus_bradycardia,Sinus bradycardia,67.0,60-79,Male,Not annotated,At least one target label,1,0.4773822,0.6374501585960388,0,false_negative,0.16006795859603884,0.5226178
+chapman_test,JS19685,atrial_flutter,Atrial flutter,52.0,40-59,Male,Not annotated,At least one target label,1,0.48045027,0.8128908276557922,0,false_negative,0.3324405576557922,0.51954973
+chapman_test,JS22867,sinus_tachycardia,Sinus tachycardia,87.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.4896937,0.7884369492530823,0,false_negative,0.29874324925308227,0.5103063
+chapman_test,JS00718,atrial_fibrillation,Atrial fibrillation,65.0,60-79,Male,Not annotated,At least one target label,1,0.49201074,0.74114990234375,0,false_negative,0.24913916234375,0.50798926
+chapman_test,JS07647,sinus_bradycardia,Sinus bradycardia,60.0,60-79,Male,Not annotated,At least one target label,1,0.4925857,0.6374501585960388,0,false_negative,0.1448644585960388,0.5074143
+chapman_test,JS19584,atrial_flutter,Atrial flutter,70.0,60-79,Female,Not annotated,At least one target label,1,0.50007516,0.8128908276557922,0,false_negative,0.3128156676557923,0.49992484000000004
+chapman_test,JS03365,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.5056179,0.74114990234375,0,false_negative,0.23553200234375005,0.49438210000000005
+chapman_test,JS01424,atrial_fibrillation,Atrial fibrillation,59.0,40-59,Female,Not annotated,At least one target label,1,0.5059048,0.74114990234375,0,false_negative,0.23524510234374996,0.49409519999999996
+ptbxl_external,6314,sinus_arrhythmia,Sinus arrhythmia,82.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.5170933,0.9340595006942749,0,false_negative,0.4169662006942749,0.4829067
+chapman_test,JS18740,atrial_flutter,Atrial flutter,60.0,60-79,Female,Not annotated,At least one target label,1,0.52217025,0.8128908276557922,0,false_negative,0.2907205776557923,0.47782975000000005
+chapman_test,JS05662,atrial_fibrillation,Atrial fibrillation,65.0,60-79,Female,Not annotated,At least one target label,1,0.52258074,0.74114990234375,0,false_negative,0.21856916234375,0.47741926
+ptbxl_external,4866,sinus_arrhythmia,Sinus arrhythmia,74.0,60-79,Female,No annotated issue,At least one target label,1,0.53573626,0.9340595006942749,0,false_negative,0.39832324069427494,0.46426374000000004
+chapman_test,JS09010,atrial_fibrillation,Atrial fibrillation,82.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.54278255,0.74114990234375,0,false_negative,0.19836735234375003,0.45721745
+chapman_test,JS02364,atrial_fibrillation,Atrial fibrillation,51.0,40-59,Male,Not annotated,At least one target label,1,0.5483759,0.74114990234375,0,false_negative,0.19277400234374997,0.4516241
+chapman_test,JS08721,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.55776393,0.74114990234375,0,false_negative,0.18338597234374998,0.44223607
+chapman_test,JS10759,atrial_flutter,Atrial flutter,58.0,40-59,Female,Not annotated,At least one target label,1,0.5595522,0.8128908276557922,0,false_negative,0.2533386276557922,0.44044779999999994
+ptbxl_external,10207,sinus_tachycardia,Sinus tachycardia,74.0,60-79,Male,No annotated issue,At least one target label,1,0.5604131,0.7884369492530823,0,false_negative,0.22802384925308228,0.4395869
+chapman_test,JS01868,atrial_fibrillation,Atrial fibrillation,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.56535625,0.74114990234375,0,false_negative,0.17579365234375,0.43464375
+chapman_test,JS02299,atrial_fibrillation,Atrial fibrillation,86.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.5658862,0.74114990234375,0,false_negative,0.17526370234375,0.4341138
+chapman_test,JS05115,atrial_fibrillation,Atrial fibrillation,78.0,60-79,Male,Not annotated,At least one target label,1,0.56824046,0.74114990234375,0,false_negative,0.17290944234375005,0.43175954000000005
+chapman_test,JS20123,sinus_tachycardia,Sinus tachycardia,79.0,60-79,Female,Not annotated,At least one target label,1,0.56835186,0.7884369492530823,0,false_negative,0.22008508925308223,0.43164813999999996
+chapman_test,JS07218,atrial_fibrillation,Atrial fibrillation,84.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.5751977,0.74114990234375,0,false_negative,0.16595220234374997,0.42480229999999997
+chapman_test,JS01394,atrial_fibrillation,Atrial fibrillation,80.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.57701886,0.74114990234375,0,false_negative,0.16413104234374998,0.42298114
+ptbxl_external,18421,sinus_arrhythmia,Sinus arrhythmia,67.0,60-79,Male,Annotated signal issue,At least one target label,1,0.5773235,0.9340595006942749,0,false_negative,0.3567360006942749,0.4226765
+chapman_test,JS13653,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.58168656,0.8128908276557922,0,false_negative,0.23120426765579227,0.41831344000000004
+chapman_test,JS07345,atrial_fibrillation,Atrial fibrillation,77.0,60-79,Male,Not annotated,At least one target label,1,0.59360087,0.74114990234375,0,false_negative,0.14754903234375005,0.40639913000000005
+ptbxl_external,6312,sinus_arrhythmia,Sinus arrhythmia,21.0,0-39,Male,Annotated signal issue,At least one target label,1,0.5984977,0.9340595006942749,0,false_negative,0.3355618006942749,0.4015023
+ptbxl_external,1843,sinus_arrhythmia,Sinus arrhythmia,65.0,60-79,Male,Annotated signal issue,At least one target label,1,0.59913623,0.9340595006942749,0,false_negative,0.33492327069427485,0.40086376999999995
+chapman_test,JS01312,atrial_fibrillation,Atrial fibrillation,74.0,60-79,Female,Not annotated,At least one target label,1,0.5991511,0.74114990234375,0,false_negative,0.14199880234374995,0.40084889999999995
+chapman_test,JS02910,atrial_fibrillation,Atrial fibrillation,85.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.60307086,0.74114990234375,0,false_negative,0.13807904234375,0.39692914
+ptbxl_external,1200,sinus_arrhythmia,Sinus arrhythmia,68.0,60-79,Male,No annotated issue,At least one target label,1,0.60319126,0.9340595006942749,0,false_negative,0.3308682406942749,0.39680874
+chapman_test,JS08041,atrial_fibrillation,Atrial fibrillation,79.0,60-79,Female,Not annotated,At least one target label,1,0.60327727,0.74114990234375,0,false_negative,0.13787263234375002,0.39672273
+chapman_test,JS19822,atrial_flutter,Atrial flutter,81.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.6048225,0.8128908276557922,0,false_negative,0.2080683276557922,0.39517749999999996
+chapman_test,JS05621,sinus_bradycardia,Sinus bradycardia,79.0,60-79,Male,Not annotated,At least one target label,1,0.6052195,0.6374501585960388,0,false_negative,0.0322306585960388,0.3947805
+chapman_test,JS00573,atrial_fibrillation,Atrial fibrillation,70.0,60-79,Male,Not annotated,At least one target label,1,0.6078069,0.74114990234375,0,false_negative,0.13334300234374996,0.39219309999999996
+chapman_test,JS21801,sinus_tachycardia,Sinus tachycardia,48.0,40-59,Male,Not annotated,At least one target label,1,0.6079369,0.7884369492530823,0,false_negative,0.18050004925308227,0.3920631
+ptbxl_external,10822,sinus_arrhythmia,Sinus arrhythmia,11.0,0-39,Female,No annotated issue,At least one target label,1,0.6166429,0.9340595006942749,0,false_negative,0.3174166006942749,0.3833571
+ptbxl_external,16233,sinus_arrhythmia,Sinus arrhythmia,24.0,0-39,Female,No annotated issue,At least one target label,1,0.62061065,0.9340595006942749,0,false_negative,0.31344885069427486,0.37938934999999996
+ptbxl_external,19960,sinus_arrhythmia,Sinus arrhythmia,35.0,0-39,Female,No annotated issue,At least one target label,1,0.62061983,0.9340595006942749,0,false_negative,0.3134396706942749,0.37938017
+chapman_test,JS27143,sinus_bradycardia,Sinus bradycardia,30.0,0-39,Female,Not annotated,At least one target label,1,0.6239571,0.6374501585960388,0,false_negative,0.013493058596038776,0.37604289999999996
+chapman_test,JS24392,sinus_bradycardia,Sinus bradycardia,35.0,0-39,Female,Not annotated,At least one target label,1,0.6255248,0.6374501585960388,0,false_negative,0.011925358596038826,0.3744752
+chapman_test,JS20058,sinus_bradycardia,Sinus bradycardia,64.0,60-79,Male,Not annotated,At least one target label,1,0.63330644,0.6374501585960388,0,false_negative,0.004143718596038792,0.36669356
+chapman_test,JS20329,sinus_tachycardia,Sinus tachycardia,64.0,60-79,Female,Not annotated,At least one target label,1,0.63597953,0.7884369492530823,0,false_negative,0.15245741925308232,0.36402047000000004
+chapman_test,JS20161,sinus_tachycardia,Sinus tachycardia,72.0,60-79,Male,Not annotated,At least one target label,1,0.6372793,0.7884369492530823,0,false_negative,0.15115764925308228,0.3627207
+chapman_test,JS13376,atrial_flutter,Atrial flutter,82.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.6392269,0.8128908276557922,0,false_negative,0.1736639276557922,0.36077309999999996
+chapman_test,JS16231,atrial_flutter,Atrial flutter,71.0,60-79,Female,Not annotated,At least one target label,1,0.63924164,0.8128908276557922,0,false_negative,0.17364918765579218,0.36075835999999994
+ptbxl_external,440,sinus_arrhythmia,Sinus arrhythmia,58.0,40-59,Female,No annotated issue,At least one target label,1,0.64333653,0.9340595006942749,0,false_negative,0.2907229706942749,0.35666347
+chapman_test,JS18907,atrial_flutter,Atrial flutter,61.0,60-79,Male,Not annotated,At least one target label,1,0.6448772,0.8128908276557922,0,false_negative,0.1680136276557922,0.35512279999999996
+ptbxl_external,16994,sinus_arrhythmia,Sinus arrhythmia,40.0,40-59,Female,Annotated signal issue,At least one target label,1,0.64737433,0.9340595006942749,0,false_negative,0.2866851706942749,0.35262567
+chapman_test,JS15522,atrial_flutter,Atrial flutter,28.0,0-39,Female,Not annotated,At least one target label,1,0.65046567,0.8128908276557922,0,false_negative,0.16242515765579224,0.34953433
+chapman_test,JS19181,atrial_flutter,Atrial flutter,61.0,60-79,Male,Not annotated,At least one target label,1,0.6518745,0.8128908276557922,0,false_negative,0.1610163276557922,0.3481255
+ptbxl_external,12176,sinus_arrhythmia,Sinus arrhythmia,87.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.66095823,0.9340595006942749,0,false_negative,0.2731012706942749,0.33904177
+ptbxl_external,9301,sinus_arrhythmia,Sinus arrhythmia,77.0,60-79,Male,No annotated issue,At least one target label,1,0.66334873,0.9340595006942749,0,false_negative,0.27071077069427485,0.33665126999999995
+chapman_test,JS05206,sinus_tachycardia,Sinus tachycardia,32.0,0-39,Male,Not annotated,At least one target label,1,0.66706043,0.7884369492530823,0,false_negative,0.12137651925308224,0.33293956999999996
+ptbxl_external,3635,sinus_arrhythmia,Sinus arrhythmia,46.0,40-59,Female,Annotated signal issue,At least one target label,1,0.6740032,0.9340595006942749,0,false_negative,0.2600563006942749,0.3259968
+chapman_test,JS18582,atrial_flutter,Atrial flutter,84.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.67651963,0.8128908276557922,0,false_negative,0.1363711976557922,0.32348036999999996
+chapman_test,JS19621,atrial_flutter,Atrial flutter,67.0,60-79,Male,Not annotated,At least one target label,1,0.6766048,0.8128908276557922,0,false_negative,0.13628602765579223,0.3233952
+ptbxl_external,122,sinus_arrhythmia,Sinus arrhythmia,44.0,40-59,Male,No annotated issue,At least one target label,1,0.6800252,0.9340595006942749,0,false_negative,0.2540343006942749,0.3199748
+ptbxl_external,6924,sinus_arrhythmia,Sinus arrhythmia,80.0,80+ (includes privacy-coded 90+),Female,No annotated issue,At least one target label,1,0.6808035,0.9340595006942749,0,false_negative,0.2532560006942749,0.3191965
+chapman_test,JS19269,atrial_flutter,Atrial flutter,75.0,60-79,Female,Not annotated,At least one target label,1,0.68922555,0.8128908276557922,0,false_negative,0.12366527765579227,0.31077445000000004
+chapman_test,JS14435,atrial_flutter,Atrial flutter,72.0,60-79,Female,Not annotated,At least one target label,1,0.69291854,0.8128908276557922,0,false_negative,0.11997228765579226,0.30708146000000003
+chapman_test,JS06312,atrial_flutter,Atrial flutter,83.0,80+ (includes privacy-coded 90+),Female,Not annotated,At least one target label,1,0.6981196,0.8128908276557922,0,false_negative,0.11477122765579229,0.30188040000000005
+chapman_test,JS04354,atrial_flutter,Atrial flutter,72.0,60-79,Female,Not annotated,At least one target label,1,0.70153266,0.8128908276557922,0,false_negative,0.1113581676557922,0.29846733999999997
+ptbxl_external,1747,sinus_arrhythmia,Sinus arrhythmia,76.0,60-79,Male,No annotated issue,At least one target label,1,0.70208013,0.9340595006942749,0,false_negative,0.23197937069427488,0.29791987
+ptbxl_external,1746,sinus_arrhythmia,Sinus arrhythmia,26.0,0-39,Female,Annotated signal issue,At least one target label,1,0.70279294,0.9340595006942749,0,false_negative,0.23126656069427487,0.29720705999999997
+chapman_test,JS42453,sinus_tachycardia,Sinus tachycardia,86.0,80+ (includes privacy-coded 90+),Male,Not annotated,At least one target label,1,0.70319575,0.7884369492530823,0,false_negative,0.08524119925308227,0.29680425
+chapman_test,JS09228,sinus_tachycardia,Sinus tachycardia,64.0,60-79,Female,Not annotated,At least one target label,1,0.7074215,0.7884369492530823,0,false_negative,0.08101544925308224,0.29257849999999996
+chapman_test,JS44654,sinus_tachycardia,Sinus tachycardia,27.0,0-39,Male,Not annotated,At least one target label,1,0.70973384,0.7884369492530823,0,false_negative,0.07870310925308233,0.29026616000000005
+chapman_test,JS43751,sinus_tachycardia,Sinus tachycardia,35.0,0-39,Male,Not annotated,At least one target label,1,0.74006516,0.7884369492530823,0,false_negative,0.048371789253082276,0.25993484

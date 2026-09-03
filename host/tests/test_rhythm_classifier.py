@@ -80,6 +80,12 @@ class RhythmModelTests(unittest.TestCase):
             output = model(torch.zeros(2, 12, 1000))
         self.assertEqual(tuple(output.shape), (2, len(CLASS_NAMES)))
 
+    def test_model_accepts_three_bipolar_leads(self):
+        model = RhythmECGNet(input_channel_count=3).eval()
+        with torch.no_grad():
+            output = model(torch.zeros(2, 3, 1000))
+        self.assertEqual(tuple(output.shape), (2, len(CLASS_NAMES)))
+
 
 class RhythmInferenceTests(unittest.TestCase):
     def test_formats_independent_multi_label_decisions(self):

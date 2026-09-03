@@ -1,0 +1,7 @@
+class,positive_count,zero_likelihood_count,below_100_likelihood_count,below_80_likelihood_count,median_likelihood,minimum_likelihood
+sinus_rhythm,16748,16748,16748,16748,0.0,0.0
+sinus_bradycardia,637,637,637,637,0.0,0.0
+sinus_tachycardia,826,822,825,824,0.0,0.0
+sinus_arrhythmia,772,772,772,772,0.0,0.0
+atrial_fibrillation,1514,1466,1466,1466,0.0,0.0
+atrial_flutter,73,17,17,17,100.0,0.0

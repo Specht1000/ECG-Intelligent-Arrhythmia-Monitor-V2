@@ -1,0 +1,60 @@
+{
+  "record": "C:\\Projetos\\PFE 5A\\Software\\database\\ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3\\records100\\00000\\00001_lr",
+  "explained_class": "sinus_rhythm",
+  "display_name": "Sinus rhythm",
+  "probability": 0.9868744015693665,
+  "decision_threshold": 0.4860624670982361,
+  "positive": true,
+  "integration_steps": 32,
+  "relative_absolute_attribution_by_lead": {
+    "I": 0.520280659198761,
+    "II": 0.32525360584259033,
+    "III": 0.1544657051563263
+  },
+  "all_predictions": [
+    {
+      "class": "sinus_rhythm",
+      "display_name": "Sinus rhythm",
+      "probability": 0.9868744015693665,
+      "decision_threshold": 0.4860624670982361,
+      "positive": true
+    },
+    {
+      "class": "sinus_bradycardia",
+      "display_name": "Sinus bradycardia",
+      "probability": 0.0031976390164345503,
+      "decision_threshold": 0.6374501585960388,
+      "positive": false
+    },
+    {
+      "class": "sinus_tachycardia",
+      "display_name": "Sinus tachycardia",
+      "probability": 0.0021417271345853806,
+      "decision_threshold": 0.7884369492530823,
+      "positive": false
+    },
+    {
+      "class": "sinus_arrhythmia",
+      "display_name": "Sinus arrhythmia",
+      "probability": 0.8356801867485046,
+      "decision_threshold": 0.9340595006942749,
+      "positive": false
+    },
+    {
+      "class": "atrial_fibrillation",
+      "display_name": "Atrial fibrillation",
+      "probability": 0.002385639352723956,
+      "decision_threshold": 0.74114990234375,
+      "positive": false
+    },
+    {
+      "class": "atrial_flutter",
+      "display_name": "Atrial flutter",
+      "probability": 0.010072451084852219,
+      "decision_threshold": 0.8128908276557922,
+      "positive": false
+    }
+  ],
+  "plot": "C:\\Projetos\\PFE 5A\\Software\\artifacts\\bipolar_rhythm_explanations\\00001_lr_sinus_rhythm_integrated_gradients.png",
+  "interpretation_limit": "Integrated gradients measures model sensitivity relative to the training-mean baseline; it does not prove medical causality or clinical correctness."
+}

@@ -1,0 +1,13 @@
+source,class,positive_count,record_count,prevalence
+chapman,sinus_rhythm,8125,45150,0.17995570321151716
+chapman,sinus_bradycardia,16559,45150,0.36675526024363236
+chapman,sinus_tachycardia,7254,45150,0.16066445182724254
+chapman,sinus_arrhythmia,2550,45150,0.05647840531561462
+chapman,atrial_fibrillation,1780,45150,0.03942414174972315
+chapman,atrial_flutter,8060,45150,0.17851605758582503
+ptbxl,sinus_rhythm,16748,21799,0.7682921234919033
+ptbxl,sinus_bradycardia,637,21799,0.02922152392311574
+ptbxl,sinus_tachycardia,826,21799,0.03789164640579843
+ptbxl,sinus_arrhythmia,772,21799,0.035414468553603376
+ptbxl,atrial_fibrillation,1514,21799,0.0694527271893206
+ptbxl,atrial_flutter,73,21799,0.003348777466856278

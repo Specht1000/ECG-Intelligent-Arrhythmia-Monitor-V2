@@ -10,3 +10,4 @@ dist/
 database/
 firmware/Debug/
 firmware/Release/
+docs/

@@ -1,5 +1,10 @@
 # Six-label rhythm classifier
 
+> Historical 12-lead experiment. The current four-electrode project scope uses
+> only bipolar leads I, II, and III and is documented in
+> `AI_BIPOLAR_RHYTHM_CLASSIFIER.md`. These results must not be presented as the
+> current prototype's performance.
+
 ## Scope
 
 This experiment is the first approved V2 complete-exam rhythm benchmark. It is a

@@ -6,8 +6,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from ecg_v2.leads import (  # noqa: E402
+    BIPOLAR_LIMB_LEADS,
     STANDARD_12_LEADS,
     derive_limb_leads,
+    reconstruct_bipolar_limb_leads,
     reconstruct_12_leads,
 )
 
@@ -36,6 +38,17 @@ class LimbLeadDerivationTests(unittest.TestCase):
     def test_non_numeric_input_is_rejected(self):
         with self.assertRaises(TypeError):
             derive_limb_leads("1.0", 2.0)
+
+
+class BipolarLeadReconstructionTests(unittest.TestCase):
+    def test_returns_only_bipolar_leads_in_canonical_order(self):
+        result = reconstruct_bipolar_limb_leads({"I": 100.0, "II": 250.0})
+        self.assertEqual(tuple(result), BIPOLAR_LIMB_LEADS)
+        self.assertEqual(result["III"], 150.0)
+
+    def test_requires_both_independent_leads(self):
+        with self.assertRaisesRegex(ValueError, "II"):
+            reconstruct_bipolar_limb_leads({"I": 100.0})
 
 
 class TwelveLeadReconstructionTests(unittest.TestCase):

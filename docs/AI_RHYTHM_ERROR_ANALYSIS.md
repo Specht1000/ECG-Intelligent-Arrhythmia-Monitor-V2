@@ -1,5 +1,9 @@
 # Rhythm classifier error analysis
 
+> This document analyzes the historical 12-lead experiment. The same analysis
+> pipeline can be run against the current bipolar I/II/III artifacts, but the
+> numerical findings below do not describe the four-electrode model.
+
 ## Purpose
 
 This analysis examines the first six-label rhythm classifier beyond aggregate

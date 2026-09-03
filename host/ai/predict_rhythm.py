@@ -1,4 +1,4 @@
-"""Run the experimental six-label rhythm classifier on one 12-lead ECG."""
+"""Run the experimental bipolar rhythm classifier on one compatible ECG record."""
 
 from __future__ import annotations
 
@@ -11,10 +11,10 @@ import numpy as np
 import torch
 
 from train_anomaly_baseline import load_low_resolution_record
-from train_rhythm_classifier import RhythmECGNet
+from train_rhythm_classifier import LEADS, RhythmECGNet
 
 
-DEFAULT_MODEL = Path("artifacts/rhythm_classifier/model.pt")
+DEFAULT_MODEL = Path("artifacts/bipolar_rhythm_classifier/model.pt")
 
 
 def normalize_record_base(path: Path) -> Path:
@@ -60,12 +60,18 @@ def predict(record_base: Path, model_path: Path) -> dict:
     class_names = tuple(checkpoint["class_names"])
     display_names = tuple(checkpoint["display_names"])
     thresholds = np.asarray(checkpoint["thresholds"], dtype=np.float32)
-    model = RhythmECGNet(class_count=len(class_names))
+    input_leads = tuple(checkpoint["lead_order"])
+    if any(lead not in LEADS for lead in input_leads):
+        raise ValueError("The checkpoint contains an unsupported input lead")
+    model = RhythmECGNet(
+        class_count=len(class_names), input_channel_count=len(input_leads)
+    )
     model.load_state_dict(checkpoint["model_state_dict"])
     model.eval()
 
     normalized_base = normalize_record_base(record_base)
-    waveform = load_low_resolution_record(normalized_base)
+    source_waveform = load_low_resolution_record(normalized_base)
+    waveform = source_waveform[[LEADS.index(lead) for lead in input_leads]]
     means = np.asarray(checkpoint["normalization_means_mv"], dtype=np.float32)[:, None]
     standard_deviations = np.asarray(
         checkpoint["normalization_standard_deviations_mv"], dtype=np.float32
@@ -82,7 +88,8 @@ def predict(record_base: Path, model_path: Path) -> dict:
         "record": str(normalized_base.resolve()),
         "positive_labels": [entry["class"] for entry in predictions if entry["positive"]],
         "predictions": predictions,
-        "model": "Chapman-trained six-label rhythm classifier",
+        "input_leads": list(input_leads),
+        "model": "Chapman-trained bipolar limb-lead six-label rhythm classifier",
         "intended_use": "Research benchmark only; not a diagnostic or clinical-use output.",
     }
 

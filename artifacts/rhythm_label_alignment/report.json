@@ -1,0 +1,59 @@
+{
+  "scope": [
+    "sinus_rhythm",
+    "sinus_bradycardia",
+    "sinus_tachycardia",
+    "sinus_arrhythmia",
+    "atrial_fibrillation",
+    "atrial_flutter"
+  ],
+  "record_counts": {
+    "chapman": 45150,
+    "ptbxl": 21799
+  },
+  "records_without_approved_target": {
+    "chapman": 1784,
+    "ptbxl": 1261
+  },
+  "records_with_multiple_approved_targets": {
+    "chapman": 958,
+    "ptbxl": 32
+  },
+  "atrial_fibrillation_and_flutter_overlap": {
+    "chapman": 0,
+    "ptbxl": 17
+  },
+  "ptbxl_target_annotation_likelihood_distribution": {
+    "sinus_rhythm": {
+      "zero_likelihood_count": 16748,
+      "below_100_likelihood_count": 16748,
+      "below_80_likelihood_count": 16748
+    },
+    "sinus_bradycardia": {
+      "zero_likelihood_count": 637,
+      "below_100_likelihood_count": 637,
+      "below_80_likelihood_count": 637
+    },
+    "sinus_tachycardia": {
+      "zero_likelihood_count": 822,
+      "below_100_likelihood_count": 825,
+      "below_80_likelihood_count": 824
+    },
+    "sinus_arrhythmia": {
+      "zero_likelihood_count": 772,
+      "below_100_likelihood_count": 772,
+      "below_80_likelihood_count": 772
+    },
+    "atrial_fibrillation": {
+      "zero_likelihood_count": 1466,
+      "below_100_likelihood_count": 1466,
+      "below_80_likelihood_count": 1466
+    },
+    "atrial_flutter": {
+      "zero_likelihood_count": 17,
+      "below_100_likelihood_count": 17,
+      "below_80_likelihood_count": 17
+    }
+  },
+  "interpretation": "This audit describes dataset annotations and possible semantic noise. It does not adjudicate a medical diagnosis and does not change the approved label map. PTB-XL rhythm-statement likelihood values are reported descriptively and are not treated as confidence thresholds."
+}
